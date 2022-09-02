@@ -46,7 +46,7 @@ const Navbar = ({ navLinks }) => {
             </Link>
           </li>
           {navLinks.map((Links) => (
-            <li key={index}>
+            <li key={Links.key}>
               <Link href={Links.path} key={Links.key}>
                 <a
                   onClick={() => {
