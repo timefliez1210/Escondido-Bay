@@ -13,7 +13,7 @@ export default function Home() {
             <h1>Escondido Bay</h1>
             <div className='divider'></div>
             <h2>The Native Experience Reinvented</h2>
-            <p>The ship’s history is richly steeped in a very heroic and distinguished past having been
+            <p>The ship&quot’s history is richly steeped in a very heroic and distinguished past having been
 constructed so robustly that it was often used in rescue and salvage operations during
 turbulent sea conditions and inclement weather. Being so sturdy, it was also often used as a
 cargo vessel for inter-island transfers of goods, supplies and personnel, hence its past
@@ -69,7 +69,7 @@ comfortable and very safe passages from island to island, diving or events for g
               alt="Event Catering and Open Bars"
               className="service-images"
             />
-<p>Abundant space for 40 people and more our boat "Escondido Bay" gives you enough space to host your next event on the ocean.
+<p>Abundant space for 40 people and more our boat &quot"Escondido Bay&quot" gives you enough space to host your next event on the ocean.
   And don't worry, we can take care of everything if you need. From catering the food, simple bottled drinks and even up to 
   fresh and home made cocktails, we have everything covered. 
 </p>
@@ -209,7 +209,7 @@ comfortable and very safe passages from island to island, diving or events for g
         }
         .leistungen {
           text-align: justify;
-          margin: -150px 0 -150px 0;
+          margin: -150px 0 -150pxF 0;
         }
         
         .leistungen .button {
