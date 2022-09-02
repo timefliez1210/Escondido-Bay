@@ -5,7 +5,7 @@ export default function CardLeft() {
   return (
     <div>
       <section className="content" id="content">
-        <h1>Let's talk about now and the future</h1>
+        <h1>Lets talk about now and the future</h1>
         <div className="divider"></div>
         <div className="card">
           <div>
@@ -37,17 +37,10 @@ export default function CardLeft() {
           </div>
         </div>
         <div className="card2">
-          <h2>“That’s all very nice, but how do I do this?”</h2>
+          <h2>“Thats all very nice, but how do I do this?”</h2>
           <div className="divider"></div>
           <p>
-            Well, I won't lie here. It’s a long way ahead of you which will take
-            a lot of dedication and discipline, sadly there is no
-            “you-will-get-rich-overnight”-scheme, so plan in your time to build
-            things up, but what I can tell you: It’s worth it. I am a 30 years
-            old german, earning exclusively online, and were able to move to the
-            philippines. So if you want to live independently, or simply just a
-            little money from the side, drop your email here and I can show you
-            step-by-step how you can achieve this too.
+           
           </p>
         </div>
        
@@ -57,7 +50,7 @@ export default function CardLeft() {
       </section>
       <section className="content">
         <div className="card2">
-          <h1>And don't forget to subscribe to me Newsletter</h1>
+          <h1>And dont forget to subscribe to me Newsletter</h1>
           <h2>Too always stay up to date with new possibilities!</h2>
           <div className="divider"></div>
         </div>

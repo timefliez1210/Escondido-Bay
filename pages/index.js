@@ -69,8 +69,8 @@ comfortable and very safe passages from island to island, diving or events for g
               alt="Event Catering and Open Bars"
               className="service-images"
             />
-<p>Abundant space for 40 people and more our boat &quot"Escondido Bay&quot" gives you enough space to host your next event on the ocean.
-  And don't worry, we can take care of everything if you need. From catering the food, simple bottled drinks and even up to 
+<p>Abundant space for 40 people and more our boat &apos;Escondido Bay&apos; gives you enough space to host your next event on the ocean.
+  And don&apos;t worry, we can take care of everything if you need. From catering the food, simple bottled drinks and even up to 
   fresh and home made cocktails, we have everything covered. 
 </p>
             <Link
