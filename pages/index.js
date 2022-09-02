@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
 
@@ -244,3 +244,5 @@ comfortable and very safe passages from island to island, diving or events for g
     </div>
   )
 }
+
+export default Home;
