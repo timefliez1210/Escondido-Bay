@@ -1,19 +1,30 @@
-import React from 'react'
+import Image from 'next/image'
+import { FaViber, FaWhatsapp, FaFacebook } from 'react-icons/fa'
 
 export default function Footer() {
   return (
   <div>
     <div className="wrapper">
       <div className="content">
-        <h1>Escondido Bay</h1>
-        <div className='divider'></div>
-        <h2>Hi</h2>
+        <h2>Contact</h2>
+        <p><FaViber color='violet' font-size='20px' /> +6391 989 789 45</p>
+        <p><FaWhatsapp color='blue' font-size='20px' /> +6391 989 789 45</p>
+        <p><FaFacebook color='blue' font-size='20px' /> @EscondidoBay </p>
         </div>
-        <div className='pic'></div>
+        <div className='pic'>
+        <Image
+          src='/logo.png'
+          alt='Diving on Mactan Island'
+          layout='fill'
+          objectFit="contain"
+          />
+
+        </div>
         <div></div>
     </div>
     <style jsx>{`
         .wrapper {
+            margin: -200px 0 0 0;
             display: -ms-grid;
             display: grid;
             -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
@@ -23,7 +34,8 @@ export default function Footer() {
             width: auto;
             text-align: center;
             content: center center;
-            background: black;
+            background: white;
+            color: black; 
             padding: 20px;
             margin: 150px 0 0 0;
         } 
@@ -35,7 +47,7 @@ export default function Footer() {
         }
 
         h1, h2 {
-            color: white;
+            color: black;
         }
         .divider {
             height: 5px;
@@ -44,11 +56,13 @@ export default function Footer() {
             margin: auto;
         }
         .content {
-          background: blue;
+          background: white;
         }
         .pic {
-          background: red;
+          background: white;
           width: 100%;
+          height: 100%;
+          position: relative;
         }
   `}</style></div>
   )
