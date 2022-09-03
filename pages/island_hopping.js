@@ -1,9 +1,13 @@
 import Image from 'next/image'
+import Banner from '../components/Banner'
 
 export default function island_hopping() {
   return (
     <div>
-
+      <Banner 
+      title={'Hi this is a test'} 
+      text={'Hi this \n a test for a line break'}
+      />
 <div className="wrapper">
       
       <div className="content">
