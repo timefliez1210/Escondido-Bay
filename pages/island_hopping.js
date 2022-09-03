@@ -1,32 +1,17 @@
-import Image from 'next/image'
-import Banner from '../components/Banner'
+import Banner from '..components/Banner'
 
 export default function island_hopping() {
   return (
     <div>
-      <Banner 
-      title={'Hi this is a test'} 
-      text={'Hi this \n a test for a line break'}
+      <Banner
+      heading={'Escondido Bay'}
+      title={'Our page is under contruction'}
+      text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
+      src={'/Escondido-Bay.jpg'}
+      alt={'Diving on mactan'}
+      layout={'fill'}
+      objectFit={'contain'}
       />
-<div className="wrapper">
-      
-      <div className="content">
-        <h1>Escondido Bay</h1>
-        <div className='divider'></div>
-        <h2>Our page is under contruction</h2>
-        <p>But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call 
-          to book our boat or diving courses.
-        </p>
-        </div>
-        <div className='image-container'>
-        <Image
-          src='/Escondido-Bay.jpg'
-          alt='Diving on Mactan Island'
-          layout='fill'
-          objectFit="contain"
-          />
-        </div>
-    </div>
         <style jsx>{`
 
         .divider {
