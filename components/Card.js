@@ -1,24 +1,24 @@
-import React from 'react'
 import Image from 'next/image'
 
-function Banner(props) {
+export default function Card(props) {
   return (
     <div>
-        <div className="wrapper"> 
-         <div className="content">
-           <h1>{props.heading}</h1>
-           <div className='divider'></div>
-           <h2>{props.title}</h2>
-            <p>{props.text}</p>
-          </div>
-          <div className='image-container'>
+        <div className="wrapper">
+        <div className='image-container'>
            <Image
              src={props.src}
              alt={props.alt}
              layout={props.layout}
              objectFit={props.objectFit}
              />
+          </div> 
+         <div className="content">
+           <h2>{props.heading}</h2>
+           <div className='divider'></div>
+           <h3>{props.title}</h3>
+            <p>{props.text}</p>
           </div>
+          
       </div>
        <style jsx>{`
              .divider {
@@ -27,7 +27,6 @@ function Banner(props) {
                 background: #0F0D69;
                 margin: auto auto;
               }
-              h1,
               h2,
               h3 {
                 text-align: center;
@@ -40,10 +39,12 @@ function Banner(props) {
               .image-container {
                 height: auto;
                 width: auto;
-                min-width: 300px;
+                min-width: 200px;
+                min-height: 300px;
+                max-width: 80vw;
                 position: relative;
                 padding: auto auto;
-                }
+            }
               
                 .wrapper {
                   display: -ms-grid;
@@ -64,6 +65,9 @@ function Banner(props) {
                   padding: 50px 10px;
                   margin: 50px 0 0 0;
                 }
+                .image-container {
+                    
+                }
               }
               .content {
                 background: white;
@@ -73,5 +77,3 @@ function Banner(props) {
     </div>
   )
 }
-
-export default Banner

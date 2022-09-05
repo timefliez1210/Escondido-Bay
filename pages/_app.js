@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
+import Wrapper from "../components/Wrapper";
 
 function MyApp({ Component, pageProps }) {
   const navLinks = [
@@ -68,9 +69,11 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#ffffff" />
        
       </Head>
-      <Navbar navLinks={navLinks} />
-      <Component {...pageProps} />
-      <Footer />
+      <Wrapper>
+        <Navbar navLinks={navLinks} />
+        <Component {...pageProps} />
+        <Footer />
+      </Wrapper>
     </div>
   );
 }

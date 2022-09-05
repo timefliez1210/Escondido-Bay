@@ -89,6 +89,8 @@ const Navbar = ({ navLinks }) => {
             position: fixed;
             top: 2;
             left: 40%;
+            min-width: 100px;
+            min-height: 100px;
         }
         nav {
           background: white;

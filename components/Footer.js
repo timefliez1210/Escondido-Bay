@@ -5,13 +5,7 @@ export default function Footer() {
   return (
   <div>
     <div className="wrapper">
-      <div className="content">
-        <h2>Contact</h2>
-        <p><FaViber color='violet' font-size='20px' /> +6391 989 789 45</p>
-        <p><FaWhatsapp color='blue' font-size='20px' /> +6391 989 789 45</p>
-        <p><FaFacebook color='blue' font-size='20px' /> @EscondidoBay </p>
-        </div>
-        <div className='pic'>
+    <div className='pic'>
         <Image
           src='/logo.png'
           alt='Diving on Mactan Island'
@@ -20,7 +14,15 @@ export default function Footer() {
           />
 
         </div>
-        <div></div>
+      <div className="content">
+        <h2>Contact</h2>
+        <p><FaViber color='violet' font-size='20px' /> +6391 989 789 45</p>
+        <p><FaWhatsapp color='blue' font-size='20px' /> +6391 989 789 45</p>
+        <p><FaFacebook color='blue' font-size='20px' /> @EscondidoBay </p>
+      </div>  
+      <div className="content">
+        <h2>Legal Information</h2>
+      </div>
     </div>
     <style jsx>{`
         .wrapper {
@@ -39,12 +41,7 @@ export default function Footer() {
             padding: 20px;
             margin: 150px 0 0 0;
         } 
-        @media screen and (max-width: 800px) {
-          .wrapper {
-            grid-gap: 40px;
-            padding: 50px 10px;
-          }
-        }
+        
 
         h1, h2 {
             color: black;
@@ -63,6 +60,16 @@ export default function Footer() {
           width: 100%;
           height: 100%;
           position: relative;
+        }
+        @media screen and (max-width: 800px) {
+          .wrapper {
+            grid-gap: 40px;
+            padding: 50px 10px;
+          }
+          .pic {
+            min-width: 100px;
+            min-height: 100px;
+          }
         }
   `}</style></div>
   )
