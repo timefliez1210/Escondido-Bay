@@ -39,8 +39,7 @@ export default function Card(props) {
               .image-container {
                 height: auto;
                 width: auto;
-                min-width: 200px;
-                min-height: 300px;
+                min-height: 200px;
                 max-width: 80vw;
                 position: relative;
                 padding: auto auto;

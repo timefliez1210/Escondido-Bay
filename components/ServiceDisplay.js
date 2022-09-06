@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function ServiceDisplay() {
   return (
     <div>      
-    <div className="wrapper">
+<div className="wrapper">
     <div className="services">
       <h2>Our Offers and Services</h2>
       <div className='divider'></div>
@@ -41,10 +41,10 @@ export default function ServiceDisplay() {
             alt="Event Catering and Open Bars"
             className="service-images"
           />
-<p>Abundant space for 40 people and more our boat &apos;Escondido Bay&apos; gives you enough space to host your next event on the ocean.
-And don&apos;t worry, we can take care of everything if you need. From catering the food, simple bottled drinks and even up to 
-fresh and home made cocktails, we have everything covered. 
-</p>
+            <p>Abundant space for 40 people and more our boat &apos;Escondido Bay&apos; gives you enough space to host your next event on the ocean.
+            And don&apos;t worry, we can take care of everything if you need. From catering the food, simple bottled drinks and even up to 
+            fresh and home made cocktails, we have everything covered. 
+            </p>
           <Link
             href="/events"
             title="Events on our boat"
@@ -64,11 +64,9 @@ fresh and home made cocktails, we have everything covered.
             className="service-images"
           />
           <br /><br /><br />
-
             <p>With the Dive Sites on and around Mactan we are richly spoiled. Join us and discover abundant sea life around Mactan,
-            Olango Island, Nalusuan or Hilutongan. From exceptional macro creatures up to all sorts of pelagic animals, you will not be disappointed.
+              Olango Island, Nalusuan or Hilutongan. From exceptional macro creatures up to all sorts of pelagic animals, you will not be disappointed.
             </p>
-
           <Link
             href="/fun_diving"
             title="Fun Diving Around Mactan Island Lapu-Lapu"
@@ -120,7 +118,7 @@ fresh and home made cocktails, we have everything covered.
                     text-align: center;
                     content: center center;
                     padding: 20px;
-                    margin: 150px 0 0 0;
+                    margin: 0 0 0 0;
                 } 
                 @media screen and (max-width: 800px) {
                   .wrapper {
@@ -132,7 +130,7 @@ fresh and home made cocktails, we have everything covered.
 
                 .divider {
                     height: 3px;
-                    width: 40%;
+                    width: 15%;
                     background: #0F0D69;
                     margin: auto auto;
                   }
@@ -147,16 +145,23 @@ fresh and home made cocktails, we have everything covered.
                   }
                   .services {
                     text-align: justify;
-                    margin: -150px 0 -150px 0;
+                    margin: 0;
+                    height: 100%;
+                    align-content: center center;
                   }
-                  .services .button {
-                    padding: 20px;
-                    background-color: #0F0D69;
+                  .button {
+                    display: inline-block;
+                    text-decoration: none;
                     color: white;
-                    border-radius: 20px;
-                    margin: 0 auto;
-                    text-align: center;
-                    width: 200px;
+                    background: #0F0D69;
+                    padding: 0.4rem 0.9rem;
+                    border: 3px solid #0F0D69;
+                    cursor: pointer;
+                    margin: auto auto;
+                  }
+                  .button:hover {
+                    background: transparent;
+                    color: #0F0D69;
                   }
                   
                   .services .item-holder {

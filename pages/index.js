@@ -9,9 +9,6 @@ const Home = () => {
         title={'The Native Experience Reinvented'}
         text={"The ship's history is richly steeped in a very heroic and distinguished past having been constructed so robustly that it was often used in rescue and salvage operations during turbulent sea conditions and inclement weather. Being so sturdy, it was also often used as avcargo vessel for inter-island transfers of goods, supplies and personnel, hence its past namesake “The Warrior”, a true testament to its sea worthiness and brawn.\n\n While today, it has maintained the basic structure consisting of a heavily strengthened frame and hull, the vessel has undergone a complete refurbishment focused on catering for comfortable and very safe passages from island to island, diving or events for groups of up to 40 people."}
         src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
-        layout={'fill'}
-        objectFit={'contain'}
       />
       <ServiceDisplay />
     </div>

@@ -31,9 +31,6 @@ function Banner(props) {
       .banner h1 {
         font-size: 2.5rem;
       }
-      .divider {
-
-      }
       .banner div {
         width: 10rem;
         height: 5px;
