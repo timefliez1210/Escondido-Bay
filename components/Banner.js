@@ -48,6 +48,10 @@ function Banner(props) {
         .banner h1 {
           font-size: 3rem;
         }
+        .hero {
+          min-height: calc(100vh - 70px);
+          margin-top: 70px;
+        }
       }
       @media screen and (min-width: 992px) {
         .banner {
@@ -55,6 +59,10 @@ function Banner(props) {
         }
         .banner h1 {
           font-size: 4rem;
+        }
+        .hero {
+          min-height: calc(100vh - 70px);
+          margin-top: 70px;
         }
       }
        `}</style>

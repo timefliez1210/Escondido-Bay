@@ -61,8 +61,8 @@ export default function PADI_diving_courses() {
       <Card
         heading={'PADI Wreck Diver'}
         title={'Learn how to safely explore wrecks'}
-        text={"or those who want to discover a piece of history under water. A place not a lot of people have ever seen, an adventure on its own. The Wreck Diving Specialty trains you to explore sunken ships, airplanes, and a variety of vessels which sank to the bottom of the sea in a safe way. We will teach you how to safely penetrate those wrecks, create special dive plans and much more during your course, so you can witness places not a lot of people ever set an eye on."}
-        src={'/PADI-Wreck-Diver-Specialty.jpeg'}
+        text={"For those who want to discover a piece of history under water. A place not a lot of people have ever seen, an adventure on its own. The Wreck Diving Specialty trains you to explore sunken ships, airplanes, and a variety of vessels which sank to the bottom of the sea in a safe way. We will teach you how to safely penetrate those wrecks, create special dive plans and much more during your course, so you can witness places not a lot of people ever set an eye on."}
+        src={'/Padi-Wreck-Diver-Specialty.jpeg'}
         alt={'PADI Wreck Diver Specialty'}
         layout={'fill'}
         objectFit={'contain'}
