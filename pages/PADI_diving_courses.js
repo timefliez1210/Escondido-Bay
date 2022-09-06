@@ -5,7 +5,7 @@ export default function PADI_diving_courses() {
   return (
     <div>
       <Banner
-        heading={'Our PADI Scuba Diving Courses'}
+        heading={'PADI Diving Courses'}
         title={'Explore the Beautiful World Underwater'}
         text={"No matter if you are a complete beginner or already an experienced diver, we have a wide variety of Diving Certification courses to either start your adventure or improve it. \n\nReach out to us if you have any questions or don't find what you are looking for, we are sure we can help you."}
         src={'/Diving-Courses.JPG'}

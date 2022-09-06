@@ -8,10 +8,7 @@ export default function fun_diving() {
         heading={'Our Fundiving Offers'}
         title={'Enjoy your Dive Trip with us'}
         text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
-        layout={'fill'}
-        objectFit={'contain'}
+        src={'/fun-diving.jpeg'}
       />
   </div>
   )
