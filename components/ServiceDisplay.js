@@ -140,6 +140,9 @@ export default function ServiceDisplay() {
                     text-align: center;
                     color: black;
                   }
+                  img {
+                    margin: auto auto;
+                  }
                   p {
                     text-align: left;
                   }
@@ -171,15 +174,16 @@ export default function ServiceDisplay() {
                         grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
                     grid-gap: 20px;
                     padding: 50px;
+                    align-content: center;
                   }
                   @media screen and (max-width: 650px) {
-                    .leistungen .item-holder {
+                    .services .item-holder {
                       grid-gap: 40px;
                       padding: 50px 10px;
                     }
                   }
                   .service-images {
-                    width: 300px;
+                    width: 100%;
                   }
     `}</style>
     </div>

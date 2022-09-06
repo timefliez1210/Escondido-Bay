@@ -1,9 +1,19 @@
+import Head from 'next/head'
 import Banner from '../components/Banner'
 import ServiceDisplay from '../components/ServiceDisplay';
 
 const Home = () => {
   return (
     <div>
+      <Head>
+      <title>
+       Escondido Bay - Your Boat Service Operator on Mactan specialized in making your Diving, Island Hopping and Event an unforgettable experience without losing the native touch of the philippines.
+      </title>
+      <meta
+        name="description"
+        content="We are operating weekly fundives, teach you diving and cater to all your needs around Island Hopping and Events"
+      />
+    </Head>
       <Banner
         heading={'Escondido Bay'}
         title={'The Native Experience Reinvented'}

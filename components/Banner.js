@@ -41,7 +41,7 @@ function Banner(props) {
         font-size: 1.2rem;
         margin-bottom: 2rem;
       }
-      @media screen and (min-width: 576px) {
+      @media screen and (max-width: 576px) {
         .banner {
           padding: 2rem 3rem;
         }
@@ -49,7 +49,7 @@ function Banner(props) {
           font-size: 3rem;
         }
         .hero {
-          min-height: calc(100vh - 70px);
+          min-height: calc(70vh - 100px);
           margin-top: 70px;
         }
       }

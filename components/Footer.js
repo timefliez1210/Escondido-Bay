@@ -16,9 +16,9 @@ export default function Footer() {
         </div>
       <div className="content">
         <h2>Contact</h2>
-        <p><FaViber color='violet' font-size='20px' /> +6391 989 789 45</p>
-        <p><FaWhatsapp color='blue' font-size='20px' /> +6391 989 789 45</p>
-        <p><FaFacebook color='blue' font-size='20px' /> @EscondidoBay </p>
+        <p><FaViber color='violet' fontSize='20px' /> +6391 989 789 45</p>
+        <p><FaWhatsapp color='blue' fontSize='20px' /> +6391 989 789 45</p>
+        <p><FaFacebook color='blue' fontSize='20px' /> @EscondidoBay </p>
       </div>  
       <div className="content">
         <h2>Legal Information</h2>
@@ -26,7 +26,7 @@ export default function Footer() {
     </div>
     <style jsx>{`
         .wrapper {
-            margin: -200px 0 0 0;
+            margin: 0;
             display: -ms-grid;
             display: grid;
             -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
@@ -39,7 +39,7 @@ export default function Footer() {
             background: white;
             color: black; 
             padding: 20px;
-            margin: 150px 0 0 0;
+            margin: 0;
         } 
         
 
