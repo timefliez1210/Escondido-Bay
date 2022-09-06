@@ -93,7 +93,7 @@ export default function ServiceDisplay() {
           </p>
 
           <Link
-            href="PADI_diving_courses.html"
+            href="PADI_diving_courses"
             title="PADI Diving Education"
           >
             <div className='button'>PADI Diving Courses</div>
