@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import Card from '../components/Card'
 
 export default function island_hopping() {
   return (
@@ -15,10 +16,18 @@ export default function island_hopping() {
     </Head>
       <Banner
         heading={'Our Island Hopping Deals'}
-        title={'Our page is under contruction'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
+        title={'Enjoy your day with cocktails, music and beaches'}
+        src={'/Island-hopping.jpg'}
+        alt={'Island Hopping around Mactran'}
+        layout={'fill'}
+        objectFit={'contain'}
+      />
+      <Card
+        heading={'Island Hopping with Escondido Bay'}
+        title={'Our Mission is to bring you the best possible experience'}
+        text={"Escondido Bay committed itself to reinvent the Native Experience. Our classical Bangka Boat is not only spacious and comfortably designed to carry up to 50 people but we also dedicated ourselves to cater around all your needs. From a spare boat charter, over Barbecue packages, an open bar where our staff will serve you ice cold beers or delicious homemade cocktails and shooters we make it happen for you, so you can enjoy your day out at our beautiful islands without worrying about anything else than a good time and your friends, while listening soothing tunes, snorkeling or just simply enjoying the natural beauty of the Philippines."}
+        src={'/island-hopping-olango.jpg'}
+        alt={'Island Hopping Olango Island'}
         layout={'fill'}
         objectFit={'contain'}
       />

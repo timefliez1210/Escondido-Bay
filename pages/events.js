@@ -15,9 +15,8 @@ export default function events() {
     </Head>
       <Banner
         heading={'Our Event Offers'}
-        title={'Our page is under contruction'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
+        title={'We are offering a wide array of possibilities - host your own private event or join one of ours'}
+        src={'/events.jpg'}
         alt={'Diving on mactan'}
         layout={'fill'}
         objectFit={'contain'}

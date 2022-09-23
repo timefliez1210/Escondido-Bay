@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import ContactForm from '../components/ContactForm'
 
 
 export default function contact() {
@@ -15,14 +16,14 @@ export default function contact() {
       />
     </Head>
       <Banner
-        heading={'Contact us for Inquiries and with Questions'}
-        title={'Our page is under contruction'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
+        heading={'Contact us'}
+        title={'Contact us with inquiries and questions'}
         src={'/Escondido-Bay.jpg'}
         alt={'Diving on mactan'}
         layout={'fill'}
         objectFit={'contain'}
       />
+
     </div>
   )
 }

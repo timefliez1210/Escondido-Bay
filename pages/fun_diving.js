@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import Card from '../components/Card'
 
 export default function fun_diving() {
   return (
@@ -18,7 +19,16 @@ export default function fun_diving() {
         heading={'Our Fundiving Offers'}
         title={'Enjoy your Dive Trip with us'}
         text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/fun-diving.jpeg'}
+        src={'/talima-reefscape.JPG'}
+      />
+      <Card
+        heading={'Fun Diving with Escondido Bay'}
+        title={'Reefs, Caves, Wrecks and an Abundance of Aquatic Life'}
+        text={"As one of the pristine diving destinations in the world the Philippines will surprise you with beautiful colored reefs, great visibility and abundant aquatic life. Around Mactan Island and Cordova we are not shy of those desirable dive sites and on top of that we have access to Caves and Wrecks for accordingly trained divers. Being very experienced around Mactan, Cebu and the Philippines in general we are happy to help you find the best dive sites according to your preferences."}
+        src={'/reefscape-magnificent-anemone.JPG'}
+        alt={'Fun Diving around Mactan Airport'}
+        layout={'fill'}
+        objectFit={'contain'}
       />
   </div>
   )

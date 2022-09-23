@@ -17,16 +17,14 @@ function Banner(props) {
          display: flex;
          align-items: center;
          justify-content: center;
-         margin-top: 150px;
+         margin-top: 200px;
        }
       .banner {
         display: inline-block;
-        background: rgba(255, 255, 255, 0.6);
-        color: var(--mainWhite);
+        background: RGBA(49,59,74,0.54);
+        color: white;
         padding: 2rem 1rem;
         text-align: center;
-        text-transform: capitalize;
-        letter-spacing: var(--mainSpacing);
       }
       .banner h1 {
         font-size: 2.5rem;
