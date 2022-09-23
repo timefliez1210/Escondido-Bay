@@ -8,7 +8,7 @@ const Home = () => {
       title: "Island Hopping",
       image: "/Island-hopping.JPG",
       alt: "Island Hopping with Escondido Bay",
-      text: "",
+      text: "The Sea around Mactan is full of hidden gems for Island Hoppers and Snorkelers. Enjoy your day with us, relax with soothing tunes, cold beers and cocktails on the deck of our boat or while exploring some of the beautiful islands around, on land or on the shallow reefs.",
       href: "island_hopping",
       key: "1",
     },

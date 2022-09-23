@@ -21,7 +21,7 @@ export default function Footer() {
         <p><FaFacebook color='blue' fontSize='20px' /> @EscondidoBay </p>
       </div>  
       <div className="content">
-        <h2>Legal Information</h2>
+        <h2></h2>
       </div>
     </div>
     <style jsx>{`

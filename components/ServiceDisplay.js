@@ -58,7 +58,7 @@ export default function ServiceDisplay({display, title}) {
                   .wrapper {
                     grid-gap: 40px;
                     padding: 50px 10px;
-                    margin: 50px 0 0 0;
+                    
                   }
                 }
 

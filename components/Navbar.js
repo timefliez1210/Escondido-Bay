@@ -95,12 +95,13 @@ const Navbar = ({ navLinks }) => {
         nav {
           background: white;
           height: auto;
-          width: 100%;
+          width: 100vw;
           position: fixed;
           top: 0px;
           padding: 5px 0;
           z-index: 999;
           font-size: 20px;
+          margin: 0;
         }
         nav ul {
           background: white;
