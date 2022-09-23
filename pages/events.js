@@ -17,7 +17,7 @@ export default function events() {
         heading={'Our Event Offers'}
         title={'We are offering a wide array of possibilities - host your own private event or join one of ours'}
         src={'/events.jpg'}
-        alt={'Diving on mactan'}
+        alt={'Escondido Bay Catering your Private event or join one of ours'}
         layout={'fill'}
         objectFit={'contain'}
       />

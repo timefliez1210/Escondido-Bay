@@ -20,6 +20,7 @@ export default function fun_diving() {
         title={'Enjoy your Dive Trip with us'}
         text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
         src={'/talima-reefscape.JPG'}
+        alt={'Fun Diving around Mactan Island, Lapu-Lapu City and Cordova'}
       />
       <Card
         heading={'Fun Diving with Escondido Bay'}

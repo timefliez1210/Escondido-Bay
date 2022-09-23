@@ -1,8 +1,16 @@
+import Image from 'next/image'
 
 function Banner(props) {
   return (
     <div>
     <div className="hero">
+        <Image
+            src={props.src}
+            alt={props.alt}
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+        />
     <div className="banner">
       <h1>{props.heading}</h1>
       <div className="divider"></div>
@@ -13,7 +21,7 @@ function Banner(props) {
        <style jsx>{`
        .hero {
          min-height: calc(100vh - 150px);
-         background: url(${props.src}) center/cover no-repeat;
+       
          display: flex;
          align-items: center;
          justify-content: center;
@@ -25,6 +33,7 @@ function Banner(props) {
         color: white;
         padding: 2rem 1rem;
         text-align: center;
+        z-index: 100;
       }
       .banner h1 {
         font-size: 2.5rem;

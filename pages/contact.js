@@ -19,7 +19,7 @@ export default function contact() {
         heading={'Contact us'}
         title={'Contact us with inquiries and questions'}
         src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
+        alt={'Contact us for Inquiries and Questions'}
         layout={'fill'}
         objectFit={'contain'}
       />

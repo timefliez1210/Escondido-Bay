@@ -16,7 +16,10 @@ export default function ServiceDisplay({display, title}) {
               <Image
                 src={Display.image}
                 alt={Display.alt}
+                width="100%"
+                height="100%"
                 layout='fill'
+                objectFit='contain'
               />
             </div>
               <br />
