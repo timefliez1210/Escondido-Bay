@@ -23,7 +23,7 @@ export default function ServiceDisplay({display, title}) {
               <p>{Display.text}
               </p>
               <Link
-                href="PADI_diving_courses"
+                href={Display.href}
                 title={Display.title}
               >
                 <div className='button'>{Display.title}</div>

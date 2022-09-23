@@ -6,9 +6,10 @@ const Home = () => {
   const display = [
     {
       title: "Island Hopping",
-      image: "/Island-hopping.jpg",
+      image: "/Island-hopping.JPG",
       alt: "Island Hopping with Escondido Bay",
       text: "",
+      href: "island_hopping",
       key: "1",
     },
     {
@@ -16,6 +17,7 @@ const Home = () => {
       image: "/events.JPG",
       alt: "Events in Cebu City and Lapu-Lapu City",
       text: "Abundant space for 40 people and more our boat 'Escondido Bay' gives you enough space to host your next event on the ocean. And don't worry, we can take care of everything if you need. From catering the food, simple bottled drinks and even up to fresh and home made cocktails, we have everything covered.",
+      href: "events",
       key: "2",
     },
     {
@@ -23,6 +25,7 @@ const Home = () => {
       image: "/peacock-mantis.JPG",
       alt: "Fun Diving in Cebu, Mactan, Olango, Hilutongan and Nalusuan",
       text: "With the Dive Sites on and around Mactan we are richly spoiled. Join us and discover abundant sea life around Mactan, Olango Island, Nalusuan or Hilutongan. From exceptional macro creatures up to all sorts of pelagic animals, you will not be disappointed.",
+      href: "fun_diving",
       key: "3",
     },
     {
@@ -30,6 +33,7 @@ const Home = () => {
       image: "/Diving-Nalusuan.jpeg",
       alt: "PADI Diving Courses from beginner level classes Open Water to Divemaster Internships",
       text: "Dive into a complete new world of adventures or continue your education. We walk you through a broad array of possibilities below the surface. No matter if you are a beginner or already certified, we have got the course for you!",
+      href: "PADI_diving_courses",
       key: "4",
     },
   ]
