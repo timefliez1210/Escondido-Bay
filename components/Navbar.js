@@ -15,7 +15,6 @@ const Navbar = ({ navLinks }) => {
             <a title="Startseite">
               <Image
                 src='/logo.png'
-                className="logo-small"
                 alt="Escondido Bay"
                 layout='fill'
                 objectFit="contain"
@@ -33,17 +32,18 @@ const Navbar = ({ navLinks }) => {
 
         <ul className={navOpen ? "active" : ""}>
           <li>
+            <div className="logo-big">
             <Link href="/">
               <a title="Startseite">
-                <img
+                <Image
                   src="/logo.png"
-                  className="logo-big"
                   alt="Escondido Bay"
-                  height='100%'
-                  width='100%'
+                  layout='fill'
+                  objectFit="contain"
                 />
               </a>
             </Link>
+            </div>
           </li>
           {navLinks.map((Links) => (
             <li key={Links.key}>
@@ -58,29 +58,20 @@ const Navbar = ({ navLinks }) => {
               </Link>
             </li>
           ))}
-          <li>
-            <Link href="/kostenloses-angebot">
-              <a
-                onClick={() => {
-                  setNavOpen(!navOpen);
-                }}
-                className="button"
-              >
-                Kostenloses Angebot
-              </a>
-            </Link>
-          </li>
+          
         </ul>
       </nav>
       <style jsx>{`
       .holder {
-          background: white;
+          background: #000033;
           position: fixed;
           height: 100px;
           top: 0px;
       }
         .logo-big {
-            width 200px;
+            position: relative;
+            height: 70px;
+            width: 100px;
         }
         .logo-small {
             width 80px;
@@ -93,7 +84,7 @@ const Navbar = ({ navLinks }) => {
             min-height: 100px;
         }
         nav {
-          background: white;
+          background: #000033;
           height: auto;
           width: 100vw;
           position: fixed;
@@ -104,7 +95,7 @@ const Navbar = ({ navLinks }) => {
           margin: 0;
         }
         nav ul {
-          background: white;
+          background: #000033;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -136,7 +127,7 @@ const Navbar = ({ navLinks }) => {
           color: white;
         }
         nav ul a {
-          color: black;
+          color: white;
           text-decoration: none;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -159,7 +150,6 @@ const Navbar = ({ navLinks }) => {
             color: white;
             font-size: 18px;
   
-  
           }
             .logo-small {
                 width 80px;
@@ -167,7 +157,7 @@ const Navbar = ({ navLinks }) => {
                 display: block;
             }
         nav {
-            background: white;
+            background: #000033;
             height: 80px;
         }
         nav figure {

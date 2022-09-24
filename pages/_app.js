@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
-import Wrapper from "../components/Wrapper";
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   const navLinks = [
@@ -48,11 +48,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <Wrapper>
         <Navbar navLinks={navLinks} />
         <Component {...pageProps} />
         <Footer />
-      </Wrapper>
     </div>
   );
 }

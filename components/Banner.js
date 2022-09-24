@@ -28,7 +28,7 @@ function Banner(props) {
        }
       .banner {
         display: inline-block;
-        background: RGBA(49,59,74,0.54);
+        background: RGBA(0,0,51,0.4);
         color: white;
         padding: 2rem 1rem;
         text-align: center;

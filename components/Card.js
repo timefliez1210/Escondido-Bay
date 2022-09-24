@@ -24,13 +24,13 @@ export default function Card(props) {
              .divider {
                 height: 3px;
                 width: 40%;
-                background: #0F0D69;
+                background: white;
                 margin: auto auto;
               }
               h2,
               h3 {
                 text-align: center;
-                color: black;
+              
               }
               p {
                 text-align: left;
@@ -69,8 +69,7 @@ export default function Card(props) {
                 }
               }
               .content {
-                background: white;
-                color: black;
+                background: transparent;
               }
        `}</style>
     </div>

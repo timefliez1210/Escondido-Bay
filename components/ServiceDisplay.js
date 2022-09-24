@@ -29,7 +29,7 @@ export default function ServiceDisplay({display, title}) {
                 href={Display.href}
                 title={Display.title}
               >
-                <div className='button'>{Display.title}</div>
+                <div className='button'>{Display.button}</div>
               </Link>
               <br />
               <br />
@@ -65,14 +65,13 @@ export default function ServiceDisplay({display, title}) {
                 .divider {
                     height: 3px;
                     width: 15%;
-                    background: #0F0D69;
+                    background: white;
                     margin: auto auto;
                   }
                   h1,
                   h2,
                   h3 {
                     text-align: center;
-                    color: black;
                   }
                   img {
                     margin: auto auto;

@@ -11,6 +11,7 @@ export default function island_hopping() {
       alt: "Chicken Thighs, Skewers, Vegetables and Rice - Our basic BBQ Lunch",
       text: "Our entry level BBQ Lunch consists of deliciously marinated Chicken Thighs, Filipino Marinated Pork and Hungarian Sausages served with rice and a selection of vegetables all fresh made from our BBQ Grill. The entry level starts at PHP350 per person.",
       href: "contact",
+      button: "Book now",
       key: "1",
     },
     {
@@ -19,6 +20,7 @@ export default function island_hopping() {
       alt: "Our Famous Seafood BBQ Lunch",
       text: "Upon Interest and availability we can extend the BBQ Lunch with fresh shrimps, prawns, shells and selections of local fishes. If you are interested in this option please contact us. The prices vary upon availability and season.",
       href: "contact",
+      button: "Book now",
       key: "2",
     },
     {
@@ -27,6 +29,7 @@ export default function island_hopping() {
       alt: "Steaks, Burgers, Hotdog or Lechon - we cater to all your needs",
       text: "If Seafood isn’t yet enough of an upgrade for you we are happy to serve you an American or European Style Barbecue Lunch with Steaks, Hotdogs, Burgers or anything you could wish for. Just reach out to us and let us know what your heart desires.",
       href: "contact",
+      button: "Book now",
       key: "3",
     },
   ]
