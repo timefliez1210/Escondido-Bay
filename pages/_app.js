@@ -48,6 +48,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest"></link>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        
+      </Head>
+        <div className="scriptHolder">
         <Script 
           src="https://www.googletagmanager.com/gtag/js?id=G-0PNQ3SB0TL"
           strategy="afterInteractive"
@@ -61,7 +64,7 @@ function MyApp({ Component, pageProps }) {
             gtag('config', 'G-0PNQ3SB0TL');
         `}
         </Script>
-      </Head>
+        </div>
         <Navbar navLinks={navLinks} />
         <Component {...pageProps} />
         <Footer />
