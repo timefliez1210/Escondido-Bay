@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
 import '../styles/globals.css'
+import Script from "next/script"
 
 function MyApp({ Component, pageProps }) {
   const navLinks = [
@@ -47,16 +48,19 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest"></link>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PNQ3SB0TL"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
+        <Script 
+          src="https://www.googletagmanager.com/gtag/js?id=G-0PNQ3SB0TL"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+        {`
+            window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'G-0PNQ3SB0TL');`,
-          }}
-        />
+            gtag('config', 'G-0PNQ3SB0TL');
+        `}
+        </Script>
       </Head>
         <Navbar navLinks={navLinks} />
         <Component {...pageProps} />
