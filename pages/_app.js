@@ -47,6 +47,16 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest"></link>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PNQ3SB0TL"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-0PNQ3SB0TL');`,
+          }}
+        />
       </Head>
         <Navbar navLinks={navLinks} />
         <Component {...pageProps} />

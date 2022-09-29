@@ -17,7 +17,7 @@ export default function events() {
       <Banner
         heading={'Our Event Offers'}
         title={'We are offering a wide array of possibilities - host your own private event or join one of ours'}
-        src={'/events.jpg'}
+        src={'/events.JPG'}
         alt={'Escondido Bay Catering your Private event or join one of ours'}
         layout={'fill'}
         objectFit={'contain'}
