@@ -51,19 +51,19 @@ function MyApp({ Component, pageProps }) {
         
       </Head>
         <div className="scriptHolder">
-        <Script 
-          src="https://www.googletagmanager.com/gtag/js?id=G-0PNQ3SB0TL"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'G-0PNQ3SB0TL');
-        `}
-        </Script>
+          <Script 
+            src="https://www.googletagmanager.com/gtag/js?id=G-0PNQ3SB0TL"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-0PNQ3SB0TL');
+          `}
+          </Script>
         </div>
         <Navbar navLinks={navLinks} />
         <Component {...pageProps} />

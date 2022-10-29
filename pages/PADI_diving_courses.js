@@ -6,14 +6,14 @@ export default function PADI_diving_courses() {
   return (
     <div>
       <Head>
-      <title>
-       As PADI Dive Instructors we teach a variety of courses - starting at the Open Water Certification up to Professional Ratings such as Divemaster.
-      </title>
-      <meta
-        name="description"
-        content="PADI courses are avilable from Open Water, Advanced Open Water, Rescue Diver, Divemaster as such as Emergency First Response and many specialties such as Nitrox, Deep and Wreck"
-      />
-    </Head>
+        <title>
+        As PADI Dive Instructors we teach a variety of courses - starting at the Open Water Certification up to Professional Ratings such as Divemaster.
+        </title>
+        <meta
+          name="description"
+          content="PADI courses are avilable from Open Water, Advanced Open Water, Rescue Diver, Divemaster as such as Emergency First Response and many specialties such as Nitrox, Deep and Wreck"
+        />
+      </Head>
       <Banner
         heading={'PADI Diving Courses'}
         title={'Explore the Beautiful World Underwater'}
