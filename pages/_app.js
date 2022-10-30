@@ -48,7 +48,10 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest"></link>
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        
+        <meta name="geo.region" content="PH-CEB" />
+        <meta name="geo.placename" content="Lapu-Lapu" />
+        <meta name="geo.position" content="10.273677;123.966241" />
+        <meta name="ICBM" content="10.273677, 123.966241" />
       </Head>
         <div className="scriptHolder">
           <Script 

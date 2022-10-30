@@ -2,8 +2,38 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
+import ServiceDisplay from '../components/ServiceDisplay'
 
 export default function fun_diving() {
+  const display = [
+    {
+      title: "Our Sunday Boat Diving Promo",
+      image: "/Sunday-Dive-Promo-Mactan.JPG",
+      alt: "Our Sunday Dive Promo on Mactan Island",
+      text: "Originally made to give our local diving community here in Cebu a consistent day for their diving experience, we are happily keeping it up and invite you to join. Our Sunday Dive Promo gives you everything you need for 3 dives from our boat on air, including a filling and fresh BBQ-Lunch with homemade food, coffee and a snack bar as well as water for only PHP3,500, no hidden fees.\nA well stocked bar is always on the boat, so you can enjoy your diving talks afterwards with cold drinks and will be charged additional on consumption.\n\n",
+      href: "contact",
+      button: "Contact us now",
+      key: "1",
+    },
+    {
+      title: "Boat Dives",
+      image: "/Boat-Diving-Cebu.JPG",
+      alt: "Dive the beautiful Islands around Lapu-Lapu City",
+      text: "If you can't make it on our Sunday Dives we offer boat diving around Mactan Island any day of the week. Upon availability we are happy to take you to the beautiful Marine Sanctuaries of Nalusuan Island, Gilutongan Island and Olango. A minimum of 2 dives will be required, whereas 3 are recommended. For only PHP4,000 for 2 dives and PHP4,500 for 3 dives you will get everything you need for diving, as well as lunch, snacks, coffee and water.\nOf course our bar will be open in addition and charged additional on consumption.",
+      href: "contact",
+      button: "Contact us now",
+      key: "2",
+    },
+    {
+      title: "Shore Diving",
+      image: "/Shore-Diving-Lapu-Lapu-City.JPG",
+      alt: "Shore Diving off the coast from Lapu-Lapu City",
+      text: "Beside the beautiful Marine Sanctuaries at the nearby islands surrounding Lapu-Lapu City, we have many shore diving spots you can explore. Kontiki Marine Sanctuary and Coral Nursery, Marigondon Cave and the pier area at Marigondon port, just to name a few, have beautiful walls and an abundance of sea creatures. Even Whale Sharks are visiting us from time to time, so it is definitely worth exploring. \nShore diving packages are available for only PHP2,500 for 2 dives.\n\n",
+      href: "contact",
+      button: "Contact us now",
+      key: "3",
+    },
+  ]
   return (
     <div>
       <Head>
@@ -30,6 +60,10 @@ export default function fun_diving() {
         alt={'Fun Diving around Mactan Airport'}
         layout={'fill'}
         objectFit={'contain'}
+      />
+      <ServiceDisplay
+      title='Our Fun Diving Offers'
+      display={display}
       />
       <h1>Our Divesites around Mactan</h1>
       <div className='divider'></div>

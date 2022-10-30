@@ -26,7 +26,7 @@ export default function PADI_diving_courses() {
       <Card
         heading={'PADI Open Water Diver'}
         title={'The Entry Level Scuba Diving Certification'}
-        text={"PADI Open Water Diver is the entry level scuba diving certification.\nDuring this course you will learn all the basics necessary to become a fully certified diver and enjoy a completely new world full of adventures.\n\nPlan for 2 - 3 days depending on your comfort level in the water and weather conditions."}
+        text={"PADI Open Water Diver is the entry level scuba diving certification.\nDuring this course you will learn all the basics necessary to become a fully certified diver and enjoy a completely new world full of adventures.\n\nPlan for 2 - 3 days depending on your comfort level in the water and weather conditions.\n\nThe Price for the PADI Open Water Certification is PHP16,000."}
         src={'/Open-Water-Diver.jpeg'}
         alt={'PADI Open Water Diver Certification Course'}
         layout={'fill'}
@@ -35,7 +35,7 @@ export default function PADI_diving_courses() {
       <Card
         heading={'Discover Scuba Diving or PADI Scuba Diver'}
         title={''}
-        text={"If you don't have 2 - 3 days for the full training, we are happy to offer you the PADI Discover Scuba Diving Experience, or the PADI Scuba Diver, both of which are a part of the Open Water Diver course and can credit to your further certification. A perfect option for those who just want to experience it, without further commitment.\n\nPlan on 3 hours for the Discover Scuba Diving Experience or 5 hours for the PADI Scuba Diver."}
+        text={"If you don't have 2 - 3 days for the full training, we are happy to offer you the PADI Discover Scuba Diving Experience, or the PADI Scuba Diver, both of which are a part of the Open Water Diver course and can credit to your further certification. A perfect option for those who just want to experience it, without further commitment.\n\nPlan on 3 hours for the Discover Scuba Diving Experience or 5 hours for the PADI Scuba Diver.\n\nThe Price for the Discover Scuba Diving Experience is PHP3,000."}
         src={'/Discover-Scuba-Diving.jpeg'}
         alt={'PADI Discover Scuba Diving and Scuba Diver'}
         layout={'fill'}
@@ -44,7 +44,7 @@ export default function PADI_diving_courses() {
       <Card
         heading={'PADI Advanced Open Water Diver'}
         title={'The first step of continuing your Scuba Diving education'}
-        text={"For those who want to learn more about diving and improve their overall comfort and skills, we offer the PADI Advanced Open Water, which will increase your depth limit from 18m to 30m, teach you natural and compass navigation and challenge you on the other dives to become more comfortable as well as explore a wide range of diving possibilities!\n\nGet in contact with us to learn more about your specialty dives and offers!"}
+        text={"For those who want to learn more about diving and improve their overall comfort and skills, we offer the PADI Advanced Open Water, which will increase your depth limit from 18m to 30m, teach you natural and compass navigation and challenge you on the other dives to become more comfortable as well as explore a wide range of diving possibilities!\n\nGet in contact with us to learn more about your specialty dives and offers!\n\nThe Price for the PADI Advanced Open Water Certification is PHP16,000."}
         src={'/Advanced-Open-Water.jpeg'}
         alt={'PADI Advanced Open Water Diver Certification'}
         layout={'fill'}
@@ -53,7 +53,7 @@ export default function PADI_diving_courses() {
       <Card
         heading={'PADI Enriched Air Diver (also known as Nitrox diving)'}
         title={'Extend your bottom time by increasing the Oxygen percentage'}
-        text={"One of the greatest tools in diving, increasing the Oxygen Content in your breathing gas to extend your bottom time. Especially recommended for shark, wreck, and cavern dives in the Philippines. Many of the more interesting dives are at the 20-30 meters range, in which your No Decompression Limit is fairly short, take the Enriched Air course if you want to stay down longer."}
+        text={"One of the greatest tools in diving, increasing the Oxygen Content in your breathing gas to extend your bottom time. Especially recommended for shark, wreck, and cavern dives in the Philippines. Many of the more interesting dives are at the 20-30 meters range, in which your No Decompression Limit is fairly short, take the Enriched Air course if you want to stay down longer.\n\nThe Price for the PADI Enriched Air (Nitrox) Certificate is PHP10,000 incl. 3 Boat Dives with Nitrox."}
         src={'/Enriched-Air-Diver.jpeg'}
         alt={'PADI Enriched Air Diver or Nitrox Certification'}
         layout={'fill'}
@@ -62,7 +62,7 @@ export default function PADI_diving_courses() {
       <Card
         heading={'PADI Deep Diving Specialist'}
         title={'Extend your depth range to 40m'}
-        text={"30 meters not sufficiently deep enough for you? You want to explore even deeper sites and learn more about emergency procedures and precautions to take when you explore greater depths? The Deep Diving Specialist is for you then! We will teach you how to explore greater depths safely with well developed dive plans and contingencies.\n\nWe have special offers for connecting the PADI Deep Diving specialty with Enriched Air Diver. Get in touch with us to avail of this special offer!"}
+        text={"30 meters not sufficiently deep enough for you? You want to explore even deeper sites and learn more about emergency procedures and precautions to take when you explore greater depths? The Deep Diving Specialist is for you then! We will teach you how to explore greater depths safely with well developed dive plans and contingencies.\n\nWe have special offers for connecting the PADI Deep Diving specialty with Enriched Air Diver. Get in touch with us to avail of this special offer!\n\nThe Price for the PADI Deep Diving Specialty is PHP10,000."}
         src={'/Deep-Specialty-Diver.jpeg'}
         alt={'PADI Depp Specialty Diver'}
         layout={'fill'}
@@ -71,13 +71,12 @@ export default function PADI_diving_courses() {
       <Card
         heading={'PADI Wreck Diver'}
         title={'Learn how to safely explore wrecks'}
-        text={"For those who want to discover a piece of history under water. A place not a lot of people have ever seen, an adventure on its own. The Wreck Diving Specialty trains you to explore sunken ships, airplanes, and a variety of vessels which sank to the bottom of the sea in a safe way. We will teach you how to safely penetrate those wrecks, create special dive plans and much more during your course, so you can witness places not a lot of people ever set an eye on."}
+        text={"For those who want to discover a piece of history under water. A place not a lot of people have ever seen, an adventure on its own. The Wreck Diving Specialty trains you to explore sunken ships, airplanes, and a variety of vessels which sank to the bottom of the sea in a safe way. We will teach you how to safely penetrate those wrecks, create special dive plans and much more during your course, so you can witness places not a lot of people ever set an eye on. \n\nThe Price for the PADI Wreck Specialty Certification is PHP12,000."}
         src={'/Padi-Wreck-Diver-Specialty.jpeg'}
         alt={'PADI Wreck Diver Specialty'}
         layout={'fill'}
         objectFit={'contain'}
       />
-      
  </div>
   )
 }

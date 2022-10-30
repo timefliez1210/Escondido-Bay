@@ -78,6 +78,7 @@ export default function ServiceDisplay({display, title}) {
                   }
                   p {
                     text-align: left;
+                    white-space: pre-line;
                   }
                   .services {
                     text-align: justify;
