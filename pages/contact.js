@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import CTA from '../components/Cta'
 import ContactForm from '../components/ContactForm'
 
 
