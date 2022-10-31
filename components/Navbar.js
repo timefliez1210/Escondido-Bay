@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { RiMenu4Line } from "react-icons/ri";
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 
 const Navbar = ({ navLinks }) => {
@@ -11,15 +11,13 @@ const Navbar = ({ navLinks }) => {
     <div>
       <nav>
         <div className="logo-small">
-          <Link href="/">
-            <a title="Startseite">
+          <Link href="/" title="Startseite">
               <Image
                 src='/logo.png'
                 alt="Escondido Bay"
                 layout='fill'
                 objectFit="contain"
-              />
-            </a>
+              />  
           </Link>
         </div>
         <figure
@@ -33,28 +31,27 @@ const Navbar = ({ navLinks }) => {
         <ul className={navOpen ? "active" : ""}>
           <li>
             <div className="logo-big">
-            <Link href="/">
-              <a title="Startseite">
+            <Link href="/" title="Startseite">
                 <Image
                   src="/logo.png"
                   alt="Escondido Bay"
                   layout='fill'
                   objectFit="contain"
-                />
-              </a>
+                />     
             </Link>
             </div>
           </li>
           {navLinks.map((Links) => (
             <li key={Links.key}>
-              <Link href={Links.path} key={Links.key}>
-                <a
-                  onClick={() => {
-                    setNavOpen(!navOpen);
-                  }}
-                >
-                  {Links.text}
-                </a>
+              <Link 
+              style={{textDecoration: 'none'}}
+              href={Links.path} 
+              key={Links.key} 
+              onClick={() => {
+                setNavOpen(!navOpen);
+              }}
+              >
+                <p>{Links.text}</p> 
               </Link>
             </li>
           ))}
@@ -84,6 +81,7 @@ const Navbar = ({ navLinks }) => {
             min-height: 100px;
         }
         nav {
+          text-decoration: none;
           background: #000033;
           height: auto;
           width: 100vw;
@@ -126,7 +124,7 @@ const Navbar = ({ navLinks }) => {
         nav ul .button {
           color: white;
         }
-        nav ul a {
+        nav ul p {
           color: white;
           text-decoration: none;
           display: -webkit-box;
@@ -196,7 +194,7 @@ const Navbar = ({ navLinks }) => {
             padding-left: 0;
             padding-right: 0;
           }
-          nav ul a {
+          nav ul p {
             -webkit-box-orient: horizontal;
             -webkit-box-direction: normal;
             -ms-flex-direction: row;
