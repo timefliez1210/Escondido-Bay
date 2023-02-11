@@ -36,7 +36,7 @@ const Home = () => {
     <div>
       <Head>
         <title>
-        Discover the Ocean's Wonders with Escondido Bay TDI Dive Center - Expert Instructors & Exceptional Dive Services
+        Discover the Ocean&apos;s Wonders with Escondido Bay TDI Dive Center - Expert Instructors & Exceptional Dive Services
         </title>
         <meta
           name="description"
