@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
     },
     {
       text: "Diving Courses",
-      path: "/PADI_diving_courses",
+      path: "/diving_courses",
       key: "5",
     },
     {
