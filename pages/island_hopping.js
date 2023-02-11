@@ -46,7 +46,7 @@ export default function island_hopping() {
       </Head>
       <Banner
         heading={'Our Island Hopping Deals'}
-        title={'Enjoy your day with cocktails, music and beaches'}
+        title={'Discover Paradise Above and Below the Waves - Explore our Beaches and Reefs'}
         src={'/Island-hopping.JPG'}
         alt={'Island Hopping around Mactran'}
         layout={'fill'}

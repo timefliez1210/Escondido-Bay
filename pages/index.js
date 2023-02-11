@@ -8,7 +8,7 @@ const Home = () => {
       title: "Fun Diving",
       image: "/peacock-mantis.JPG",
       alt: "Fun Diving in Cebu, Mactan, Olango, Hilutongan and Nalusuan",
-      text: "With the Dive Sites on and around Mactan we are richly spoiled. Join us and discover abundant sea life around Mactan, Olango Island, Nalusuan or Hilutongan. From exceptional macro creatures up to all sorts of pelagic animals, you will not be disappointed.",
+      text: "Embark on an aquatic journey with us and discover the treasure trove of marine life that Mactan and its surrounding islands have to offer. Nalusuan Island, Olango Island, and Hilutongan are among the most pristine dive spots, where you'll encounter an awe-inspiring array of sea creatures. From the tiniest macro life to the most magnificent pelagic animals, your diving experience will be nothing short of extraordinary. With crystal clear waters, vibrant coral reefs, and diverse marine life, the Mactan area promises an unforgettable dive adventure. So, pack your gear and get ready to be swept away by the beauty of the underwater world.\n\n\n",
       href: "fun_diving",
       button: "Fun Diving",
       key: "1",
@@ -17,7 +17,7 @@ const Home = () => {
       title: "Our Diving Courses",
       image: "/Diving-Nalusuan.jpeg",
       alt: "Our Diving Courses from beginner level classes Open Water to Divemaster Internships",
-      text: "Dive into a complete new world of adventures or continue your education. We walk you through a broad array of possibilities below the surface. No matter if you are a beginner or already certified, we have got the course for you!",
+      text: "Unleash the depths of a breathtaking underwater world with us, where the possibilities are endless. Whether you are a beginner who is eager to start a new adventure, or a seasoned diver seeking to continue your education, we have the perfect course for you. Our experienced instructors will guide you through a range of immersive diving experiences, where you can explore the diversity of marine life and discover hidden wonders beneath the waves. With a comprehensive curriculum that covers everything from the basics to advanced techniques, you will be inspired to reach new heights of underwater mastery. So come join us and embark on a journey into the heart of the ocean, where the wonders never cease and the excitement never ends.",
       href: "diving_courses",
       button: "Our Diving Courses",
       key: "2",
@@ -26,31 +26,21 @@ const Home = () => {
       title: "Island Hopping",
       image: "/Island-hopping.JPG",
       alt: "Island Hopping with Escondido Bay",
-      text: "The Sea around Mactan is full of hidden gems for Island Hoppers and Snorkelers. Enjoy your day with us, relax with soothing tunes, cold beers and cocktails on the deck of our boat or while exploring some of the beautiful islands around, on land or on the shallow reefs.",
+      text: "Indulge in a captivating and enlightening experience with us in the tranquil waters of Mactan. Whether you are an avid island hopper or an enthusiastic snorkeler, we offer a once-in-a-lifetime adventure, full of breathtaking beauty and unexpected treasures waiting to be discovered.\n\nTake a break from the hectic pace of city life and join us on an unforgettable journey to uncover the hidden wonders of the sea. Recharge your batteries on the deck of our boat, surrounded by the calming sounds of music and the fresh sea air. Savor the taste of cold beers and delicious cocktails while basking in the stunning scenery that surrounds you.\n\n",
       href: "island_hopping",
       button: "Island Hopping",
       key: "3",
     },
-    {
-      title: "Events",
-      image: "/events.JPG",
-      alt: "Events in Cebu City and Lapu-Lapu City",
-      text: "Abundant space for 40 people and more our boat 'Escondido Bay' gives you enough space to host your next event on the ocean. And don't worry, we can take care of everything if you need. From catering the food, simple bottled drinks and even up to fresh and home made cocktails, we have everything covered.",
-      href: "events",
-      button: "Events",
-      key: "4",
-    },
-
   ]
   return (
     <div>
       <Head>
         <title>
-        Escondido Bay - Your Boat Service Operator on Mactan specialized in making your Diving, Island Hopping and Event an unforgettable experience without losing the native touch of the philippines.
+        Discover the Ocean's Wonders with Escondido Bay TDI Dive Center - Expert Instructors & Exceptional Dive Services
         </title>
         <meta
           name="description"
-          content="We are operating weekly fundives, teach you diving and cater to all your needs around Island Hopping and Events"
+          content="Explore the Abundant Aquatic Life with Escondido Bay TDI Dive Center - Trusted Instructors & Premier Dive Services"
         />
       </Head>
       <Banner

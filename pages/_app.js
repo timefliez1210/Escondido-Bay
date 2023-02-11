@@ -12,29 +12,24 @@ function MyApp({ Component, pageProps }) {
       key: "1",
     },
     {
-      text: "Island Hopping",
-      path: "/island_hopping",
-      key: "2",
-    },
-    {
-      text: "Events",
-      path: "/events",
-      key: "3",
-    },
-    {
       text: "Fun Diving",
       path: "/fun_diving",
-      key: "4",
+      key: "2",
     },
     {
       text: "Diving Courses",
       path: "/diving_courses",
-      key: "5",
+      key: "3",
+    },
+    {
+      text: "Island Hopping",
+      path: "/island_hopping",
+      key: "4",
     },
     {
       text: "Contact",
       path: "/contact",
-      key: "6",
+      key: "5",
     },
   ];
   return (

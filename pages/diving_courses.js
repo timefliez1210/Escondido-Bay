@@ -16,7 +16,7 @@ export default function PADI_diving_courses() {
       </Head>
       <Banner
         heading={'Our Diving Courses'}
-        title={'Explore the Beautiful World Underwater'}
+        title={'Discover the Hidden Treasures of the Ocean with Every Dive'}
         text={"No matter if you are a complete beginner or already an experienced diver, we have a wide variety of Diving Certification courses to either start your adventure or improve it. \n\nReach out to us if you have any questions or don't find what you are looking for, we are sure we can help you."}
         src={'/Diving-Courses.JPG'}
         alt={'Learn Scuba Diving on Mactan Lapu-Lapu City'}
