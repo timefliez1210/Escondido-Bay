@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
-import ServiceDisplay from '../components/ServiceDisplay';
+import ServiceDisplay from '../components/ServiceDisplay'
+import Card from '../components/Card'
 
 const Home = () => {
   const display = [
@@ -53,6 +54,15 @@ const Home = () => {
       <ServiceDisplay
         title={'Our Services'}
         display={display}
+      />
+      <Card
+        heading={'About us and what we stand for'}
+        title={'Escondido Bay Dive Center: A Passion for Conservation and Education in the Heart of Mactan Island'}
+        text={"Located in the bustling city of Lapu-Lapu, Escondido Bay Dive Center offers visitors a unique opportunity to explore the stunning coral reefs and diverse marine life of Mactan Island and beyond. The center is only 5 months old, but its owners, Akira, Clemens and team, are already making a big impact in the local diving community.\n\nAt Escondido Bay, conservation and education are at the forefront of the business. Akira, Clemens and their team are passionate about the ocean and the creatures that call it home, and they are dedicated to sharing that passion with others. Through their diving courses and fun diving trips, they aim to educate people about the importance of the ocean and the need to protect it for future generations.\n\nWith 5 regularly operated dive sites, Escondido Bay offers a variety of underwater experiences for all levels of divers. From the stunning Nalusuan Marine Sanctuary, to the diverse marine life of Gilutongan Marine Sanctuary, to the unique Talima Marine Sanctuary, to the beautiful coral formations at Kontiki, and the exciting Marigondon Cave, there is something for everyone. And for those looking to explore even further afield, Escondido Bay also operates long haul trips via boat to the beautiful Cabilao Island, the MV San Juan in Liloan, and the Danajon Double Barrier Reef.\n\nEscondido Bay is equipped to educate divers of all levels, from absolute beginners all the way to professional and technical divers. The center's experienced instructors are knowledgeable and patient, ensuring that even beginners feel comfortable and confident underwater. And for those who are already certified, Escondido Bay offers a range of exciting dive trips to some of the best dive sites in the area.\n\nAnd for those who want to experience the beauty of Mactan beyond the underwater world, Escondido Bay offers island hopping trips. Explore the stunning beaches, breathtaking scenery, and rich cultural heritage of the nearby islands and make memories to last a lifetime.\n\nSo whether you're a seasoned scuba diver or just getting started, come and discover the world under the waves with Escondido Bay Dive Center. With its commitment to conservation and education, you're sure to have a unique and memorable experience."}
+        src={'/about_escondido_bay.jpg'}
+        alt={'Escondido Bay in Lapu-Lapu City committed to excellence'}
+        layout={'fill'}
+        objectFit={'contain'}
       />
     </div>
   )

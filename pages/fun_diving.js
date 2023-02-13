@@ -49,7 +49,7 @@ export default function fun_diving() {
         heading={'Fun Diving with us'}
         title={'Dive into adventure, immerse in beauty'}
         text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/talima-reefscape.JPG'}
+        src={'/fun_diving_hero.jpg'}
         alt={'Fun Diving around Mactan Island, Lapu-Lapu City and Cordova'}
       />
       <Card
@@ -100,6 +100,15 @@ export default function fun_diving() {
         text={"The Talima Marine Sanctuary is a diver's paradise, offering a diverse range of underwater habitats for visitors to explore. With shallow reefs sloping down to 18 meters and steep walls falling down to 50 meters in some areas, the sanctuary provides a unique and challenging diving experience for both beginners and experienced divers alike.\n\nAt the shallow reefs, you'll be able to encounter a variety of colorful and vibrant marine life, including schools of tropical fish, diverse coral formations, and the occasional octopus. These curious creatures are known to entertain divers with their playful antics, making for an unforgettable experience.\n\nAs you move deeper into the sanctuary, the walls provide a stunning and dramatic backdrop to your dive. Here, you'll be able to witness the incredible diversity of marine life that inhabits these areas. Schools of larger pelagic fish, such as barracuda and trevally, are frequently spotted here, swimming alongside more elusive and reclusive species like the shy cuttlefish.\n\nFor those looking for a more immersive and exhilarating diving experience, Talima also boasts a swim-through rock structure, offering divers a unique perspective on the surrounding underwater landscape. Here, you'll be able to navigate through narrow passages and crevices, surrounded by a kaleidoscope of coral and marine life.\n\nAll in all, the Talima Marine Sanctuary provides a truly breathtaking and unforgettable diving experience, showcasing the incredible beauty and diversity of the underwater world. Whether you're a seasoned diver or just starting out, Talima is a must-visit for anyone seeking an adventure in the ocean depths."}
         src={'/Talima.jpg'}
         alt={'Candy Crab in Talima Marine Sanctuary'}
+        layout={'fill'}
+        objectFit={'contain'}
+      />
+      <Card
+        heading={'Cabilao Island, Bohol'}
+        title={'Explore Talima\'s vibrant reefs, walls & swim-throughs, teeming with octopuses & pelagics.'}
+        text={"Cabilao Island is a small, yet mighty gem in the Visayan Sea, lying just west of Bohol and facing mainland Cebu. With its picturesque 8 square kilometer area and 5000 inhabitants, it’s a hidden treasure that’s definitely worth the 3-hour boat ride from Mactan. Dubbed as “The Coral Gem of the Philippines,” Cabilao Island’s stunning beauty below the surface is sure to captivate even the most seasoned of divers.\n\nFeaturing 3 main dive sites, Cabilao is renowned for its impressive tectonic walls that are home to a thriving abundance of macro critters, perfect for capturing breathtaking photos. The shallow reefs are dotted with a vibrant display of hard and soft corals, and a diverse range of fish species.\n\nBut, that’s not all. Cabilao Island is also a turtle paradise, with Hawksbill and Green Turtles making an appearance on almost every dive. These gentle giants can grow up to an impressive 170 cm in length, leaving you in awe of their sheer size.\n\nSo, what can you expect at Cabilao’s famous dive sites?\n\n\nLighthouse - With its sharp drop-off wall that plunges to a depth of 50 meters and sandy slope dotted with rocky coral patches, Lighthouse is a feast for the eyes. Home to crustaceans, octopuses, and squids, it’s an advanced dive site that’s not to be missed.\n\n\nTalisay - This straightforward dive site boasts a coral slope that leads to a wall teeming with fishes, turtles, and macro critters. If you’re lucky, you may even spot white tip reef sharks on the sandy slopes, and black tip reef sharks on the top of the wall.\n\n\nPolaris - Named after a resort facing the Cabilao reefs, Polaris features a stunning sharp wall that falls to a depth of 45-50 meters and a sandy slope that extends to 60-70 meters, making it ideal for trained technical divers. The wall is dotted with small cavern-like structures, and the shallow waters are overflowing with soft corals that provide a habitat for fish, snakes, and critters not commonly seen in the Philippines.\n\n\nDiscover a new world of adventure and beauty at Cabilao Island."}
+        src={'/CabilaoIsland.jpg'}
+        alt={'Green Sea Turtle on Drop off in Cabilao Island'}
         layout={'fill'}
         objectFit={'contain'}
       />

@@ -1,97 +1,37 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-export default function ContactForm () {
-  const [status, setStatus] = useState({
-    submitted: false,
-    submitting: false,
-    info: { error: false, msg: null },
-  });
-  const [inputs, setInputs] = useState({
+const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: '',
     email: '',
-    message: '',
+    type: 'Island Hopping',
+    description: '',
   });
-  const handleServerResponse = (ok, msg) => {
-    if (ok) {
-      setStatus({
-        submitted: true,
-        submitting: false,
-        info: { error: false, msg: msg },
-      });
-      setInputs({
-        email: '',
-        message: '',
-      });
-    } else {
-      setStatus({
-        info: { error: true, msg: msg },
-      });
-    }
-  };
-  const handleOnChange = (e) => {
-    e.persist();
-    setInputs((prev) => ({
-      ...prev,
-      [e.target.id]: e.target.value,
-    }));
-    setStatus({
-      submitted: false,
-      submitting: false,
-      info: { error: false, msg: null },
+
+  const handleChange = (event) => {
+    setFormData({
+      ...formData,
+      [event.target.name]: event.target.value
     });
   };
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
-    setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
-    axios({
-      method: 'POST',
-      url: 'https://formspree.io/f/xvoyzqab',
-      data: inputs,
-    })
-      .then((response) => {
-        handleServerResponse(
-          true,
-          'Thank you, your message has been submitted.',
-        );
-      })
-      .catch((error) => {
-        handleServerResponse(false, error.response.data.error);
-      });
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const result = await axios.post('/api/send-email', formData);
+      console.log(result.data);
+    } catch (error) {
+      console.error(error);
+    }
   };
+
   return (
-    <main>
-      <h1>React and Formspree</h1>
-      <hr />
-      <form onSubmit={handleOnSubmit}>
-        <label htmlFor="email">Email</label>
-        <input
-          id="email"
-          type="email"
-          name="_replyto"
-          onChange={handleOnChange}
-          required
-          value={inputs.email}
-        />
-        <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          onChange={handleOnChange}
-          required
-          value={inputs.message}
-        />
-        <button type="submit" disabled={status.submitting}>
-          {!status.submitting
-            ? !status.submitted
-              ? 'Submit'
-              : 'Submitted'
-            : 'Submitting...'}
-        </button>
-      </form>
-      {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
-      )}
-      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
-    </main>
+    <form onSubmit={handleSubmit}>
+      {/* Form fields */}
+      <button type="submit">Submit</button>
+    </form>
   );
 };
+
+export default ContactForm;
