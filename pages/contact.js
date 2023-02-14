@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Banner from '../components/Banner'
 import Cta from '../components/Cta'
 import ContactForm from '../components/ContactForm'
-import NewHeader from '../components/NewHeader'
+
 
 
 export default function contact() {
@@ -25,17 +25,7 @@ export default function contact() {
         layout={'fill'}
         objectFit={'contain'}
       />
-
-
     </div>
   )
 }
 
-/*<Banner
-heading={'Contact us'}
-title={'Contact us with inquiries and questions'}
-src={'/Escondido-Bay.jpg'}
-alt={'Contact us for Inquiries and Questions'}
-layout={'fill'}
-objectFit={'contain'}
-/>*/

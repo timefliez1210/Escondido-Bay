@@ -51,6 +51,24 @@ export default function PADI_diving_courses() {
         objectFit={'contain'}
       />
       <Card
+        heading={'Rescue Diver and First Response'}
+        title={'Rescue Diver and First Response Training at Escondido Bay Dive Center'}
+        text={"As a scuba diver, being prepared for unexpected situations is a top priority. Accidents and emergencies can happen at any time, and it’s essential to be equipped with the right skills and knowledge to respond appropriately. That’s where the Rescue Diver and First Response training comes in.\nAt Escondido Bay Dive Center, we provide comprehensive training programs that equip divers with the skills and confidence to handle emergency situations both in and out of the water. Our training programs are taught by experienced and knowledgeable instructors, who are dedicated to providing students with hands-on and engaging training experiences.\nThe Rescue Diver course is designed to teach divers how to prevent and manage emergencies, and how to render assistance to other divers in need. The course covers a range of topics, including self-rescue, diver stress, emergency management and equipment, and panicking divers. During the course, students will also learn how to assess and manage dive accidents and illnesses, as well as how to conduct rescue scenarios and evacuation procedures.\nIn addition to the Rescue Diver course, Escondido Bay Dive Center also offers the First Response training program. This program is designed to teach divers the skills and techniques needed to provide immediate care and stabilize patients in an emergency situation. The program covers a range of topics, including primary assessment, CPR, basic life support, and wound management.\nBy completing both the Rescue Diver and First Response training programs, divers can have the peace of mind that they have the skills and knowledge to handle emergency situations. These courses are ideal for divers who are looking to advance their dive education, and for those who are looking to become dive professionals.\nAt Escondido Bay Dive Center, we are committed to providing high-quality and engaging training programs that help divers achieve their goals and advance their diving skills.\n\n\nPrice for Rescue Diver and First Response Training is PHP26,000."}
+        src={'/RescueDiver.JPG'}
+        alt={'Rescue Diver and First Responder'}
+        layout={'fill'}
+        objectFit={'contain'}
+      />
+      <Card
+        heading={'Divemaster Internship'}
+        title={'Dive into a New Career with Escondido Bay\'s Divemaster Internship'}
+        text={"Are you looking to take your diving to the next level and turn it into a career? Then look no further than Escondido Bay's Divemaster Internship! Our professional and experienced instructors will guide you through the process of becoming a divemaster, the first professional level in the diving industry.\nThe Divemaster Internship is a comprehensive training program that will teach you all the necessary skills to lead and guide scuba dives, assist instructors with student divers, and manage dive activities. You will also gain a deeper understanding of dive theory, dive skills and the diving environment, as well as learn how to conduct dive briefings, manage dive equipment, and solve common diving problems.\nOne of the unique aspects of our Divemaster Internship is the opportunity to gain hands-on experience by working with our instructors and participating in real-life dive scenarios. This will give you the chance to put into practice what you have learned and develop your leadership and communication skills.\nAt Escondido Bay, we offer a flexible schedule for our Divemaster Internship, allowing you to complete the program at your own pace and on your own time. Our goal is to ensure that you receive the best possible training and support to help you reach your full potential as a dive professional.\nIn addition, our Divemaster Internship program is recognized by several international dive organizations, including Scuba Diving International (SDI) and Technical Diving International (TDI), which means that once you complete the program, you will be qualified to work as a dive professional anywhere in the world.\nSo, whether you're a seasoned diver looking to take the next step in your diving career, or simply want to learn more about the underwater world, our Divemaster Internship is the perfect program for you. So why wait? Sign up today and start your journey towards a career in diving!\n\n\nDivemaster Internships starting at PHP50,000"}
+        src={'/Divemaster.JPG'}
+        alt={'Divemaster Internship with Escondido Bay'}
+        layout={'fill'}
+        objectFit={'contain'}
+      />
+      <Card
         heading={'Enriched Air Diver (also known as Nitrox diving)'}
         title={'Enhance Your Diving with Nitrox - Escondido Bay Dive Center\'s Nitrox Specialty Course'}
         text={"Take your diving to the next level with Escondido Bay Dive Center's Nitrox Specialty course. Our experienced instructors will guide you through the basics of nitrox diving, giving you the skills and knowledge you need to dive safely and comfortably.\n\nNitrox diving offers a range of benefits, including longer no-decompression limits, reduced nitrogen absorption, and increased safety. Whether you're a recreational or technical diver, nitrox diving is the perfect choice for those looking to enhance their diving experience.\n\nChoose Escondido Bay Dive Center as your nitrox diving experts and experience the benefits of nitrox diving. With our commitment to safety, education, and conservation, you're sure to have a unique and memorable experience.\n\n\nThe Price for the Nitrox Certification is PHP11,000."}
@@ -77,19 +95,20 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
       />
+      <Card
+        heading={'Sidemount Diving'}
+        title={'Redundancy & Innovation: Experience Sidemount Diving'}
+        text={"If you're looking for a new and exciting way to dive, look no further than sidemount diving. This innovative diving method is gaining popularity among divers, and it's easy to see why. Here are some of the key benefits of sidemount diving and why it's worth considering for your next diving adventure.\n\nEase of Movement\nOne of the biggest advantages of sidemount diving is the ease of movement it offers. With the tanks mounted on your sides instead of on your back, you have much more freedom of movement in the water. This makes it easier to maneuver in tight spaces, such as caves or wrecks, and also makes the dive much more comfortable.\n\nBetter Weight Distribution\nAnother benefit of sidemount diving is better weight distribution. With the tanks mounted on your sides, the weight is evenly distributed on your body, reducing the stress on your back and allowing for a more comfortable dive.\n\nEasier Equipment Management\nSidemount diving also makes equipment management much easier. With the tanks mounted on your sides, you have easy access to your regulators, gauges, and other diving gear, making it easier to manage and make adjustments during your dive.\n\nFlexibility\nFinally, sidemount diving is also much more flexible than traditional backmount diving. You can easily switch between different tank sizes, allowing you to customize your dive setup to suit the specific dive site you're exploring.\n\nIn conclusion, sidemount diving is a unique and exciting way to dive that offers numerous benefits over traditional backmount diving. So why not give it a try? Start your sidemount diving journey with Escondido Bay Dive Center today."}
+        src={'/SidemountDiving.JPG'}
+        alt={'Sidemount Course in Lapu-Lapu City'}
+        layout={'fill'}
+        objectFit={'contain'}
+      />
  </div>
   )
 }
 /*
-<Card
-        heading={'PADI Sidemount Certification'}
-        title={'Carrying 2 Cylinders side by side, increase you air supply and redundancy'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
-        layout={'fill'}
-        objectFit={'contain'}
-      />
+      
       <Card
         heading={'PADI Night Diving Specialty'}
         title={'Learn more about the special world at night'}
@@ -99,30 +118,4 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
       />
-      <Card
-        heading={'Emergency First Responder'}
-        title={'React right in emergencies - on land and in the water'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
-        layout={'fill'}
-        objectFit={'contain'}
-      />
-      <Card
-        heading={'PADI Rescue Diver'}
-        title={'Nobody hopes for accidents, but if they happen better be prepared'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
-        layout={'fill'}
-        objectFit={'contain'}
-      />
-      <Card
-        heading={'PADI Divemaster'}
-        title={'The first PADI Professional rating and your ticket to travel the world'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
-        layout={'fill'}
-        objectFit={'contain'}
-      /> */
+       */
