@@ -1,35 +1,61 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    type: 'Island Hopping',
-    description: '',
-  });
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
 
-  const handleChange = (event) => {
-    setFormData({
-      ...formData,
-      [event.target.name]: event.target.value
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        subject,
+        message
+      })
     });
-  };
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    try {
-      const result = await axios.post('/api/send-email', formData);
-      console.log(result.data);
-    } catch (error) {
-      console.error(error);
+    if (response.ok) {
+      alert('Message sent successfully!');
+      setName('');
+      setEmail('');
+      setSubject('');
+      setMessage('');
+    } else {
+      alert('An error occurred while sending the message.');
     }
   };
 
   return (
     <form onSubmit={handleSubmit}>
-      {/* Form fields */}
-      <button type="submit">Submit</button>
+      <label>
+        Name:
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
+      </label>
+      <br />
+      <label>
+        Email:
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+      </label>
+      <br />
+      <label>
+        Subject:
+        <input type="text" value={subject} onChange={(e) => setSubject(e.target.value)} required />
+      </label>
+      <br />
+      <label>
+        Message:
+        <textarea value={message} onChange={(e) => setMessage(e.target.value)} required />
+      </label>
+      <br />
+      <button type="submit">Send</button>
     </form>
   );
 };

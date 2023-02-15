@@ -25,6 +25,7 @@ export default function contact() {
         layout={'fill'}
         objectFit={'contain'}
       />
+      <ContactForm />
     </div>
   )
 }
