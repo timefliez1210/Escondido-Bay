@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     secure: true,
     auth: {
       user: 'escondidobay2022@gmail.com',
-      pass: 'Escondido2022!'
+      pass: 'zqmoczeawwozdyca'
     }
   });
 
@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     const info = await transporter.sendMail({
       from: `"${name}" <${email}>`,
       to: 'escondidobay2022@gmail.com',
-      subject: subject,
+      subject: `${name} - ${email} - ${subject}`,
       text: message
     });
 

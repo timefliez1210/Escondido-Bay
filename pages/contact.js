@@ -25,7 +25,12 @@ export default function contact() {
         layout={'fill'}
         objectFit={'contain'}
       />
-      
+      <ContactForm
+        src={'/ContactOurDiveCenter.JPG'}
+        alt={'Contact us with questions and bookings about island hopping and diving'}
+        layout={'fill'}
+        objectFit={'contain'}
+      />
     </div>
   )
 }
