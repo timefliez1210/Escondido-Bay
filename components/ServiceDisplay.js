@@ -26,8 +26,9 @@ export default function ServiceDisplay({display, title}) {
               <Link
                 href={Display.href}
                 title={Display.title}
+                style={{ textDecoration: 'none' }}
               >
-                <div className='button'>{Display.button}</div>
+                <button>{Display.button}</button>
               </Link>
               <br />
               <br />
@@ -84,20 +85,34 @@ export default function ServiceDisplay({display, title}) {
                     height: 100%;
                     align-content: center center;
                   }
-                  .button {
-                    display: inline-block;
-                    text-decoration: none;
-                    color: white;
-                    background: #0F0D69;
-                    padding: 0.4rem 0.9rem;
-                    border: 3px solid #0F0D69;
-                    cursor: pointer;
-                    margin: auto auto;
+                  button {
+                    color: #ffffff;
+              background-color: #FF7F50;
+              border: none;
+              border-radius: 6px;
+              padding: 12px 20px;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 22px;
+              display: flex;
+              align-items: center;
+              margin: auto auto;
+              text-decoration: none;
+              box-shadow: 2px 7px 40 px -2px rgba(154,171,237,1);
+              -webkit-box-shadow: 2px 7px 40px -2px rgba(154,171,237,1);
+              -moz-box-shadow: 2px 7px 40px -2px rgba(154,171,237,1);
                   }
-                  .button:hover {
-                    background: transparent;
-                    color: #0F0D69;
-                  }
+                  button:hover
+            {
+              box-shadow: none;
+              cursor: pointer;
+            }
+            
+            button i
+            {
+              font-size: 30px;
+              padding-right: 5px;
+            }
                   
                   .services .item-holder {
                     display: -ms-grid;

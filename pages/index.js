@@ -63,6 +63,7 @@ const Home = () => {
         alt={'Escondido Bay in Lapu-Lapu City committed to excellence'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Get in Touch with us'}
       />
     </div>
   )

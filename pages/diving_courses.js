@@ -31,6 +31,7 @@ export default function PADI_diving_courses() {
         alt={'PADI Open Water Diver Certification Course'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Open Water Course'}
       />
       <Card
         heading={'Discover Scuba Diving'}
@@ -40,6 +41,7 @@ export default function PADI_diving_courses() {
         alt={'PADI Discover Scuba Diving and Scuba Diver'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your DSD Experience'}
       />
       <Card
         heading={'Advanced Open Water Diver'}
@@ -49,6 +51,7 @@ export default function PADI_diving_courses() {
         alt={'PADI Advanced Open Water Diver Certification'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Advanced Course'}
       />
       <Card
         heading={'Rescue Diver and First Response'}
@@ -58,6 +61,7 @@ export default function PADI_diving_courses() {
         alt={'Rescue Diver and First Responder'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Rescue Course'}
       />
       <Card
         heading={'Divemaster Internship'}
@@ -67,6 +71,7 @@ export default function PADI_diving_courses() {
         alt={'Divemaster Internship with Escondido Bay'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Divemaster'}
       />
       <Card
         heading={'Enriched Air Diver (also known as Nitrox diving)'}
@@ -76,6 +81,7 @@ export default function PADI_diving_courses() {
         alt={'PADI Enriched Air Diver or Nitrox Certification'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Nitrox Course'}
       />
       <Card
         heading={'Deep Diving Specialist'}
@@ -85,6 +91,7 @@ export default function PADI_diving_courses() {
         alt={'PADI Depp Specialty Diver'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Deep Specialty'}
       />
       <Card
         heading={'Wreck Diver Certification'}
@@ -94,6 +101,7 @@ export default function PADI_diving_courses() {
         alt={'PADI Wreck Diver Specialty'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Wreck Certification'}
       />
       <Card
         heading={'Sidemount Diving'}
@@ -103,6 +111,7 @@ export default function PADI_diving_courses() {
         alt={'Sidemount Course in Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Sidemount Course'}
       />
  </div>
   )

@@ -12,7 +12,7 @@ export default function fun_diving() {
       alt: "Our Sunday Dive Promo on Mactan Island",
       text: "At our dive center in Cebu, we are dedicated to providing a consistently breathtaking diving experience for our local diving community and beyond. That's why we invite you to join us for our Sunday Dive Promo. For just PHP 4,500, you'll get to immerse yourself in three breathtaking dives from the comfort of our boat, complete with air fills and all the necessary gear.\n\nNot only that, but you'll also be treated to a delicious BBQ lunch made from scratch, accompanied by fresh coffee and a snack bar, as well as unlimited water to quench your thirst. And after a day of diving, you can continue the conversation over a cold drink from our well-stocked bar (additional charges apply). So what are you waiting for? Join us on a journey of discovery and be inspired by the diversity of our dive sites and the beauty of our abundant aquatic life.",
       href: "contact",
-      button: "Contact us now",
+      button: "Get in touch for Sunday",
       key: "1",
     },
     {
@@ -21,7 +21,7 @@ export default function fun_diving() {
       alt: "Dive the beautiful Islands around Lapu-Lapu City",
       text: "Embark on a scuba diving adventure with us at Mactan Island any day of the week. Discover the beauty of Nalusuan Island, Gilutongan Island, and Olango Marine Sanctuaries and immerse yourself in their rich marine biodiversity. Please note that equipment rental is not included in the package.\n\nFor 2 dives, the cost is PHP 3,500, while 3 dives will cost PHP 5,500. This package includes lunch and snacks, coffee, and water. If you choose 2 dives, there will not be a BBQ provided, but after-dive snacks instead.\n\nAfter your dive, unwind with a drink from our bar, which is available for an additional charge based on consumption. Join us for a memorable diving experience in the stunning waters of Mactan Island.\n\n",
       href: "contact",
-      button: "Contact us now",
+      button: "Boat dive with us",
       key: "2",
     },
     {
@@ -30,7 +30,7 @@ export default function fun_diving() {
       alt: "Shore Diving off the coast from Lapu-Lapu City",
       text: "Embark on an underwater adventure as you discover the hidden gems of Lapu-Lapu City's shores. From the vibrant coral gardens at Kontiki Marine Sanctuary and Coral Nursery, to the mysterious Marigondon Cave, and the teeming sea life at Marigondon port's pier area, there's always something new to explore. With the occasional visit of magnificent Whale Sharks, there's no better time than now to uncover the underwater treasures that lie within reach. \n\nExperience all the beauty and diversity of our shore dive spots with our Shore Dive Packages, starting at just PHP2,500 for two dives. \n\nGet ready for a once-in-a-lifetime diving journey!\n\n\n",
       href: "contact",
-      button: "Contact us now",
+      button: "Shore Dive with us",
       key: "3",
     },
   ]
@@ -60,6 +60,7 @@ export default function fun_diving() {
         alt={'Fun Diving around Mactan Airport'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Ask us about Fun Diving'}
       />
       <ServiceDisplay
       title='Our Fun Diving Offers'
@@ -75,6 +76,7 @@ export default function fun_diving() {
         alt={'Octopus in Nalusuan Marine Sanctuary Cebu'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Dive Nalusuan with us'}
       />
       <Card
         heading={'Gilutongan Island'}
@@ -84,6 +86,7 @@ export default function fun_diving() {
         alt={'Gilutongan Island Baracudas near Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Dive Gilutongan with us'}
       />
       <Card
         heading={'Marigondon Cave'}
@@ -93,6 +96,7 @@ export default function fun_diving() {
         alt={'Our Cave dive in Marigondon, Lapu-Lapu City, Cebu'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Cave Dive with us'}
       />
       <Card
         heading={'Talima Marine Sanctuary'}
@@ -102,6 +106,7 @@ export default function fun_diving() {
         alt={'Candy Crab in Talima Marine Sanctuary'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Dive Talima with us'}
       />
       <Card
         heading={'Baring Marine Sanctuary'}
@@ -111,6 +116,7 @@ export default function fun_diving() {
         alt={'Anemone Crab in the Baring Marine Sanctuary, Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Dive Baring with us'}
       />
       <Card
         heading={'Cabilao Island, Bohol'}
@@ -120,6 +126,7 @@ export default function fun_diving() {
         alt={'Green Sea Turtle on Drop off in Cabilao Island'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Dive Cabilao with us'}
       />
       <style jsx>{`
        h1 {

@@ -1,4 +1,5 @@
 import Image from 'next/legacy/image'
+import Cta from '../components/Cta'
 
 export default function Card(props) {
   return (
@@ -17,6 +18,7 @@ export default function Card(props) {
            <div className='divider'></div>
            <h3>{props.title}</h3>
             <p>{props.text}</p>
+            <Cta text={props.button} />
           </div>
           
       </div>

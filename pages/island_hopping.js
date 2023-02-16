@@ -60,6 +60,7 @@ export default function island_hopping() {
         alt={'Island Hopping Olango Island'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book your Island Hopping'}
       />
 
       <ServiceDisplay 
@@ -142,6 +143,7 @@ export default function island_hopping() {
         alt={'Island Hopping to Caohagan Island near Mactan and Olango'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book Caohagan with us'}
       />
       <Card
         heading={'Sulpa Island'}
@@ -151,6 +153,7 @@ export default function island_hopping() {
         alt={'Sulpa Island the Gem near Mactan with Crystal clear waters'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book Sulpa with us'}
       />
       <h2>Island Hopping Destinations further away but worth the Trip</h2>
       <div className='divider'></div>
@@ -162,6 +165,7 @@ export default function island_hopping() {
         alt={'Pandanon Island off the coast from Cebu'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book Pandanon with us'}
       />
       <Card
         heading={'North Sandbar'}
@@ -171,6 +175,7 @@ export default function island_hopping() {
         alt={'Prestine and Pulvery white sands at north sandbar'}
         layout={'fill'}
         objectFit={'contain'}
+        button={'Book North Sandbar with us'}
       />
       <style jsx>{`
        h1, h2 {
