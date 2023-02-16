@@ -61,16 +61,83 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
       />
+
       <ServiceDisplay 
         title={'Our Food Packages'}
         display={display}
       />
-      <h1>Island Hopping Destinations around Lapu-Lapu City</h1>
+      <h2>Our Island Hopping Pricing in Overview</h2>
+      <div className='divider'></div>
+      <div className='overflow'>
+            <table className="styled-table">
+  <thead>
+    <tr>
+      <th>Inclusions</th>
+      <th>10 - 14 pax</th>
+      <th>15 - 19 pax</th>
+      <th>20 - 29 pax</th>
+      <th>30 - 39 pax</th>
+      <th>40 - 50 pax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Licensed Captain, Qualified Crew &amp; Guide, Boat,<br/> 3 nearby Island, safety Equipment and Sound System</td>
+      <td>PHP1,000 per pax</td>
+      <td>PHP900 per pax</td>
+      <td>PHP650 per pax</td>
+      <td>PHP500 per pax</td>
+      <td>PHP450 per pax</td>
+    </tr>
+    <tr>
+      <td>Additional Basic BBQ-Lunch, 100% fresh and homemade</td>
+      <td>PHP600 per pax</td>
+      <td>PHP500 per pax</td>
+      <td>PHP450 per pax</td>
+      <td>PHP400 per pax</td>
+      <td>PHP350 per pax</td>
+    </tr>
+    <tr>
+      <td>Add local Seafood like shrimps and fish to the Basic-BBQ</td>
+      <td>PHP300 per pax</td>
+      <td>PHP300 per pax</td>
+      <td>PHP200 per pax</td>
+      <td>PHP200 per pax</td>
+      <td>PHP200 per pax</td>
+    </tr>
+    <tr>
+      <td>Add the Deluxe Package including Lechon and other Upgrades</td>
+      <td>PHP800 per pax</td>
+      <td>PHP700 per pax</td>
+      <td>PHP500 per pax</td>
+      <td>PHP400 per pax</td>
+      <td>PHP400 per pax</td>
+    </tr>
+    <tr>
+      <td>Additional Drinking Packages; 4 Beer or 2 Cocktails</td>
+      <td>PHP300 per pax</td>
+      <td>PHP300 per pax</td>
+      <td>PHP300 per pax</td>
+      <td>PHP300 per pax</td>
+      <td>PHP300 per pax</td>
+    </tr>
+    <tr>
+      <td>In case you want an unforgettable Party add a DJ</td>
+      <td>PHP900 per pax</td>
+      <td>PHP800 per pax</td>
+      <td>PHP700 per pax</td>
+      <td>PHP600 per pax</td>
+      <td>PHP500 per pax</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <h2>Island Hopping Destinations around Lapu-Lapu City</h2>
       <div className='divider'></div>
       <Card
         heading={'Caohagan Island'}
         title={'Caohagan Island: A Must-Visit Destination for Island Hopping near Mactan'}
-        text={"If you're planning an island hopping adventure near Olango, Caohagan Island should be on your list of must-visit destinations. Located just a short boat ride away, Caohagan is a small island with a big personality.\nOne of the main draws of Caohagan Island is its stunning beaches. With crystal-clear water and powdery sand, it's the perfect place to relax and soak up the sun. But that's not all the island has to offer.\nCaohagan Island is also a great spot for snorkeling and diving. The waters surrounding the island are teeming with marine life, including colorful corals, schools of fish, and even sea turtles. If you're lucky, you might even spot some of the larger marine species that inhabit the area, like reef sharks and manta rays./nBut what really sets Caohagan Island apart is its unique and diverse culture. The island is home to a small fishing community, and visitors can learn about their traditional way of life and even try their hand at fishing. You can also explore the island's many small shops and restaurants, where you can sample local delicacies and purchase handmade crafts.\nIf you're looking for a unique and unforgettable island hopping experience near Olango, Caohagan Island should be at the top of your list. With its stunning beaches, incredible marine life, and rich culture, it's a destination that's not to be missed."}
+        text={"If you're planning an island hopping adventure near Olango, Caohagan Island should be on your list of must-visit destinations. Located just a short boat ride away, Caohagan is a small island with a big personality.\nOne of the main draws of Caohagan Island is its stunning beaches. With crystal-clear water and powdery sand, it's the perfect place to relax and soak up the sun. But that's not all the island has to offer.\nCaohagan Island is also a great spot for snorkeling and diving. The waters surrounding the island are teeming with marine life, including colorful corals, schools of fish, and even sea turtles. If you're lucky, you might even spot some of the larger marine species that inhabit the area, like reef sharks and manta rays.\nBut what really sets Caohagan Island apart is its unique and diverse culture. The island is home to a small fishing community, and visitors can learn about their traditional way of life and even try their hand at fishing. You can also explore the island's many small shops and restaurants, where you can sample local delicacies and purchase handmade crafts.\nIf you're looking for a unique and unforgettable island hopping experience near Olango, Caohagan Island should be at the top of your list. With its stunning beaches, incredible marine life, and rich culture, it's a destination that's not to be missed."}
         src={'/caohaganisland.webp'}
         alt={'Island Hopping to Caohagan Island near Mactan and Olango'}
         layout={'fill'}
@@ -85,6 +152,8 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
       />
+      <h2>Island Hopping Destinations further away but worth the Trip</h2>
+      <div className='divider'></div>
       <Card
         heading={'Pandanon Island'}
         title={'Pandanon Island: A Tropical Paradise in the Heart of Cebu'}
@@ -104,9 +173,9 @@ export default function island_hopping() {
         objectFit={'contain'}
       />
       <style jsx>{`
-       h1 {
+       h1, h2 {
         text-align: center;
-        margin: 20px 0px;
+        margin: 50px 0px 20px 0px;
        }
        .divider {
         height: 3px;
@@ -114,6 +183,38 @@ export default function island_hopping() {
         background: white;
         margin: auto auto;
       }
+      .styled-table {
+        border-collapse: collapse;
+        margin: 25px auto;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .styled-table thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+  }
+  .styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.overflow {
+  overflow-x: auto;
+}
        `}</style>
     </div>
   )

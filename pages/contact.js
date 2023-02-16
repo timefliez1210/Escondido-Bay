@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
-import Cta from '../components/Cta'
+import Reviews from '../components/Reviews'
 import ContactForm from '../components/ContactForm'
 
 
