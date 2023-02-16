@@ -9,7 +9,7 @@ export default function island_hopping() {
       title: "Basic BBQ Lunch",
       image: "/basic-Barbecue.JPG",
       alt: "Chicken Thighs, Skewers, Vegetables and Rice - Our basic BBQ Lunch",
-      text: "Our entry level BBQ Lunch consists of deliciously marinated Chicken Thighs, Filipino Marinated Pork and Hungarian Sausages served with rice and a selection of vegetables all fresh made from our BBQ Grill. The entry level starts at PHP350 per person.",
+      text: "Escondido Bay is proud to offer a basic BBQ menu that features an array of delicious Asian-inspired dishes that will tantalize your taste buds. Our menu includes a selection of marinated chicken, pork chops, buffalo wings, pork siomai, dynamite, cheese sticks, and nachos loaded with fresh vegetables and cheese. Our commitment to using only the freshest ingredients is reflected in every dish we prepare.\nOur marinated chicken is the perfect blend of sweet and savory flavors, with just the right amount of spice to make it the perfect dish for any occasion. Our manila style pork chops are juicy and tender, infused with the rich and bold flavors of traditional Filipino cuisine. The buffalo wings are crispy on the outside, and tender on the inside, with a homemade sauce that packs a punch. The pork siomai is a classic dim sum dish that is steamed to perfection and served with our secret sauce.\nFor those who prefer a bit of heat, our pork or tuna dynamite is the perfect choice. These flavorful rolls are filled with either pork or tuna, mixed with a variety of spices and herbs. Our cheese sticks are a crowd favorite, served hot and crispy with a generous serving of melted cheese. Finally, our nachos are loaded with fresh vegetables and cheese, creating a savory and satisfying snack.",
       href: "contact",
       button: "Book now",
       key: "1",
@@ -18,7 +18,7 @@ export default function island_hopping() {
       title: "Seafood Upgrade",
       image: "/king-prawns.JPG",
       alt: "Our Famous Seafood BBQ Lunch",
-      text: "Upon Interest and availability we can extend the BBQ Lunch with fresh shrimps, prawns, shells and selections of local fishes. If you are interested in this option please contact us. The prices vary upon availability and season.",
+      text: "At Escondido Bay, we pride ourselves on providing delicious and varied food options to complement your island hopping or diving experience. While our basic BBQ package is already a crowd-pleaser, we also offer an upgrade for those looking for an even more elevated dining experience.\nOur upgraded BBQ package includes a selection of fresh seafood, including giant prawn skewers, Filipino-style stuffed fish, shrimp, and crabs. Savor the taste of the ocean with perfectly grilled seafood that's both succulent and satisfying.\nThese new additions complement our classic menu of Asian-style marinated chicken, Manila-style pork chops, buffalo wings with homemade sauce, pork siomai with secret sauce, pork or tuna dynamite, cheese sticks, and nachos loaded with fresh vegetables and cheese.\nOur upgraded BBQ package is perfect for seafood lovers, and we're sure it will be a hit with your group. Let our team cater to your taste buds and create an unforgettable dining experience for you and your companions.\nWhether you're island hopping, diving, or just looking for a memorable dining experience, Escondido Bay has got you covered with our wide range of food options. Come join us and taste the flavors of the Philippines.\n\n",
       href: "contact",
       button: "Book now",
       key: "2",
@@ -27,7 +27,7 @@ export default function island_hopping() {
       title: "The Deluxe Package",
       image: "/birthday-party.JPG",
       alt: "Steaks, Burgers, Hotdog or Lechon - we cater to all your needs",
-      text: "If Seafood isn’t yet enough of an upgrade for you we are happy to serve you an American or European Style Barbecue Lunch with Steaks, Hotdogs, Burgers or anything you could wish for. Just reach out to us and let us know what your heart desires.",
+      text: "If you're looking for the ultimate BBQ experience, look no further than our deluxe package. \nNot only do we offer all the amazing dishes included in our basic and upgrade options, but we take it to the next level with even more mouth-watering options.\n\nOne highlight of the deluxe package is the addition of a seafood stuffed or normal lechon. \nThis Filipino classic is always a crowd pleaser and is sure to impress your guests. But that's not all, we also offer a more European or American touch with the inclusion of delicious steaks. Cooked to perfection, our steaks are juicy, flavorful, and a perfect complement to the rest of our amazing dishes.\n\nNo matter which package you choose, our goal is to provide you with an unforgettable dining experience. From the freshest seafood to the tastiest meats and homemade sauces, we've got everything you need to make your event or gathering a success. So why wait? Book your BBQ with us today and get ready to indulge in some of the best food you've ever tasted.\n\n\n\n",
       href: "contact",
       button: "Book now",
       key: "3",
@@ -67,6 +67,15 @@ export default function island_hopping() {
         title={'Our Food Packages'}
         display={display}
       />
+      <h2>For those who aren't satisfied yet or can't eat certain food</h2>
+      <div className='divider'></div>
+      <p>At Escondido Bay, we pride ourselves on being able to cater to the needs of all of our guests, no matter their dietary restrictions or preferences. If none of our pre-set menus suit your tastes or requirements, don't worry! We offer a range of customizable options so that you can have a unique and personalized dining experience.
+      <br/><br/>
+      We understand that some guests may have food allergies or follow religious beliefs that restrict certain foods, while others may be vegetarians or vegans. Whatever the reason, we are happy to create a tailored menu that meets your needs.
+      <br/><br/>
+      We are also open to fulfilling any special requests you may have for your menu. Whether it's a favorite dish or cuisine you're craving, or a unique idea you have in mind, our team is dedicated to bringing your vision to life.
+      <br/><br/>
+      Our goal is to make your dining experience at Escondido Bay as memorable and enjoyable as possible. So, let us know what you need, and we will work together to create a delicious and personalized menu just for you. Contact us to discuss your specific needs and preferences.</p>
       <h2>Our Island Hopping Pricing in Overview</h2>
       <div className='divider'></div>
       <div className='overflow'>
@@ -155,6 +164,26 @@ export default function island_hopping() {
         objectFit={'contain'}
         button={'Book Sulpa with us'}
       />
+      <Card
+        heading={'Gilutongan Island'}
+        title={'Snorkeling at Gilutongan Marine Sanctuary: A Window to the Underwater World'}
+        text={"Gilutongan Marine Sanctuary, located just off the coast of Cordova in Cebu, is a must-visit destination for any avid snorkeler. This beautiful marine sanctuary offers a unique and unforgettable experience of the underwater world, with an abundance of vibrant marine life, colorful corals, and crystal-clear waters.\nThe sanctuary, covering an area of about 15 hectares, is protected by the local government to preserve its rich marine biodiversity. Snorkelers can expect to encounter a variety of sea creatures such as colorful tropical fish, sea turtles, and other marine life. The water is so clear that you can easily see schools of fish swimming around you, darting in and out of the vibrant corals.\nThe sanctuary is ideal for both beginners and experienced snorkelers, as the water is shallow and the current is minimal. It’s an excellent place for families to spend a day exploring the underwater world, and a great opportunity to introduce kids to the wonders of marine life.\nGilutongan Marine Sanctuary is also an excellent destination for underwater photographers, with its abundance of colorful and fascinating marine life. With the help of a waterproof camera, you can capture your memories and the beauty of the underwater world forever.\nIf you’re planning a trip to Cebu, make sure to include Gilutongan Marine Sanctuary in your itinerary. With its rich marine biodiversity, crystal-clear waters, and vibrant corals, it’s an experience that you will never forget.\nAt Escondido Bay, we offer snorkeling tours to Gilutongan Marine Sanctuary as part of our island hopping packages. Our experienced guides will make sure that you have a safe and enjoyable snorkeling experience. Come and explore the wonders of the underwater world with us!"}
+        src={'/gilutongan-snorkeling.jpg'}
+        alt={'Gilutongan Island Snorkeling, an abundance of life'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Snorkel Gilutongan with us'}
+      />
+      <Card
+        heading={'Nalusuan Island'}
+        title={'Nalusuan Marine Sanctuary: A Snorkeling Paradise in Cebu, Philippines'}
+        text={"Nalusuan Island Marine Sanctuary is a popular destination for snorkeling enthusiasts in the Philippines. Located just off the coast of Cebu, this stunning marine sanctuary offers some of the best snorkeling in the region.\nThe Nalusuan Island Marine Sanctuary is home to a vast array of marine life, including colorful fish, vibrant coral reefs, and other unique sea creatures. Snorkelers can expect to see a variety of fish species, such as clownfish, angelfish, and parrotfish, as well as sea turtles, octopuses, and other fascinating marine life.\nThe clear, warm waters surrounding Nalusuan Island are perfect for snorkeling, with excellent visibility and calm conditions. The island's marine sanctuary is carefully protected to ensure that visitors can enjoy the natural beauty of the area without damaging the delicate ecosystem.\nSnorkeling at Nalusuan Island is suitable for snorkelers of all skill levels, with experienced guides available to help visitors navigate the underwater world. Whether you are a beginner or an experienced snorkeler, you are sure to have an unforgettable experience at Nalusuan Island.\nIn addition to snorkeling, visitors to Nalusuan Island can also enjoy other activities such as swimming, sunbathing, and beachcombing. The island is home to a beautiful white sand beach that is perfect for relaxing and soaking up the sun.\nOverall, Nalusuan Island Marine Sanctuary is a must-visit destination for anyone who loves snorkeling or simply appreciates the natural beauty of the ocean. With its crystal-clear waters, diverse marine life, and breathtaking scenery, this marine sanctuary is truly a paradise for snorkelers and nature lovers alike."}
+        src={'/turtle-at-nalusuan.jpg'}
+        alt={'Green Sea Turtle at Nalusuan Marine Sanctuary'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Snorkel Nalusuan with us'}
+      />
       <h2>Island Hopping Destinations further away but worth the Trip</h2>
       <div className='divider'></div>
       <Card
@@ -181,6 +210,10 @@ export default function island_hopping() {
        h1, h2 {
         text-align: center;
         margin: 50px 0px 20px 0px;
+       }
+       p {
+        max-width: 80vw;
+        margin: 20px auto;
        }
        .divider {
         height: 3px;
