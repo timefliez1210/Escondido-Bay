@@ -67,13 +67,13 @@ export default function island_hopping() {
         title={'Our Food Packages'}
         display={display}
       />
-      <h2>For those who aren't satisfied yet or can't eat certain food</h2>
+      <h2>For those who aren&apos;t satisfied yet or can&apos;t eat certain food</h2>
       <div className='divider'></div>
-      <p>At Escondido Bay, we pride ourselves on being able to cater to the needs of all of our guests, no matter their dietary restrictions or preferences. If none of our pre-set menus suit your tastes or requirements, don't worry! We offer a range of customizable options so that you can have a unique and personalized dining experience.
+      <p>At Escondido Bay, we pride ourselves on being able to cater to the needs of all of our guests, no matter their dietary restrictions or preferences. If none of our pre-set menus suit your tastes or requirements, don&apos;t worry! We offer a range of customizable options so that you can have a unique and personalized dining experience.
       <br/><br/>
       We understand that some guests may have food allergies or follow religious beliefs that restrict certain foods, while others may be vegetarians or vegans. Whatever the reason, we are happy to create a tailored menu that meets your needs.
       <br/><br/>
-      We are also open to fulfilling any special requests you may have for your menu. Whether it's a favorite dish or cuisine you're craving, or a unique idea you have in mind, our team is dedicated to bringing your vision to life.
+      We are also open to fulfilling any special requests you may have for your menu. Whether it&apos;s a favorite dish or cuisine you&apos;re craving, or a unique idea you have in mind, our team is dedicated to bringing your vision to life.
       <br/><br/>
       Our goal is to make your dining experience at Escondido Bay as memorable and enjoyable as possible. So, let us know what you need, and we will work together to create a delicious and personalized menu just for you. Contact us to discuss your specific needs and preferences.</p>
       <h2>Our Island Hopping Pricing in Overview</h2>
