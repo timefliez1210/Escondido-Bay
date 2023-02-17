@@ -261,10 +261,10 @@ export default function PADI_diving_courses() {
       />
       <div id='eight'></div>
       <Card
-        heading={'Wreck Diver Certification'}
+        heading={'Wreck Diver Training in Cebu'}
         title={'Explore the Wrecks of the Ocean with Escondido Bay Dive Center\'s Wreck Diving Specialty Course'}
         text={"Ready to explore the wrecks of the ocean? Then consider Escondido Bay Dive Center's Wreck Diving Specialty course. Our experienced instructors will guide you through the basics of wreck diving, giving you the skills and knowledge you need to dive safely and comfortably.\n\nWreck diving offers a unique and fascinating look at history, with the chance to explore the remains of shipwrecks, planes, and other vessels. With a focus on safety, education, and adventure, our wreck diving specialty course will help you develop the skills and knowledge you need to dive safely and confidently.\n\nChoose Escondido Bay Dive Center as your wreck diving experts and explore the history of the ocean. With our commitment to safety and exploration there isn\'t a better place.\n\n\nThe Price for the Wreck Diving Certification is PHP14,000."}
-        src={'/Padi-Wreck-Diver-Specialty.jpeg'}
+        src={'/Wreck-Diving-Education-Mactan.jpg'}
         alt={'Wreck Diver Specialty in Cebu, Philippines'}
         layout={'fill'}
         objectFit={'contain'}

@@ -19,8 +19,8 @@ export default function contact() {
       <Banner
         heading={'Contact'}
         title={'Contact us with inquiries and questions'}
-        src={'/Escondido-Bay.png'}
-        alt={'Contact us for Inquiries and Questions'}
+        src={'/sunset-in-Lapu-Lapu-City.jpg'}
+        alt={'Contact your Dive Center and Island Hopping tour with questions and bookings in Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
       />

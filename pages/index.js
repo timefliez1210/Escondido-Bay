@@ -25,8 +25,8 @@ const Home = () => {
     },
     {
       title: "Island Hopping",
-      image: "/Island-hopping.JPG",
-      alt: "Island Hopping with Escondido Bay",
+      image: "/Island-Hopping-Around-Mactan.JPG",
+      alt: "Island Hopping with Escondido Bay on Mactan Island",
       text: "Indulge in a captivating and enlightening experience with us in the tranquil waters of Mactan. Whether you are an avid island hopper or an enthusiastic snorkeler, we offer a once-in-a-lifetime adventure, full of breathtaking beauty and unexpected treasures waiting to be discovered.\n\nTake a break from the hectic pace of city life and join us on an unforgettable journey to uncover the hidden wonders of the sea. Recharge your batteries on the deck of our boat, surrounded by the calming sounds of music and the fresh sea air. Savor the taste of cold beers and delicious cocktails while basking in the stunning scenery that surrounds you.\n\n",
       href: "island_hopping",
       button: "Island Hopping",
@@ -48,8 +48,8 @@ const Home = () => {
         heading={'Escondido Bay Dive Center'}
         title={'Discover the Beauty Above and Below the Waves with our Expert Diving and Island Hopping Adventures.'}
         text={"The ship's history is richly steeped in a very heroic and distinguished past having been constructed so robustly that it was often used in rescue and salvage operations during turbulent sea conditions and inclement weather. Being so sturdy, it was also often used as avcargo vessel for inter-island transfers of goods, supplies and personnel, hence its past namesake “The Warrior”, a true testament to its sea worthiness and brawn.\n\n While today, it has maintained the basic structure consisting of a heavily strengthened frame and hull, the vessel has undergone a complete refurbishment focused on catering for comfortable and very safe passages from island to island, diving or events for groups of up to 40 people."}
-        src={'/escondido-bay-boat.JPG'}
-        alt={'Escondido Bay Boat Services'}
+        src={'/Escondido-Bay-Dive-Center-Lapu-Lapu-City.JPG'}
+        alt={'Dive Center with daily diving, education around diving and Island Hopping'}
       />
       <ServiceDisplay
         title={'Diving and Island Hopping'}

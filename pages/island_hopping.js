@@ -47,8 +47,8 @@ export default function island_hopping() {
       <Banner
         heading={'Our Island Hopping Deals'}
         title={'Discover Paradise Above and Below the Waves - Explore our Beaches and Reefs'}
-        src={'/Island-hopping.JPG'}
-        alt={'Island Hopping around Mactran'}
+        src={'/Island-Hopping-Around-Mactan.JPG'}
+        alt={'Your Island Hopping Adventure from Lapu-Lapu City, Cebu'}
         layout={'fill'}
         objectFit={'contain'}
       />
