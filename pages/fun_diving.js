@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
 import ServiceDisplay from '../components/ServiceDisplay'
+import Cta from '../components/Cta'
 
 export default function fun_diving() {
   const display = [
@@ -19,7 +20,7 @@ export default function fun_diving() {
       title: "Boat Dives",
       image: "/Boat-Diving-Cebu.JPG",
       alt: "Dive the beautiful Islands around Lapu-Lapu City",
-      text: "Embark on a scuba diving adventure with us at Mactan Island any day of the week. Discover the beauty of Nalusuan Island, Gilutongan Island, and Olango Marine Sanctuaries and immerse yourself in their rich marine biodiversity. Please note that equipment rental is not included in the package.\n\nFor 2 dives, the cost is PHP 3,500, while 3 dives will cost PHP 5,500. This package includes lunch and snacks, coffee, and water. If you choose 2 dives, there will not be a BBQ provided, but after-dive snacks instead.\n\nAfter your dive, unwind with a drink from our bar, which is available for an additional charge based on consumption. Join us for a memorable diving experience in the stunning waters of Mactan Island.\n\n",
+      text: "Embark on a scuba diving adventure with us at Mactan Island any day of the week. Discover the beauty of Nalusuan Island, Gilutongan Island, and Olango Marine Sanctuaries and immerse yourself in their rich marine biodiversity. Please note that equipment rental is not included in the package.\n\nFor 2 dives, the cost is PHP 3,500, while 3 dives will cost PHP 5,000. This package includes lunch and snacks, coffee, and water. If you choose 2 dives, there will not be a BBQ provided, but after-dive snacks instead.\n\nAfter your dive, unwind with a drink from our bar, which is available for an additional charge based on consumption. Join us for a memorable diving experience in the stunning waters of Mactan Island.\n\n",
       href: "contact",
       button: "Boat dive with us",
       key: "2",
@@ -48,7 +49,6 @@ export default function fun_diving() {
       <Banner
         heading={'Fun Diving with us'}
         title={'Dive into adventure, immerse in beauty'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
         src={'/fun_diving_hero.jpg'}
         alt={'Fun Diving around Mactan Island, Lapu-Lapu City and Cordova'}
       />
@@ -66,7 +66,63 @@ export default function fun_diving() {
       title='Our Fun Diving Offers'
       display={display}
       />
-      <h1>Our Divesites around Mactan</h1>
+      <h2>Our Fun Diving Pricing around Lapu-Lapu City in Overview</h2>
+      <div className='divider'></div>
+      <div className='overflow'>
+        <table className="styled-table">
+          <thead>
+            <tr>
+              <th>Description</th>
+              <th>Inclusions</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Our Sunday Fun Dive Promo</td>
+              <td>3 Dives on air at one of our beautiful Sanctuaries<br/><br/>Homemade and Fresh BBQ-Lunch<br/><br/>Equipment, if needed<br/><br/>Snacks, Coffee and Fruits<br/><br/>Soothing tunes during our Surface time<br/><br/>Fixed Price Guarantee</td>
+              <td>PHP 4,500</td>
+            </tr>
+            <tr>
+              <td>3 Boat Dives any day of the Week</td>
+              <td>3 Dives on air at one of our beautiful Sanctuaries<br/><br/>Homemade and Fresh BBQ-Lunch<br/><br/>Snacks, Coffee and Fruits<br/><br/>Soothing tunes during our Surface time<br/><br/>Fixed Price Guarantee</td>
+              <td>PHP 5,000</td>
+            </tr>
+            <tr>
+              <td>2 Boat Dives any day of the Week</td>
+              <td>3 Dives on air at one of our beautiful Sanctuaries<br/><br/>Instead of BBQ-Lunch we offer on 2 Dives a big snack<br/><br/>Snacks, Coffee and Fruits<br/><br/>Soothing tunes during our Surface time<br/><br/>Fixed Price Guarantee</td>
+              <td>PHP 3,500</td>
+            </tr>
+            <tr>
+              <td>Shore Diving Packages</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>1 Dive from shore</td>
+              <td>Marine Entrance Fees<br/><br/>1 Tank or Air<br/><br/>Weights</td>
+              <td>PHP 1,300</td>
+            </tr>
+            <tr>
+              <td>Every following dive from shore on the same day and location</td>
+              <td>1 Tank or Air<br/><br/>Weights</td>
+              <td>PHP 600</td>
+            </tr>
+            <tr>
+              <td>Long Distance Trips incl. 2 or 3 Dives</td>
+              <td>2 or 3 Dives on air at one of our beautiful long hauls<br/><br/>Homemade and Fresh BBQ-Lunch<br/><br/>Equipment, if needed<br/><br/>Snacks, Coffee and Fruits<br/><br/>Soothing tunes during our Surface time<br/><br/>Fixed Price Guarantee</td>
+              <td>Starting at PHP 6,000</td>
+            </tr>
+            <tr>
+              <td>Additional we are happy to consult with you over <br/>other Diving Destinations in the Philippines</td>
+              <td>In case you want to have recommendations about places beside the ones we offer, <br/>we can connect you with friends and people we know in various places all around the Philippines, <br/>so you can enjoy your holidays effortless.</td>
+              <td>Free for Customers</td>
+            </tr>
+          </tbody>
+      </table>
+      </div>
+      <Cta text='Book your adventure' />  
+      <h2>Our Divesites around Mactan</h2>
       <div className='divider'></div>
       <Card
         heading={'Nalusuan Island'}
@@ -118,6 +174,8 @@ export default function fun_diving() {
         objectFit={'contain'}
         button={'Dive Baring with us'}
       />
+      <h2>Our Medium and Long Haul Destinations from Lapu-Lapu City</h2>
+      <div className='divider'></div>
       <Card
         heading={'Cabilao Island, Bohol'}
         title={'Explore Talima\'s vibrant reefs, walls & swim-throughs, teeming with octopuses & pelagics.'}
@@ -129,9 +187,13 @@ export default function fun_diving() {
         button={'Dive Cabilao with us'}
       />
       <style jsx>{`
-       h1 {
+       h1, h2 {
         text-align: center;
-        margin: 20px 0px;
+        margin: 50px 0px 20px 0px;
+       }
+       p {
+        max-width: 80vw;
+        margin: 20px auto;
        }
        .divider {
         height: 3px;
@@ -139,6 +201,38 @@ export default function fun_diving() {
         background: white;
         margin: auto auto;
       }
+      .styled-table {
+        border-collapse: collapse;
+        margin: 25px auto;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .styled-table thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+  }
+  .styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: black;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.overflow {
+  overflow-x: auto;
+}
        `}</style>
   </div>
   )
