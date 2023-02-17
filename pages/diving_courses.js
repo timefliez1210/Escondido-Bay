@@ -34,7 +34,7 @@ export default function PADI_diving_courses() {
         <br/><br/>
         Our experienced and certified instructors provide personalized training and guidance to ensure that our students receive the best possible instruction and are well-prepared for their future dives. We also provide all necessary equipment and use state-of-the-art facilities to ensure that our students have a safe and enjoyable learning experience.
         <br/><br/>
-        Whether you're just starting out or looking to expand your skills, our diving courses in Lapu-Lapu City offer something for everyone. Join us for an unforgettable underwater adventure!
+        Whether you&apos;re just starting out or looking to expand your skills, our diving courses in Lapu-Lapu City offer something for everyone. Join us for an unforgettable underwater adventure!
       </p>
       <h2>Our Diving Courses in Overview</h2>
       <div className='divider'></div>
@@ -163,7 +163,7 @@ export default function PADI_diving_courses() {
             </tr>
             <tr>
               <td>Sidemount Training</td>
-              <td>Sidemount training is a diving technique where cylinders are attached to the diver's sides, allowing for greater flexibility and ease of movement underwater.<br/>Duration: 1-2 Days</td>
+              <td>Sidemount training is a diving technique where cylinders are attached to the diver&apos;s sides, allowing for greater flexibility and ease of movement underwater.<br/>Duration: 1-2 Days</td>
               <td>PHP 15,000</td>
               <td>
                 <Link 
