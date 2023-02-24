@@ -178,7 +178,7 @@ export default function PADI_diving_courses() {
           </tbody>
       </table>
       </div>
-      <Cta text='Get in Touch' />  
+      <Cta text='Get in Touch' buttontTitle='Book your Diving Course in Mactan' />  
       <p className="desciption">Please note that above times are indicative and assume you finished the theory with e-learning before we start hands-on training</p>
       <h2>Our Training on Mactan in detail</h2>
       <div className='divider'></div>
@@ -192,6 +192,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Open Water Course'}
+        buttontTitle={'Your Open Water Course in Lapu-Lapu City'}
       />
       <div id='two'></div>
       <Card
@@ -203,6 +204,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your DSD Experience'}
+        buttontTitle={'Discover Scuba with Escondido Bay Dive Center, Cebu'}
       />
       <div id='three'></div>
       <Card
@@ -214,6 +216,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Advanced Course'}
+        buttontTitle={'Redifine your Skills now with Advanced Open Water on Mactan, Cebu'}
       />
       <div id='four'></div>
       <Card
@@ -225,6 +228,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Rescue Course'}
+        buttontTitle={'Rescue Diver and First Responder in Lapu-Lapu City'}
       />
       <div id='five'></div>
       <Card
@@ -236,6 +240,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Divemaster'}
+        buttontTitle={'Book your Divemaster Internship in Cebu with Escondido Bay Dive Center'}
       />
       <div id='six'></div>
       <Card
@@ -247,6 +252,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Nitrox Course'}
+        buttontTitle={'Learn to Dive Nitrox in Lapu-Lapu City, Cebu'}
       />
       <div id='seven'></div>
       <Card
@@ -258,6 +264,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Deep Specialty'}
+        buttontTitle={'Dive to a Maximum of 40m with our Deep Specialty Course'}
       />
       <div id='eight'></div>
       <Card
@@ -269,6 +276,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Wreck Certification'}
+        buttontTitle={'Dive the sunken treasures of the Philippines'}
       />
       <div id='nine'></div>
       <Card
@@ -280,6 +288,7 @@ export default function PADI_diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Sidemount Course'}
+        buttontTitle={'Dive with more flexibility on Sidemount, book with us now on Mactan'}
       />
       <style jsx>{`
        h1, h2 {

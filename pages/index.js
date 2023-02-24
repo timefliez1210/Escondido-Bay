@@ -12,6 +12,7 @@ const Home = () => {
       text: "Embark on an aquatic journey with us and discover the treasure trove of marine life that Mactan and its surrounding islands have to offer. Nalusuan Island, Olango Island, and Hilutongan are among the most pristine dive spots, where you'll encounter an awe-inspiring array of sea creatures. From the tiniest macro life to the most magnificent pelagic animals, your diving experience will be nothing short of extraordinary. With crystal clear waters, vibrant coral reefs, and diverse marine life, the Mactan area promises an unforgettable dive adventure. So, pack your gear and get ready to be swept away by the beauty of the underwater world.\n\n\n",
       href: "fun_diving",
       button: "Fun Diving",
+      buttontTitle: "Book Fun Diving with us on Mactan and our Marine Sanctuaries",
       key: "1",
     },
     {
@@ -21,6 +22,7 @@ const Home = () => {
       text: "Unleash the depths of a breathtaking underwater world with us, where the possibilities are endless. Whether you are a beginner who is eager to start a new adventure, or a seasoned diver seeking to continue your education, we have the perfect course for you. Our experienced instructors will guide you through a range of immersive diving experiences, where you can explore the diversity of marine life and discover hidden wonders beneath the waves. With a comprehensive curriculum that covers everything from the basics to advanced techniques, you will be inspired to reach new heights of underwater mastery. So come join us and embark on a journey into the heart of the ocean, where the wonders never cease and the excitement never ends.",
       href: "diving_courses",
       button: "Our Diving Courses",
+      buttontTitle: "Learn to Dive or Improve your Diving with us in Lapu-Lapu City, Cebu",
       key: "2",
     },
     {
@@ -30,6 +32,7 @@ const Home = () => {
       text: "Indulge in a captivating and enlightening experience with us in the tranquil waters of Mactan. Whether you are an avid island hopper or an enthusiastic snorkeler, we offer a once-in-a-lifetime adventure, full of breathtaking beauty and unexpected treasures waiting to be discovered.\n\nTake a break from the hectic pace of city life and join us on an unforgettable journey to uncover the hidden wonders of the sea. Recharge your batteries on the deck of our boat, surrounded by the calming sounds of music and the fresh sea air. Savor the taste of cold beers and delicious cocktails while basking in the stunning scenery that surrounds you.\n\n",
       href: "island_hopping",
       button: "Island Hopping",
+      buttontTitle: "Island Hopping around Mactan with Escondido Bay Dive Center",
       key: "3",
     },
   ]
@@ -64,6 +67,7 @@ const Home = () => {
         layout={'fill'}
         objectFit={'contain'}
         button={'Get in Touch with us'}
+        buttontTitle={'Escondido Bay Dive Center - your one stop destination for Diving and Island Hopping in Lapu-Lapu City, Cebu'}
       />
     </div>
   )

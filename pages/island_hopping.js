@@ -61,6 +61,7 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book your Island Hopping'}
+        buttontTitle={'Contact us for Island Hopping around Mactan Island'}
       />
 
       <ServiceDisplay 
@@ -153,6 +154,7 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book Caohagan with us'}
+        buttontTitle={'Caohagan Island, white Sand Beach near Lapu-Lapu City'}
       />
       <Card
         heading={'Sulpa Island'}
@@ -163,6 +165,7 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book Sulpa with us'}
+        buttontTitle={'Sulpa Island is Mactans hidden gem for Island Hopping'}
       />
       <Card
         heading={'Gilutongan Island'}
@@ -173,6 +176,7 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Snorkel Gilutongan with us'}
+        buttontTitle={'Snorkel Gilutongang Island with Escondido Bay Dive Center, Cebu'}
       />
       <Card
         heading={'Nalusuan Island'}
@@ -183,6 +187,7 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Snorkel Nalusuan with us'}
+        buttontTitle={'From Lapu-Lapu City to Nalusuan for Snorkeling with Escondido Bay Dive Center'}
       />
       <h2>Island Hopping Destinations further away but worth the Trip</h2>
       <div className='divider'></div>
@@ -195,6 +200,7 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book Pandanon with us'}
+        buttontTitle={'Charter our boat in Mactan and Explore Pandanon Island'}
       />
       <Card
         heading={'North Sandbar'}
@@ -205,6 +211,7 @@ export default function island_hopping() {
         layout={'fill'}
         objectFit={'contain'}
         button={'Book North Sandbar with us'}
+        buttontTitle={'Boat Charters from Mactan to the North of Bohol with Escondido Bay Dive Center'}
       />
       <style jsx>{`
        h1, h2 {

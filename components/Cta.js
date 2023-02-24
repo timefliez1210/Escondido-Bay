@@ -6,7 +6,7 @@ export default function Cta(props) {
     <div>
         <Link
         href='/contact'
-        title='Get in Touch with Escondido Bay Dive Center'
+        title={props.buttontTitle}
         style={{ textDecoration: 'none' }}
         >
             <button><i class='bx bxl-whatsapp'></i>{props.text}</button>
