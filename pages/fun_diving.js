@@ -90,7 +90,7 @@ export default function fun_diving() {
             </tr>
             <tr>
               <td>2 Boat Dives any day of the Week</td>
-              <td>3 Dives on air at one of our beautiful Sanctuaries<br/><br/>Instead of BBQ-Lunch we offer on 2 Dives a big snack<br/><br/>Snacks, Coffee and Fruits<br/><br/>Soothing tunes during our Surface time<br/><br/>Fixed Price Guarantee</td>
+              <td>2 Dives on air at one of our beautiful Sanctuaries<br/><br/>Instead of BBQ-Lunch we offer on 2 Dives a big snack<br/><br/>Snacks, Coffee and Fruits<br/><br/>Soothing tunes during our Surface time<br/><br/>Fixed Price Guarantee</td>
               <td>PHP 3,500</td>
             </tr>
             <tr>
