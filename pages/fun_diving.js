@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import Card from '../components/Card'
 import ServiceDisplay from '../components/ServiceDisplay'
 import Cta from '../components/Cta'
+import ReviewLinks from '../components/ReviewLinks'
 
 export default function fun_diving() {
   const display = [
@@ -104,12 +105,12 @@ export default function fun_diving() {
             <tr>
               <td>1 Dive from shore</td>
               <td>Marine Entrance Fees<br/><br/>1 Tank or Air<br/><br/>Weights</td>
-              <td>PHP 1,300</td>
+              <td>PHP 2,000</td>
             </tr>
             <tr>
               <td>Every following dive from shore on the same day and location</td>
               <td>1 Tank or Air<br/><br/>Weights</td>
-              <td>PHP 600</td>
+              <td>PHP 900</td>
             </tr>
             <tr>
               <td>Long Distance Trips incl. 2 or 3 Dives</td>
@@ -127,7 +128,10 @@ export default function fun_diving() {
       <Cta 
       text='Book your adventure'
       buttontTitle="Fun Dive with Escondido Bay Dive Center in Lapu-Lapu City"
-      />  
+      />
+      <br /> <br /><br /> <br />
+      <ReviewLinks title='Read what our Customers say about Fun Diving with us' />  
+      <br /> <br /><br /> <br />
       <h2>Our Divesites around Mactan</h2>
       <div className='divider'></div>
       <Card
@@ -185,6 +189,17 @@ export default function fun_diving() {
         button={'Dive Baring with us'}
         buttontTitle={'Baring Marine Sanctuary at Olango Island, Lapu-Lapu City'}
       />
+      <Card
+        heading={'Kontiki Marina in Maribago'}
+        title={'An Underwater Haven for day and night dives'}
+        text={"Kontiki Marina, located just a short boat ride from Mactan Island, is a fantastic dive site with a wide range of marine life to explore. However, in December 2021, a devastating typhoon hit the region, causing significant damage to the coral reefs. Fortunately, Protect Maribago Bay, a local environmental group, stepped in and built a coral nursery to help restore the aquatic life in the area. At Escondido Bay, we were honored to have the opportunity to contribute to the restoration efforts by assisting with the coral nursery when needed.\n\nDespite the damage caused by the typhoon, the marine life in Kontiki Marina remains abundant. In particular, a large school of sardines has made the area their home, providing a stunning sight for divers. Additionally, the dive site is home to a wide variety of crustaceans and octopuses, making it an excellent location for a night dive.\n\nAt Escondido Bay, we offer diving trips to Kontiki Marina, allowing you to explore this incredible underwater world for yourself. Our experienced dive instructors will guide you through the site, pointing out the various marine species and ensuring your safety throughout the dive.\n\nWhether you're an experienced diver or just starting out, Kontiki Marina is a dive site not to be missed. And with the coral restoration efforts underway, it's a great opportunity to witness the regrowth of coral reefs and the return of marine life to the area. Book your dive trip with Escondido Bay today and experience the beauty of Kontiki Marina."}
+        src={'/kontiki-marina-maribago-cebu.jpg'}
+        alt={'Octopus on the Reef at Kontiki'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Dive Kontiki with us'}
+        buttontTitle={'Explore Diving in Kontiki near Mactan'}
+      />
       <h2>Our Medium and Long Haul Destinations from Lapu-Lapu City</h2>
       <div className='divider'></div>
       <Card
@@ -198,6 +213,28 @@ export default function fun_diving() {
         button={'Dive Cabilao with us'}
         buttontTitle={'Dive Cabilao regularly with us from Lapu-Lapu City'}
       />
+      <Card
+        heading={'Capitancillio, Cebu'}
+        title={'Looking for an exciting dive site near Cebu Island? Look no further than Capitancillo'}
+        text={"A small island located off the eastern coast of Cebu. This dive site is known for its clear waters, healthy corals, and abundant marine life.\n\nCapitancillo is a popular destination for both recreational and technical divers, as it offers a variety of dive sites with varying depths and currents. The shallow reefs around the island are home to a wide range of fish species, including colorful clownfish, vibrant angelfish, and schools of snappers and fusiliers.\n\nOne of the highlights of diving at Capitancillo is the chance to encounter larger marine life, such as turtles, barracudas, and even reef sharks. If you're lucky, you may also spot a majestic manta ray or a whale shark, which are known to visit the area occasionally.\n\nBut it's not just the marine life that makes Capitancillo a must-visit dive site. The island itself is steeped in history and culture, with a lighthouse dating back to the Spanish colonial era standing tall on its highest point.\n\nCapitancillo is also a great spot for night diving, as the waters around the island come alive with crustaceans, octopuses, and other nocturnal creatures. Exploring the reef at night is a unique and unforgettable experience that every diver should try at least once.\n\nAs with any dive site, it's important to dive responsibly and follow safe diving practices. Be sure to dive with a reputable dive operator who prioritizes safety and environmental conservation, and always respect the marine life and their natural habitat.\n\nSo why not add Capitancillo to your diving itinerary when visiting Cebu Island? With its diverse marine life, clear waters, and rich cultural history, it's sure to be a memorable dive experience."}
+        src={'/Capitancillio-Cebu-Escondido-Bay.jpg'}
+        alt={'School of Jacks and Capitancillio in Cebu, Philippines'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Dive Capitancillio with us'}
+        buttontTitle={'Dive Capitancillio regularly with us from Lapu-Lapu City'}
+      />
+      <Card
+      heading={'Camotes Islands, Cebu'}
+      title={'Diving Paradise: Exploring the Wonders of Camotes Islands'}
+      text={"The Camotes Islands, located off the east coast of Cebu Island in the Philippines, are a hidden gem for divers. With its crystal-clear waters, beautiful coral reefs, and diverse marine life, the Camotes Islands offer some of the best diving opportunities in the country.\n\nOne of the most popular dive sites in the Camotes Islands is Poro Wall, a stunning vertical wall that drops to over 30 meters deep. This wall is covered with colorful soft corals and sponges, providing a beautiful backdrop for divers. The wall is also home to a variety of marine life, including frogfish, pygmy seahorses, and schooling fish such as jacks and snappers.\n\nAnother popular dive site in the Camotes Islands is Tulang Diot, which features a beautiful coral garden and a sandy slope that drops to over 20 meters deep. This dive site is a great place to spot macro life such as nudibranchs, ghost pipefish, and seahorses. Schools of barracudas and jacks can also be seen here, as well as larger marine animals such as eagle rays and turtles.\n\nFor those looking for a unique diving experience, the sunken cemetery in the town of San Francisco is a must-visit site. This underwater cemetery was formed after an earthquake in the 1870s caused the cemetery to sink below sea level. Today, the site is home to a variety of marine life, including reef sharks, groupers, and schools of fish.\n\nThe Camotes Islands are also a great place for night diving, with sites such as Green Lagoon offering the opportunity to see a variety of crustaceans, octopuses, and other nocturnal creatures.\n\nWhether you are a beginner or an experienced diver, the Camotes Islands offer a truly unforgettable diving experience. With its stunning underwater landscapes and diverse marine life, this hidden gem is not to be missed."}
+      src={'/Diving-Camotes-Island.jpg'}
+      alt={'Huge Green Sea Turtle of the Coast of Camotes Islands'}
+      layout={'fill'}
+      objectFit={'contain'}
+      button={'Dive Camotes with us'}
+      buttontTitle={'Dive Camotes regularly with us from Lapu-Lapu City'}
+    />
       <style jsx>{`
        h1, h2 {
         text-align: center;

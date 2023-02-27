@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { RiMenu4Line } from "react-icons/ri";
 import Image from 'next/legacy/image'
+import Cta from './Cta'
 
 
 const Navbar = ({ navLinks }) => {
@@ -53,9 +54,10 @@ const Navbar = ({ navLinks }) => {
               >
                 <p>{Links.text}</p> 
               </Link>
+              
             </li>
           ))}
-          
+          <Cta text='Contact'/>
         </ul>
       </nav>
       <style jsx>{`

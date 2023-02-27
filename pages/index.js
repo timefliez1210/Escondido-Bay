@@ -58,17 +58,35 @@ const Home = () => {
         title={'Diving and Island Hopping'}
         display={display}
       />
+      <h2>Find out more about our Dive Center here on Mactan, Cebu</h2>
+      <div className='divider'></div>
       <Card
-        heading={'About us and what we stand for'}
-        title={'Escondido Bay Dive Center: A Passion for Conservation and Education in the Heart of Mactan Island'}
-        text={"Located in the bustling city of Lapu-Lapu, Escondido Bay Dive Center offers visitors a unique opportunity to explore the stunning coral reefs and diverse marine life of Mactan Island and beyond. The center is only 5 months old, but its owners, Akira, Clemens and team, are already making a big impact in the local diving community.\n\nAt Escondido Bay, conservation and education are at the forefront of the business. Akira, Clemens and their team are passionate about the ocean and the creatures that call it home, and they are dedicated to sharing that passion with others. Through their diving courses and fun diving trips, they aim to educate people about the importance of the ocean and the need to protect it for future generations.\n\nWith 5 regularly operated dive sites, Escondido Bay offers a variety of underwater experiences for all levels of divers. From the stunning Nalusuan Marine Sanctuary, to the diverse marine life of Gilutongan Marine Sanctuary, to the unique Talima Marine Sanctuary, to the beautiful coral formations at Kontiki, and the exciting Marigondon Cave, there is something for everyone. And for those looking to explore even further afield, Escondido Bay also operates long haul trips via boat to the beautiful Cabilao Island, the MV San Juan in Liloan, and the Danajon Double Barrier Reef.\n\nEscondido Bay is equipped to educate divers of all levels, from absolute beginners all the way to professional and technical divers. The center's experienced instructors are knowledgeable and patient, ensuring that even beginners feel comfortable and confident underwater. And for those who are already certified, Escondido Bay offers a range of exciting dive trips to some of the best dive sites in the area.\n\nAnd for those who want to experience the beauty of Mactan beyond the underwater world, Escondido Bay offers island hopping trips. Explore the stunning beaches, breathtaking scenery, and rich cultural heritage of the nearby islands and make memories to last a lifetime.\n\nSo whether you're a seasoned scuba diver or just getting started, come and discover the world under the waves with Escondido Bay Dive Center. With its commitment to conservation and education, you're sure to have a unique and memorable experience."}
-        src={'/about_escondido_bay.jpg'}
-        alt={'Escondido Bay in Lapu-Lapu City committed to excellence'}
+        heading={'Get to Know Us'}
+        title={'Our Story, Mission, and Team at Escondido Bay'}
+        text={"Learn more about who we are at Escondido Bay and our journey in creating a premier diving destination in Mactan, Cebu. Discover our passion for the ocean and commitment to sustainable tourism, as well as meet our team of experienced and dedicated dive instructors and staff who ensure your safety and enjoyment on every dive. Explore our mission to provide top-notch service and create unforgettable memories for every guest, and see how our unique backgrounds and expertise contribute to making Escondido Bay a truly exceptional experience.\n\nAs a diving center, our main goal is to provide a safe and unforgettable experience for our customers. We understand that diving can be a daunting and intimidating activity for some people, which is why we make it our priority to create a relaxed and welcoming environment. Our team of experienced and certified instructors will guide you through every step of the way, ensuring that you feel comfortable and confident during your dive. We also offer a variety of diving courses, from beginner to advanced levels, so that you can improve your skills and become a certified diver.\n\nIn addition to our diving services, we also offer various activities and tours for non-divers. Our island hopping tours are a great way to explore the beautiful surrounding islands and beaches, while our snorkeling tours allow you to discover the underwater world without diving. For those who prefer to stay on land, we also organize cultural tours and nature hikes to experience the local way of life and natural beauty of the Philippines. Whatever your preference may be, we strive to provide an all-inclusive experience that caters to your interests and desires."}
+        src={'/more-about-escondido-bay-mactan.jpg'}
+        alt={'Escondido Bay one stop destination for diving and Island Hopping on Mactan'}
         layout={'fill'}
         objectFit={'contain'}
-        button={'Get in Touch with us'}
+        button={'Find out more about us'}
         buttontTitle={'Escondido Bay Dive Center - your one stop destination for Diving and Island Hopping in Lapu-Lapu City, Cebu'}
+        link={'/about'}
       />
+      <style jsx>{`
+       h1, h2 {
+        text-align: center;
+        margin: 50px 0px 20px 0px;
+       }
+       h3 {
+        text-align: left;
+       }
+       .divider {
+        height: 3px;
+        width: 15%;
+        background: white;
+        margin: auto auto;
+       }
+       `}</style>
     </div>
   )
 }

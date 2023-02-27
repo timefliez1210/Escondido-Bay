@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
 import ServiceDisplay from '../components/ServiceDisplay'
+import ReviewLinks from '../components/ReviewLinks'
 
 export default function island_hopping() {
   const display = [
@@ -143,6 +144,9 @@ export default function island_hopping() {
   </tbody>
 </table>
 </div>
+<br /> <br /><br /> <br />
+      <ReviewLinks title='Read what our Customers say about Island Hopping with us' />  
+      <br /> <br /><br /> <br />
       <h2>Island Hopping Destinations around Lapu-Lapu City</h2>
       <div className='divider'></div>
       <Card

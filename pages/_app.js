@@ -27,10 +27,11 @@ function MyApp({ Component, pageProps }) {
       key: "4",
     },
     {
-      text: "Contact",
-      path: "/contact",
+      text: "About us",
+      path: "/about",
       key: "5",
     },
+
   ];
   return (
     <div>

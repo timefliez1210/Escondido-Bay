@@ -3,8 +3,9 @@ import Banner from '../components/Banner'
 import Card from '../components/Card'
 import Link from 'next/link'
 import Cta from '../components/Cta'
+import ReviewLinks from '../components/ReviewLinks'
 
-export default function PADI_diving_courses() {
+export default function diving_courses() {
   return (
     <div>
       <Head>
@@ -164,7 +165,7 @@ export default function PADI_diving_courses() {
             <tr>
               <td>Sidemount Training</td>
               <td>Sidemount training is a diving technique where cylinders are attached to the diver&apos;s sides, allowing for greater flexibility and ease of movement underwater.<br/>Duration: 1-2 Days</td>
-              <td>PHP 15,000</td>
+              <td>PHP 16,000</td>
               <td>
                 <Link 
                 href="#nine" 
@@ -180,6 +181,9 @@ export default function PADI_diving_courses() {
       </div>
       <Cta text='Get in Touch' buttontTitle='Book your Diving Course in Mactan' />  
       <p className="desciption">Please note that above times are indicative and assume you finished the theory with e-learning before we start hands-on training</p>
+      <br /> <br /><br /> <br />
+      <ReviewLinks title='Read what our Customers say about our Diving Courses' />  
+      <br /> <br /><br /> <br />
       <h2>Our Training on Mactan in detail</h2>
       <div className='divider'></div>
       <div id='one'></div>
@@ -290,6 +294,18 @@ export default function PADI_diving_courses() {
         button={'Book your Sidemount Course'}
         buttontTitle={'Dive with more flexibility on Sidemount, book with us now on Mactan'}
       />
+      <div id='ten'></div>
+      <Card
+        heading={'Night and Limited Visibility Diving Specialty'}
+        title={'Learn more about the special underwater world here on Mactan at night'}
+        text={"Night and limited visibility diving can be some of the most thrilling experiences a diver can have. But it requires special training and equipment to do it safely. That's where the Night and Limited Visibility Specialty comes in.\n\nThis specialty course teaches divers how to navigate and communicate underwater in low light conditions, as well as how to handle emergency situations. Divers will also learn about the different types of nocturnal marine life and how to observe them without disturbing their natural behavior.\n\nOne of the most important aspects of night diving is having the right gear. Divers need a reliable dive light to illuminate their path and to be able to communicate effectively with their dive buddy. It's also recommended to have a backup light in case of equipment failure.\n\nLimited visibility diving, such as in murky water or strong currents, can also be challenging but equally rewarding. This specialty course will teach divers how to handle the unique challenges presented by these conditions, such as how to maintain proper buoyancy and how to navigate safely.\n\nBy taking the Night and Limited Visibility Specialty course, divers can expand their diving capabilities and explore a whole new world underwater. So, don't be afraid of the dark or low visibility - embrace it and become a more confident and skilled diver!/n/nThe Price for Night and Limited Visibility Specialty is PHP15,000."}
+        src={'/Cuttlefish-at-nicht-on-Mactan.jpg'}
+        alt={'Night Diving on Mactan'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Book your Night Diving Course'}
+        buttontTitle={'Dive with more flexibility on Sidemount, book with us now on Mactan'}
+      />
       <style jsx>{`
        h1, h2 {
         text-align: center;
@@ -344,15 +360,3 @@ export default function PADI_diving_courses() {
  </div>
   )
 }
-/*
-      
-      <Card
-        heading={'PADI Night Diving Specialty'}
-        title={'Learn more about the special world at night'}
-        text={"But our boat is fully operational. Please dont be shy to contact us on Facebook, Whatapp, Viber or simply a call to book our boat or diving courses."}
-        src={'/Escondido-Bay.jpg'}
-        alt={'Diving on mactan'}
-        layout={'fill'}
-        objectFit={'contain'}
-      />
-       */

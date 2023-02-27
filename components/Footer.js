@@ -16,8 +16,8 @@ export default function Footer() {
         </div>
       <div className="content">
         <h2>Contact</h2>
-        <p><FaViber color='white' fontSize='20px' /> +6391 989 789 45</p>
-        <p><FaWhatsapp color='white' fontSize='20px' /> +6391 989 789 45</p>
+        <p><FaViber color='white' fontSize='20px' /> +63 91 989 789 45</p><br />
+        <p><FaWhatsapp color='white' fontSize='20px' /> +63 91 989 789 45</p><br />
         <p><FaFacebook color='white' fontSize='20px' /> @EscondidoBay </p>
       </div>  
       <div className="content">
@@ -41,7 +41,11 @@ export default function Footer() {
             padding: 20px;
             margin: 0;
         } 
-        
+        p {
+          text-align: left;
+          width: 60%;
+          margin: auto;
+        }
 
 
         .divider {
