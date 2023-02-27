@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("MWCMChatSettingsOpenInbox.react",["fbt","ix","I64","MWInboxCommunityThreadsRouteBuilder.bs","MWMenuItem.react","ODS","fbicon","react","useCommunityFolder"],(function(a,b,c,d,e,f,g,h,i){"use strict";var j=d("react");function a(a){a=a.thread;var b=c("useCommunityFolder")(a);if(b===void 0)return null;b=d("MWInboxCommunityThreadsRouteBuilder.bs").buildURL({folder_id:d("I64").to_string(b.folderId),thread_key:d("I64").to_string(a.threadKey)});return j.jsx(c("MWMenuItem.react"),{href:b,icon:d("fbicon")._(i("505620"),20),onClick:function(a){d("ODS").bumpEntityKey(3185,"mwchat_settings","open_messenger")},primaryText:h._("__JHASH__AoEzAyipqOb__JHASH__"),testid:void 0})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);

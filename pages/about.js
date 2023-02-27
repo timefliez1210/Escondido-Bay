@@ -66,11 +66,11 @@ export default function about() {
       <h2>Mactan Ocean Adventure with our Boat</h2>
       <div className='divider'></div>
       <p>
-      Our boat has a rich and distinguished history, having been constructed so robustly that it was often used in rescue and salvage operations during turbulent sea conditions and inclement weather. Its sea worthiness and brawn earned it the name "The Warrior" during its days as a cargo vessel for inter-island transfers of goods, supplies, and personnel.
+      Our boat has a rich and distinguished history, having been constructed so robustly that it was often used in rescue and salvage operations during turbulent sea conditions and inclement weather. Its sea worthiness and brawn earned it the name &quot;The Warrior&quot; during its days as a cargo vessel for inter-island transfers of goods, supplies, and personnel.
       <br /><br />
 Today, our vessel has undergone a complete refurbishment focused on providing a comfortable and safe experience for up to 50 people during island hopping and diving trips from Mactan. While it maintains its heavily strengthened frame and hull, our boat has been modernized with amenities to ensure a smooth and enjoyable journey.
 <br /><br />
-Whether you're embarking on a fun diving trip, a diving course, or simply enjoying a leisurely island hopping excursion, our boat provides the perfect setting for your adventure. With a keen focus on safety and comfort, our crew ensures that you'll have a memorable and stress-free experience on the water.
+Whether you&apos;re embarking on a fun diving trip, a diving course, or simply enjoying a leisurely island hopping excursion, our boat provides the perfect setting for your adventure. With a keen focus on safety and comfort, our crew ensures that you&apos;ll have a memorable and stress-free experience on the water.
       </p>
       <style jsx>{`
        h1, h2 {

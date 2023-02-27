@@ -19,9 +19,9 @@ function Reviews(props) {
               <p>
                 Really enjoyed my first diving experience at Nalusuan marine sanctuary. The ecosystem there was amazing, we saw various coral reef and colorful fish. The Discover Scuba Diving (DSD) experience was fantastic.😍
                 <br /> 
-                Clemens gave detailed explanation of everything I need to know under water, and he showed great patience & support while my father and I managed to control our balance. Thanks to Clemens' instruction, my diving time even improved from 20 mins (1st dive) to 40 mins (3rd dive)!
+                Clemens gave detailed explanation of everything I need to know under water, and he showed great patience & support while my father and I managed to control our balance. Thanks to Clemens&apos; instruction, my diving time even improved from 20 mins (1st dive) to 40 mins (3rd dive)!
                 <br /> 
-                Next time when visiting Cebu, Escondido Bay will definitely be our first choice and I'd like to get a license then!💪
+                Next time when visiting Cebu, Escondido Bay will definitely be our first choice and I&apos;d like to get a license then!💪
                 <br /> 
                 Great thanks again to Clemens, Akira, and everyone in Escondido Bay. See you next time!
               </p>
@@ -35,7 +35,7 @@ function Reviews(props) {
             <div className="box">
             <p className='icons'><BsFillStarFill color='gold' />  <BsFillStarFill color='gold' />  <BsFillStarFill color='gold' />  <BsFillStarFill color='gold' />  <BsFillStarFill color='gold' /></p>
               <h3>
-                Overall, I can't recommend him highly enough. Whether you are looking for top notch instruction, fun diving, or chilling on the boat, Clemens is your man.
+                Overall, I can&apos;t recommend him highly enough. Whether you are looking for top notch instruction, fun diving, or chilling on the boat, Clemens is your man.
               </h3>
 
               <p>
