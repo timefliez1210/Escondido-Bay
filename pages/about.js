@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
 import Reviews from '../components/Reviews'
+import H2 from '../components/utils/H2'
+import Paragraph from '../components/utils/Paragraph'
+import Divider from '../components/utils/Divider'
 
 export default function about() {
   return (
@@ -34,8 +37,8 @@ export default function about() {
         button={'Get in Touch with us'}
         buttontTitle={'Escondido Bay Dive Center - your one stop destination for Diving and Island Hopping in Lapu-Lapu City, Cebu'}
       />
-      <h2>Meet the Team</h2>
-      <div className='divider'></div>
+      <H2 heading='Meet the Team' />
+      <Divider />
       <Card
         heading={'Clemens'}
         title={'Accomplished Dive Instructor and Certified Technical Diver Based on Mactan'}
@@ -63,34 +66,9 @@ export default function about() {
         layout={'fill'}
         objectFit={'contain'}
       />
-      <h2>Mactan Ocean Adventure with our Boat</h2>
-      <div className='divider'></div>
-      <p>
-      Our boat has a rich and distinguished history, having been constructed so robustly that it was often used in rescue and salvage operations during turbulent sea conditions and inclement weather. Its sea worthiness and brawn earned it the name &quot;The Warrior&quot; during its days as a cargo vessel for inter-island transfers of goods, supplies, and personnel.
-      <br /><br />
-Today, our vessel has undergone a complete refurbishment focused on providing a comfortable and safe experience for up to 50 people during island hopping and diving trips from Mactan. While it maintains its heavily strengthened frame and hull, our boat has been modernized with amenities to ensure a smooth and enjoyable journey.
-<br /><br />
-Whether you&apos;re embarking on a fun diving trip, a diving course, or simply enjoying a leisurely island hopping excursion, our boat provides the perfect setting for your adventure. With a keen focus on safety and comfort, our crew ensures that you&apos;ll have a memorable and stress-free experience on the water.
-      </p>
-      <style jsx>{`
-       h1, h2 {
-        text-align: center;
-        margin: 50px 0px 20px 0px;
-       }
-       h3 {
-        text-align: left;
-       }
-       .divider {
-        height: 3px;
-        width: 15%;
-        background: white;
-        margin: auto auto;
-       }
-       p {
-        max-width: 80vw;
-        margin: 20px auto;
-       }
-       `}</style>
+      <H2 heading='Mactan Ocean Adventure with our Boat' />
+      <Divider />
+      <Paragraph text={'Our boat has a rich and distinguished history, having been constructed so robustly that it was often used in rescue and salvage operations during turbulent sea conditions and inclement weather. Its sea worthiness and brawn earned it the name "The Warrior" during its days as a cargo vessel for inter-island transfers of goods, supplies, and personnel.\n\nToday, our vessel has undergone a complete refurbishment focused on providing a comfortable and safe experience for up to 50 people during island hopping and diving trips from Mactan. While it maintains its heavily strengthened frame and hull, our boat has been modernized with amenities to ensure a smooth and enjoyable journey.\n\nWhether you are embarking on a fun diving trip, a diving course, or simply enjoying a leisurely island hopping excursion, our boat provides the perfect setting for your adventure. With a keen focus on safety and comfort, our crew ensures that you will have a memorable and stress-free experience on the water.'} />
     </div>
   )
 }

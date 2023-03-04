@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Banner from '../components/Banner'
 import ServiceDisplay from '../components/ServiceDisplay'
 import Card from '../components/Card'
+import H2 from '../components/utils/H2'
+import Divider from '../components/utils/Divider'
 
 const Home = () => {
   const display = [
@@ -58,8 +60,10 @@ const Home = () => {
         title={'Diving and Island Hopping'}
         display={display}
       />
-      <h2>Find out more about our Dive Center here on Mactan, Cebu</h2>
-      <div className='divider'></div>
+      <H2 
+        heading='Find out more about our Dive Center here on Mactan, Cebu' 
+      />
+      <Divider />
       <Card
         heading={'Get to Know Us'}
         title={'Our Story, Mission, and Team at Escondido Bay'}
@@ -72,21 +76,6 @@ const Home = () => {
         buttontTitle={'Escondido Bay Dive Center - your one stop destination for Diving and Island Hopping in Lapu-Lapu City, Cebu'}
         link={'/about'}
       />
-      <style jsx>{`
-       h1, h2 {
-        text-align: center;
-        margin: 50px 0px 20px 0px;
-       }
-       h3 {
-        text-align: left;
-       }
-       .divider {
-        height: 3px;
-        width: 15%;
-        background: white;
-        margin: auto auto;
-       }
-       `}</style>
     </div>
   )
 }

@@ -5,6 +5,8 @@ import Card from '../components/Card'
 import ServiceDisplay from '../components/ServiceDisplay'
 import Cta from '../components/Cta'
 import ReviewLinks from '../components/ReviewLinks'
+import H2 from '../components/utils/H2'
+import Divider from '../components/utils/Divider'
 
 export default function fun_diving() {
   const display = [
@@ -67,11 +69,13 @@ export default function fun_diving() {
         button={'Ask us about Fun Diving'}
       />
       <ServiceDisplay
-      title='Our Fun Diving Offers'
-      display={display}
+        title='Our Fun Diving Offers'
+        display={display}
       />
-      <h2>Our Fun Diving Pricing around Lapu-Lapu City in Overview</h2>
-      <div className='divider'></div>
+      <H2 
+        heading='Our Fun Diving Pricing around Lapu-Lapu City in Overview' 
+      />
+      <Divider />
       <div className='overflow'>
         <table className="styled-table">
           <thead>
@@ -126,14 +130,18 @@ export default function fun_diving() {
       </table>
       </div>
       <Cta 
-      text='Book your adventure'
-      buttontTitle="Fun Dive with Escondido Bay Dive Center in Lapu-Lapu City"
+        text='Book your adventure'
+        buttontTitle="Fun Dive with Escondido Bay Dive Center in Lapu-Lapu City"
       />
       <br /> <br /><br /> <br />
-      <ReviewLinks title='Read what our Customers say about Fun Diving with us' />  
+      <ReviewLinks 
+        title='Read what our Customers say about Fun Diving with us' 
+      />  
       <br /> <br /><br /> <br />
-      <h2>Our Divesites around Mactan</h2>
-      <div className='divider'></div>
+      <H2 
+        heading='Our Divesites around Mactan' 
+      />
+      <Divider />
       <Card
         heading={'Nalusuan Island'}
         title={'Shallow Reefs, a sandy slope and a steep wall'}
@@ -200,8 +208,10 @@ export default function fun_diving() {
         button={'Dive Kontiki with us'}
         buttontTitle={'Explore Diving in Kontiki near Mactan'}
       />
-      <h2>Our Medium and Long Haul Destinations from Lapu-Lapu City</h2>
-      <div className='divider'></div>
+      <H2 
+        heading='Our Medium and Long Haul Destinations from Lapu-Lapu City' 
+      />
+      <Divider />
       <Card
         heading={'Cabilao Island, Bohol'}
         title={'Explore Talima\'s vibrant reefs, walls & swim-throughs, teeming with octopuses & pelagics.'}
@@ -225,64 +235,50 @@ export default function fun_diving() {
         buttontTitle={'Dive Capitancillio regularly with us from Lapu-Lapu City'}
       />
       <Card
-      heading={'Camotes Islands, Cebu'}
-      title={'Diving Paradise: Exploring the Wonders of Camotes Islands'}
-      text={"The Camotes Islands, located off the east coast of Cebu Island in the Philippines, are a hidden gem for divers. With its crystal-clear waters, beautiful coral reefs, and diverse marine life, the Camotes Islands offer some of the best diving opportunities in the country.\n\nOne of the most popular dive sites in the Camotes Islands is Poro Wall, a stunning vertical wall that drops to over 30 meters deep. This wall is covered with colorful soft corals and sponges, providing a beautiful backdrop for divers. The wall is also home to a variety of marine life, including frogfish, pygmy seahorses, and schooling fish such as jacks and snappers.\n\nAnother popular dive site in the Camotes Islands is Tulang Diot, which features a beautiful coral garden and a sandy slope that drops to over 20 meters deep. This dive site is a great place to spot macro life such as nudibranchs, ghost pipefish, and seahorses. Schools of barracudas and jacks can also be seen here, as well as larger marine animals such as eagle rays and turtles.\n\nFor those looking for a unique diving experience, the sunken cemetery in the town of San Francisco is a must-visit site. This underwater cemetery was formed after an earthquake in the 1870s caused the cemetery to sink below sea level. Today, the site is home to a variety of marine life, including reef sharks, groupers, and schools of fish.\n\nThe Camotes Islands are also a great place for night diving, with sites such as Green Lagoon offering the opportunity to see a variety of crustaceans, octopuses, and other nocturnal creatures.\n\nWhether you are a beginner or an experienced diver, the Camotes Islands offer a truly unforgettable diving experience. With its stunning underwater landscapes and diverse marine life, this hidden gem is not to be missed."}
-      src={'/Diving-Camotes-Island.jpg'}
-      alt={'Huge Green Sea Turtle of the Coast of Camotes Islands'}
-      layout={'fill'}
-      objectFit={'contain'}
-      button={'Dive Camotes with us'}
-      buttontTitle={'Dive Camotes regularly with us from Lapu-Lapu City'}
-    />
+        heading={'Camotes Islands, Cebu'}
+        title={'Diving Paradise: Exploring the Wonders of Camotes Islands'}
+        text={"The Camotes Islands, located off the east coast of Cebu Island in the Philippines, are a hidden gem for divers. With its crystal-clear waters, beautiful coral reefs, and diverse marine life, the Camotes Islands offer some of the best diving opportunities in the country.\n\nOne of the most popular dive sites in the Camotes Islands is Poro Wall, a stunning vertical wall that drops to over 30 meters deep. This wall is covered with colorful soft corals and sponges, providing a beautiful backdrop for divers. The wall is also home to a variety of marine life, including frogfish, pygmy seahorses, and schooling fish such as jacks and snappers.\n\nAnother popular dive site in the Camotes Islands is Tulang Diot, which features a beautiful coral garden and a sandy slope that drops to over 20 meters deep. This dive site is a great place to spot macro life such as nudibranchs, ghost pipefish, and seahorses. Schools of barracudas and jacks can also be seen here, as well as larger marine animals such as eagle rays and turtles.\n\nFor those looking for a unique diving experience, the sunken cemetery in the town of San Francisco is a must-visit site. This underwater cemetery was formed after an earthquake in the 1870s caused the cemetery to sink below sea level. Today, the site is home to a variety of marine life, including reef sharks, groupers, and schools of fish.\n\nThe Camotes Islands are also a great place for night diving, with sites such as Green Lagoon offering the opportunity to see a variety of crustaceans, octopuses, and other nocturnal creatures.\n\nWhether you are a beginner or an experienced diver, the Camotes Islands offer a truly unforgettable diving experience. With its stunning underwater landscapes and diverse marine life, this hidden gem is not to be missed."}
+        src={'/Diving-Camotes-Island.jpg'}
+        alt={'Huge Green Sea Turtle of the Coast of Camotes Islands'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Dive Camotes with us'}
+        buttontTitle={'Dive Camotes regularly with us from Lapu-Lapu City'}
+      />
       <style jsx>{`
-       h1, h2 {
-        text-align: center;
-        margin: 50px 0px 20px 0px;
-       }
-       p {
-        max-width: 80vw;
-        margin: 20px auto;
-       }
-       .divider {
-        height: 3px;
-        width: 15%;
-        background: white;
-        margin: auto auto;
-      }
-      .styled-table {
-        border-collapse: collapse;
-        margin: 25px auto;
-        font-size: 0.9em;
-        font-family: sans-serif;
-        min-width: 400px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    }
-    .styled-table thead tr {
-      background-color: #009879;
-      color: #ffffff;
-      text-align: left;
-  }
-  .styled-table th,
-.styled-table td {
-    padding: 12px 15px;
-}
-.styled-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
+        .styled-table {
+          border-collapse: collapse;
+          margin: 25px auto;
+          font-size: 0.9em;
+          font-family: sans-serif;
+          min-width: 400px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        .styled-table thead tr {
+          background-color: #009879;
+          color: #ffffff;
+          text-align: left;
+        }
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+        .styled-table tbody tr {
+          border-bottom: 1px solid #dddddd;
+        }
 
-.styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-  color: black;
-}
+        .styled-table tbody tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+          color: black;
+        }
 
-.styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
-.overflow {
-  overflow-x: auto;
-}
-       `}</style>
+        .styled-table tbody tr:last-of-type {
+          border-bottom: 2px solid #009879;
+        }
+        .overflow {
+          overflow-x: auto;
+        }
+      `}</style>
   </div>
   )
 }

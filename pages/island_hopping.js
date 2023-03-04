@@ -3,6 +3,9 @@ import Banner from '../components/Banner'
 import Card from '../components/Card'
 import ServiceDisplay from '../components/ServiceDisplay'
 import ReviewLinks from '../components/ReviewLinks'
+import H2 from '../components/utils/H2'
+import Paragraph from '../components/utils/Paragraph'
+import Divider from '../components/utils/Divider'
 
 export default function island_hopping() {
   const display = [
@@ -69,17 +72,11 @@ export default function island_hopping() {
         title={'Our Food Packages'}
         display={display}
       />
-      <h2>For those who aren&apos;t satisfied yet or can&apos;t eat certain food</h2>
-      <div className='divider'></div>
-      <p>At Escondido Bay, we pride ourselves on being able to cater to the needs of all of our guests, no matter their dietary restrictions or preferences. If none of our pre-set menus suit your tastes or requirements, don&apos;t worry! We offer a range of customizable options so that you can have a unique and personalized dining experience.
-      <br/><br/>
-      We understand that some guests may have food allergies or follow religious beliefs that restrict certain foods, while others may be vegetarians or vegans. Whatever the reason, we are happy to create a tailored menu that meets your needs.
-      <br/><br/>
-      We are also open to fulfilling any special requests you may have for your menu. Whether it&apos;s a favorite dish or cuisine you&apos;re craving, or a unique idea you have in mind, our team is dedicated to bringing your vision to life.
-      <br/><br/>
-      Our goal is to make your dining experience at Escondido Bay as memorable and enjoyable as possible. So, let us know what you need, and we will work together to create a delicious and personalized menu just for you. Contact us to discuss your specific needs and preferences.</p>
-      <h2>Our Island Hopping Pricing in Overview</h2>
-      <div className='divider'></div>
+      <H2 heading={'For those who aren\'t satisfied yet or can\'t eat certain food'} />
+      <Divider />
+      <Paragraph text={'At Escondido Bay, we pride ourselves on being able to cater to the needs of all of our guests, no matter their dietary restrictions or preferences. If none of our pre-set menus suit your tastes or requirements, don\'t worry! We offer a range of customizable options so that you can have a unique and personalized dining experience.\n\nWe understand that some guests may have food allergies or follow religious beliefs that restrict certain foods, while others may be vegetarians or vegans. Whatever the reason, we are happy to create a tailored menu that meets your needs.\n\nWe are also open to fulfilling any special requests you may have for your menu. Whether it&apos;s a favorite dish or cuisine you\'re craving, or a unique idea you have in mind, our team is dedicated to bringing your vision to life.\n\nOur goal is to make your dining experience at Escondido Bay as memorable and enjoyable as possible. So, let us know what you need, and we will work together to create a delicious and personalized menu just for you. Contact us to discuss your specific needs and preferences.'} />
+      <H2 heading={'Our Island Hopping Pricing in Overview'} />
+      <Divider />
       <div className='overflow'>
             <table className="styled-table">
   <thead>
@@ -143,12 +140,12 @@ export default function island_hopping() {
     </tr>
   </tbody>
 </table>
-</div>
-<br /> <br /><br /> <br />
+      </div>
+      <br /> <br /><br /> <br />
       <ReviewLinks title='Read what our Customers say about Island Hopping with us' />  
       <br /> <br /><br /> <br />
-      <h2>Island Hopping Destinations around Lapu-Lapu City</h2>
-      <div className='divider'></div>
+      <H2 heading={'Island Hopping Destinations around Lapu-Lapu City'} />
+      <Divider />
       <Card
         heading={'Caohagan Island'}
         title={'Caohagan Island: A Must-Visit Destination for Island Hopping near Mactan'}
@@ -193,8 +190,8 @@ export default function island_hopping() {
         button={'Snorkel Nalusuan with us'}
         buttontTitle={'From Lapu-Lapu City to Nalusuan for Snorkeling with Escondido Bay Dive Center'}
       />
-      <h2>Island Hopping Destinations further away but worth the Trip</h2>
-      <div className='divider'></div>
+      <H2 heading={'Island Hopping Destinations further away but worth the Trip'} />
+      <Divider />
       <Card
         heading={'Pandanon Island'}
         title={'Pandanon Island: A Tropical Paradise in the Heart of Cebu'}
@@ -218,20 +215,6 @@ export default function island_hopping() {
         buttontTitle={'Boat Charters from Mactan to the North of Bohol with Escondido Bay Dive Center'}
       />
       <style jsx>{`
-       h1, h2 {
-        text-align: center;
-        margin: 50px 0px 20px 0px;
-       }
-       p {
-        max-width: 80vw;
-        margin: 20px auto;
-       }
-       .divider {
-        height: 3px;
-        width: 15%;
-        background: white;
-        margin: auto auto;
-      }
       .styled-table {
         border-collapse: collapse;
         margin: 25px auto;
@@ -239,31 +222,31 @@ export default function island_hopping() {
         font-family: sans-serif;
         min-width: 400px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    }
-    .styled-table thead tr {
-      background-color: #009879;
-      color: #ffffff;
-      text-align: left;
-  }
-  .styled-table th,
-.styled-table td {
-    padding: 12px 15px;
-}
-.styled-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
+        }
+      .styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+      }
+      .styled-table th,
+      .styled-table td {
+          padding: 12px 15px;
+      }
+      .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
 
-.styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-  color: black;
-}
+      .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+        color: black;
+      }
 
-.styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
-.overflow {
-  overflow-x: auto;
-}
+      .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+      }
+      .overflow {
+        overflow-x: auto;
+      }
        `}</style>
     </div>
   )

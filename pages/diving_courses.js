@@ -4,6 +4,9 @@ import Card from '../components/Card'
 import Link from 'next/link'
 import Cta from '../components/Cta'
 import ReviewLinks from '../components/ReviewLinks'
+import H2 from '../components/utils/H2'
+import Paragraph from '../components/utils/Paragraph'
+import Divider from '../components/utils/Divider'
 
 export default function diving_courses() {
   return (
@@ -26,19 +29,11 @@ export default function diving_courses() {
         layout={'fill'}
         objectFit={'contain'}
       />
-      <h2>Diving Courses in Lapu-Lapu City with Escondido Bay</h2>
-      <div className='divider'></div>
-      <p>
-        Our diving courses in Lapu-Lapu City cater to all levels of divers, from beginners to experienced divers looking to expand their skills. We offer a range of courses, including the Open Water Diver course for those who want to get certified and start exploring the underwater world, as well as more advanced courses like the Advanced Open Water Diver and Rescue Diver courses.
-        <br/><br/>
-        For those interested in technical diving, we also offer courses like TDI Nitrox and Intro into Tec. These courses provide divers with the knowledge and skills to safely use advanced diving equipment and techniques, allowing them to explore deeper and stay underwater for longer periods of time.
-        <br/><br/>
-        Our experienced and certified instructors provide personalized training and guidance to ensure that our students receive the best possible instruction and are well-prepared for their future dives. We also provide all necessary equipment and use state-of-the-art facilities to ensure that our students have a safe and enjoyable learning experience.
-        <br/><br/>
-        Whether you&apos;re just starting out or looking to expand your skills, our diving courses in Lapu-Lapu City offer something for everyone. Join us for an unforgettable underwater adventure!
-      </p>
-      <h2>Our Diving Courses in Overview</h2>
-      <div className='divider'></div>
+      <H2 heading='Diving Courses in Lapu-Lapu City with Escondido Bay' />
+      <Divider />
+      <Paragraph text={'Our diving courses in Lapu-Lapu City cater to all levels of divers, from beginners to experienced divers looking to expand their skills. We offer a range of courses, including the Open Water Diver course for those who want to get certified and start exploring the underwater world, as well as more advanced courses like the Advanced Open Water Diver and Rescue Diver courses.\n\nFor those interested in technical diving, we also offer courses like TDI Nitrox and Intro into Tec. These courses provide divers with the knowledge and skills to safely use advanced diving equipment and techniques, allowing them to explore deeper and stay underwater for longer periods of time.\n\nOur experienced and certified instructors provide personalized training and guidance to ensure that our students receive the best possible instruction and are well-prepared for their future dives. We also provide all necessary equipment and use state-of-the-art facilities to ensure that our students have a safe and enjoyable learning experience.\n\nWhether you\'re just starting out or looking to expand your skills, our diving courses in Lapu-Lapu City offer something for everyone. Join us for an unforgettable underwater adventure!'} />
+      <H2 heading='Our Diving Courses in Overview' />
+      <Divider />
       <div className='overflow'>
         <table className="styled-table">
           <thead>
@@ -180,12 +175,12 @@ export default function diving_courses() {
       </table>
       </div>
       <Cta text='Get in Touch' buttontTitle='Book your Diving Course in Mactan' />  
-      <p className="desciption">Please note that above times are indicative and assume you finished the theory with e-learning before we start hands-on training</p>
+      <Paragraph text='Please note that above times are indicative and assume you finished the theory with e-learning before we start hands-on training' />
       <br /> <br /><br /> <br />
       <ReviewLinks title='Read what our Customers say about our Diving Courses' />  
       <br /> <br /><br /> <br />
-      <h2>Our Training on Mactan in detail</h2>
-      <div className='divider'></div>
+      <H2 heading='Our Training on Mactan in detail' />
+      <Divider />
       <div id='one'></div>
       <Card 
         heading={'Learn to Dive in Lapu-Lapu City'}
@@ -307,56 +302,39 @@ export default function diving_courses() {
         buttontTitle={'Dive with more flexibility on Sidemount, book with us now on Mactan'}
       />
       <style jsx>{`
-       h1, h2 {
-        text-align: center;
-        margin: 50px 0px 20px 0px;
-       }
-       p {
-        max-width: 80vw;
-        margin: 20px auto;
-       }
-       .divider {
-        height: 3px;
-        width: 15%;
-        background: white;
-        margin: auto auto;
-      }
-      .styled-table {
-        border-collapse: collapse;
-        margin: 25px auto;
-        font-size: 0.9em;
-        font-family: sans-serif;
-        min-width: 400px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    }
-    .styled-table thead tr {
-      background-color: #009879;
-      color: #ffffff;
-      text-align: left;
-  }
-  .styled-table th,
-.styled-table td {
-    padding: 12px 15px;
-}
-.styled-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
+        .styled-table {
+          border-collapse: collapse;
+          margin: 25px auto;
+          font-size: 0.9em;
+          font-family: sans-serif;
+          min-width: 400px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        .styled-table thead tr {
+          background-color: #009879;
+          color: #ffffff;
+          text-align: left;
+        }
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+        .styled-table tbody tr {
+          border-bottom: 1px solid #dddddd;
+        }
 
-.styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-  color: black;
-}
+        .styled-table tbody tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+          color: black;
+        }
 
-.styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
-.overflow {
-  overflow-x: auto;
-}
-.desciption {
-  text-align: center;
-}
-       `}</style>
+        .styled-table tbody tr:last-of-type {
+          border-bottom: 2px solid #009879;
+        }
+        .overflow {
+          overflow-x: auto;
+        }
+      `}</style>
  </div>
   )
 }
