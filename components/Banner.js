@@ -62,7 +62,7 @@ function Banner(props) {
         }
         .hero {
           min-height: calc(70vh - 100px);
-          margin-top: 70px;
+          margin-top: 150px;
         }
       }
       @media screen and (min-width: 992px) {
@@ -74,7 +74,6 @@ function Banner(props) {
         }
         .hero {
           min-height: calc(100vh - 70px);
-          margin-top: 70px;
         }
       }
        `}</style>
