@@ -4,7 +4,7 @@ import Image from 'next/legacy/image'
 export default function ServiceDisplay({display, title}) {
   return (
     <div>      
-<div className="wrapper">
+      <div className="wrapper">
     <div className="services">
       <h2>{title}</h2>
       <div className='divider'></div>
@@ -71,6 +71,7 @@ export default function ServiceDisplay({display, title}) {
                   h2,
                   h3 {
                     text-align: center;
+                    font-size: 25px;
                   }
                   img {
                     margin: auto auto;
@@ -87,32 +88,32 @@ export default function ServiceDisplay({display, title}) {
                   }
                   button {
                     color: #ffffff;
-              background-color: #FF7F50;
-              border: none;
-              border-radius: 6px;
-              padding: 12px 20px;
-              font-size: 20px;
-              font-weight: 500;
-              line-height: 22px;
-              display: flex;
-              align-items: center;
-              margin: auto auto;
-              text-decoration: none;
-              box-shadow: 2px 7px 40 px -2px rgba(154,171,237,1);
-              -webkit-box-shadow: 2px 7px 40px -2px rgba(154,171,237,1);
-              -moz-box-shadow: 2px 7px 40px -2px rgba(154,171,237,1);
+                    background-color: #FF7F50;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 12px 20px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    display: flex;
+                    align-items: center;
+                    margin: auto auto;
+                    text-decoration: none;
+                    box-shadow: 2px 7px 40 px -2px rgba(154,171,237,1);
+                    -webkit-box-shadow: 2px 7px 40px -2px rgba(154,171,237,1);
+                    -moz-box-shadow: 2px 7px 40px -2px rgba(154,171,237,1);
                   }
                   button:hover
-            {
-              box-shadow: none;
-              cursor: pointer;
-            }
+                  {
+                    box-shadow: none;
+                    cursor: pointer;
+                  }
             
-            button i
-            {
-              font-size: 30px;
-              padding-right: 5px;
-            }
+                  button i
+                  {
+                    font-size: 30px;
+                    padding-right: 5px;
+                  }
                   
                   .services .item-holder {
                     display: -ms-grid;

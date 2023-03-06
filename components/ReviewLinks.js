@@ -12,7 +12,7 @@ export default function ReviewLinks(props) {
           <div className='item-holder'>
             <div className="box">
             <div className="service-images">
-            <Link href='https://www.google.com/search?q=escondido+bay&rlz=1C5CHFA_enPH923PH923&oq=escondido+bay&aqs=chrome.0.69i59l2j0i512j0i22i30l2j69i65j69i60l2.3521j0j7&sourceid=chrome&ie=UTF-8'>
+            <Link href='https://www.google.com/search?q=escondido+bay&rlz=1C5CHFA_enPH923PH923&oq=escondido+bay&aqs=chrome.0.69i59l2j0i512j0i22i30l2j69i65j69i60l2.3521j0j7&sourceid=chrome&ie=UTF-8' target='_blank'>
               <Image
                 src='/Google-logo.png'
                 alt='Find us on Google'
@@ -28,7 +28,7 @@ export default function ReviewLinks(props) {
           <div className='item-holder'>
             <div className="box">
             <div className="service-images">
-            <Link href='https://www.facebook.com/EscondidoBay/reviews'>
+            <Link href='https://www.facebook.com/EscondidoBay/reviews' target='_blank'>
               <Image
                 src='/facebook-logo.jpeg'
                 alt='Find us on Facebook'
@@ -44,7 +44,7 @@ export default function ReviewLinks(props) {
           <div className='item-holder'>
             <div className="box">
             <div className="service-images">
-            <Link href='https://www.tripadvisor.in/Attraction_Review-g298461-d24981131-Reviews-Escondido_Bay_Dive_Center-Lapu_Lapu_Mactan_Island_Cebu_Island_Visayas.html'>
+            <Link href='https://www.tripadvisor.in/Attraction_Review-g298461-d24981131-Reviews-Escondido_Bay_Dive_Center-Lapu_Lapu_Mactan_Island_Cebu_Island_Visayas.html' target='_blank'>
               <Image
                 src='/Tripadvisor-Emblem.png'
                 alt='Find us on Facebook'

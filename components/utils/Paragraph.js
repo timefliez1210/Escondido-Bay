@@ -10,6 +10,7 @@ export default function Paragraph(props) {
                 white-space: pre-line;
                 max-width: 80vw;
                 margin: 20px auto;
+                font-size: 1rem
               }
        `}</style>
     </div>

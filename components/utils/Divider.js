@@ -9,7 +9,7 @@ export default function Divider() {
                     height: 3px;
                     width: 40%;
                     background: white;
-                    margin: auto auto;
+                    margin: 0 auto 20px auto;
                 }
         `}</style>
     </div>

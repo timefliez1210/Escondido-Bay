@@ -85,6 +85,7 @@ export default function Card(props) {
                   height: auto;
                   width: 100%;
                   min-height: 200px;
+                  min-width: 400px;
                   position: relative;
                   padding: auto auto;
                 }

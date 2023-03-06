@@ -24,7 +24,7 @@ function Banner(props) {
          display: flex;
          align-items: center;
          justify-content: center;
-         margin: 20vh 0 0 0;
+         margin: 10vh 0 0 0;
        }
       .banner {
         display: inline-block;
@@ -49,7 +49,7 @@ function Banner(props) {
       }
       @media screen and (max-width: 991px) {
         .hero {
-          margin-bottom: 30vh;
+          margin-bottom: 25vh;
           min-height: calc(70vh - 150px);
           margin-top: 150px;
         }
@@ -70,7 +70,7 @@ function Banner(props) {
           padding: 2rem 6rem;
         }
         .banner h1 {
-          font-size: 4rem;
+          font-size: 5rem;
         }
         .hero {
           min-height: calc(100vh - 70px);

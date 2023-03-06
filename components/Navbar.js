@@ -213,6 +213,9 @@ const Navbar = ({ navLinks }) => {
             margin-right: 16px;
           }
         }
+        p {
+          font-size: 17px;
+        }
       `}</style>
     </div>
   );

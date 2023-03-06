@@ -1,28 +1,91 @@
 import Image from 'next/legacy/image'
-import { FaViber, FaWhatsapp, FaFacebook } from 'react-icons/fa'
+import { FaViber, FaWhatsapp, FaFacebook, FaInstagram, FaTripadvisor } from 'react-icons/fa'
+import { AiOutlineMail } from "react-icons/ai"
+import { BsFillTelephoneForwardFill } from "react-icons/bs"
+import H2 from '../components/utils/H2'
+import Divider from '../components/utils/Divider'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
   <div>
     <div className="wrapper">
-    <div className='pic'>
-        <Image
-          src='/logo.png'
-          alt='Diving on Mactan Island'
-          layout='fill'
-          objectFit="contain"
-          />
-
+        <div className='pic'>
+            <Image
+              src='/logo.png'
+              alt='Diving on Mactan Island'
+              layout='fill'
+              objectFit="contain"
+            />
         </div>
-      <div className="content">
-        <h2>Contact</h2>
-        <p><FaViber color='white' fontSize='20px' /> +63 91 989 789 45</p><br />
-        <p><FaWhatsapp color='white' fontSize='20px' /> +63 91 989 789 45</p><br />
-        <p><FaFacebook color='white' fontSize='20px' /> @EscondidoBay </p>
-      </div>  
-      <div className="content">
-        <h2></h2>
-      </div>
+        <div className="content">
+        <H2 heading='Contact' />
+        <Divider />
+          <p>
+            <Link 
+              href='https://wa.me/+639198978945' 
+              style={{textDecoration: 'none', color:'white'}}
+              target='_blank'
+            >
+                <FaWhatsapp color='white' fontSize='20px' style={{verticalAlign: 'middle', marginRight: '3px'}}/> 
+                  +63 91 989 789 45
+            </Link>
+          </p>
+          <p>
+            <Link 
+              href='mailto:info@escondido-bay.com' 
+              style={{textDecoration: 'none', color:'white'}}
+              target='_blank'
+            >
+                <AiOutlineMail color='white' fontSize='20px' style={{verticalAlign: 'middle', marginRight: '3px'}}/> 
+                  info@escondido-bay.com
+            </Link>
+          </p> 
+          <p>
+            <Link 
+              href='tel:+639198978945' 
+              style={{textDecoration: 'none', color:'white'}}
+              target='_blank'
+            >
+                <BsFillTelephoneForwardFill color='white' fontSize='20px' style={{verticalAlign: 'middle', marginRight: '3px'}}/> 
+                  +63 91 989 789 45
+            </Link>
+          </p>       
+        </div>  
+        <div className="content">
+          <H2 heading='Socials' />
+          <Divider />
+          <p>
+            <Link 
+              href='https://www.facebook.com/EscondidoBay' 
+              style={{textDecoration: 'none', color:'white'}}
+              target='_blank'
+              >
+              <FaFacebook color='white' fontSize='20px' style={{verticalAlign: 'middle', marginRight: '10px'}} /> 
+              @EscondidoBay
+            </Link>
+          </p>
+          <p>
+            <Link 
+              href='https://www.instagram.com/escondidobay/' 
+              style={{textDecoration: 'none', color:'white'}}
+              target='_blank'
+              >
+              <FaInstagram color='white' fontSize='20px' style={{verticalAlign: 'middle', marginRight: '10px'}} /> 
+              @EscondidoBay
+            </Link>
+          </p>
+          <p>
+            <Link 
+              href='https://www.tripadvisor.in/Attraction_Review-g298461-d24981131-Reviews-Escondido_Bay_Dive_Center-Lapu_Lapu_Mactan_Island_Cebu_Island_Visayas.html' 
+              style={{textDecoration: 'none', color:'white'}}
+              target='_blank'
+              >
+              <FaTripadvisor color='white' fontSize='18px' style={{verticalAlign: 'middle', marginRight: '10px'}} /> 
+              Escondido Bay
+            </Link>
+          </p>
+        </div>
     </div>
     <style jsx>{`
         .wrapper {
@@ -39,20 +102,18 @@ export default function Footer() {
             background: transparent;
             color: white; 
             padding: 20px;
-            margin: 0;
         } 
         p {
           text-align: left;
           width: 60%;
-          margin: auto;
+          margin: 10px auto auto auto;
+          font-size: 16px;
+          padding: 6px 1px;
         }
-
-
-        .divider {
-            height: 5px;
-            width: 30px;
-            background: red;
-            margin: auto;
+        @media screen and (max-width: 1245px) {
+          p {
+            width: 80%;
+          }
         }
         .content {
           background: transparent;
