@@ -2,6 +2,7 @@ import Image from 'next/legacy/image'
 import Cta from '../components/Cta'
 import H2 from './utils/H2'
 import H3 from './utils/H3'
+import H4 from './utils/H4'
 import Paragraph from './utils/Paragraph'
 import Divider from './utils/Divider'
 
@@ -19,9 +20,9 @@ export default function Card(props) {
             />
           </div> 
           <div className="content">
-            <H2 heading={props.heading} />
+            <H3 heading={props.heading} />
             <Divider />
-            <H3 title={props.title} />
+            <H4 title={props.title} />
             <Paragraph text={props.text} />
             <Cta text={props.button} link={props.link} /> 
           </div>

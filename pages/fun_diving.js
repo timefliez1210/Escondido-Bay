@@ -59,7 +59,7 @@ export default function fun_diving() {
         alt={'Fun Diving around Mactan Island, Lapu-Lapu City and Cordova'}
       />
       <Card
-        heading={'Fun Diving with Escondido Bay'}
+        heading={'Fun Diving from Lapu-Lapu City with Escondido Bay'}
         title={'Reefs, Caves, Wrecks and an Abundance of Aquatic Life'}
         text={"At Escondido Bay, we offer a truly unique and diverse diving experience. Our dive sites are rich in a variety of environments, including beautiful coral reefs teeming with vibrant marine life, towering walls dropping into the deep blue, fascinating wrecks that have become artificial habitats for a multitude of species, and mysterious caves waiting to be explored.\n\nOur dive locations are handpicked for their stunning beauty and the abundance of aquatic life that call them home. From colorful schools of tropical fish, to playful dolphins and sea turtles, to the gentle giants of the ocean - whale sharks - our dive sites offer a truly unforgettable experience.\n\nWith our experienced and knowledgeable instructors, divemasters and guides, we ensure that your dive is safe, fun and memorable. Our commitment to safety and high standards, combined with the stunning beauty of our dive sites, makes Escondido Bay the perfect choice for anyone looking to experience the incredible underwater world of the Philippines. Whether you're a beginner or an experienced diver, we guarantee that you'll be amazed by the diversity and beauty of our dive sites."}
         src={'/reefscape-magnificent-anemone.JPG'}
@@ -69,7 +69,7 @@ export default function fun_diving() {
         button={'Ask us about Fun Diving'}
       />
       <ServiceDisplay
-        title='Our Fun Diving Offers'
+        title='Our Fun Diving Offers from Mactan'
         display={display}
       />
       <H2 

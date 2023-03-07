@@ -6,6 +6,7 @@ import Script from "next/script"
 import { useRouter } from "next/router";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 function MyApp({ Component, pageProps }) {
   const navLinks = [
     {
@@ -70,9 +71,11 @@ function MyApp({ Component, pageProps }) {
           `}
           </Script>
         </div>
-
+       
         <Navbar navLinks={navLinks} />
+        
         <AnimatePresence mode='wait'>
+          
       <motion.div
         key={router.route}
         initial="initialState"
@@ -96,8 +99,8 @@ function MyApp({ Component, pageProps }) {
         }}
         className="base-page-size"
       >
-        <Component {...pageProps} />
         
+        <Component {...pageProps} />
         </motion.div>
     </AnimatePresence>
     <Footer />

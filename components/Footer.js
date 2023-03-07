@@ -2,7 +2,7 @@ import Image from 'next/legacy/image'
 import { FaViber, FaWhatsapp, FaFacebook, FaInstagram, FaTripadvisor } from 'react-icons/fa'
 import { AiOutlineMail } from "react-icons/ai"
 import { BsFillTelephoneForwardFill } from "react-icons/bs"
-import H2 from '../components/utils/H2'
+import H3 from '../components/utils/H2'
 import Divider from '../components/utils/Divider'
 import Link from 'next/link'
 
@@ -19,8 +19,9 @@ export default function Footer() {
             />
         </div>
         <div className="content">
-        <H2 heading='Contact' />
+        <H3 heading='Contact' />
         <Divider />
+        <div className='center'>
           <p>
             <Link 
               href='https://wa.me/+639198978945' 
@@ -50,10 +51,11 @@ export default function Footer() {
                 <BsFillTelephoneForwardFill color='white' fontSize='20px' style={{verticalAlign: 'middle', marginRight: '3px'}}/> 
                   +63 91 989 789 45
             </Link>
-          </p>       
+          </p> 
+          </div>      
         </div>  
         <div className="content">
-          <H2 heading='Socials' />
+          <H3 heading='Socials' />
           <Divider />
           <p>
             <Link 
@@ -109,6 +111,10 @@ export default function Footer() {
           margin: 10px auto auto auto;
           font-size: 16px;
           padding: 6px 1px;
+        }
+        .center {
+          width: auto;
+          margin: auto;
         }
         @media screen and (max-width: 1245px) {
           p {

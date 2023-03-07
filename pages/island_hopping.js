@@ -49,16 +49,16 @@ export default function island_hopping() {
         />
       </Head>
       <Banner
-        heading={'Our Island Hopping Deals'}
-        title={'Discover Paradise Above and Below the Waves - Explore our Beaches and Reefs'}
+        heading={'Island Hopping around Mactan'}
+        title={'Discover Paradise Above and Below the Waves - Explore our Beaches and Reefs from Lapu-Lapu City'}
         src={'/Island-Hopping-Around-Mactan.JPG'}
         alt={'Your Island Hopping Adventure from Lapu-Lapu City, Cebu'}
         layout={'fill'}
         objectFit={'contain'}
       />
       <Card
-        heading={'Island Hopping with Escondido Bay'}
-        title={'Our Mission is to bring you the best possible experience'}
+        heading={'Island Hopping with Escondido Bay based in Cebu'}
+        title={'Our Mission is to bring you the best possible experience with our beautiful Islands around Mactan'}
         text={"Escondido Bay is dedicated to providing a memorable and enjoyable island hopping experience that caters to all of your needs. Our spacious and comfortable Bangka Boat can accommodate up to 50 people and is designed to reinvent the native experience. Whether you're looking for a spare boat charter, delicious barbecue packages, or an open bar serving ice-cold beers and homemade cocktails, our staff will make it happen for you. So, you can focus on having a great time with your friends while enjoying the beautiful islands of the Philippines, snorkeling, or simply taking in the natural beauty, all while listening to soothing tunes. Join us on our mission to bring you the best possible island hopping adventure."}
         src={'/island-hopping-olango.JPG'}
         alt={'Island Hopping Olango Island'}
@@ -75,7 +75,7 @@ export default function island_hopping() {
       <H2 heading={'For those who aren\'t satisfied yet or can\'t eat certain food'} />
       <Divider />
       <Paragraph text={'At Escondido Bay, we pride ourselves on being able to cater to the needs of all of our guests, no matter their dietary restrictions or preferences. If none of our pre-set menus suit your tastes or requirements, don\'t worry! We offer a range of customizable options so that you can have a unique and personalized dining experience.\n\nWe understand that some guests may have food allergies or follow religious beliefs that restrict certain foods, while others may be vegetarians or vegans. Whatever the reason, we are happy to create a tailored menu that meets your needs.\n\nWe are also open to fulfilling any special requests you may have for your menu. Whether it&apos;s a favorite dish or cuisine you\'re craving, or a unique idea you have in mind, our team is dedicated to bringing your vision to life.\n\nOur goal is to make your dining experience at Escondido Bay as memorable and enjoyable as possible. So, let us know what you need, and we will work together to create a delicious and personalized menu just for you. Contact us to discuss your specific needs and preferences.'} />
-      <H2 heading={'Our Island Hopping Pricing in Overview'} />
+      <H2 heading={'Our Island Hopping from Mactan in Overview'} />
       <Divider />
       <div className='overflow'>
             <table className="styled-table">

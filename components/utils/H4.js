@@ -1,12 +1,13 @@
 import React from 'react'
 
-export default function H3(props) {
+export default function H4(props) {
   return (
     <div>
-        <h3>{props.heading}</h3>
+        <h4>{props.title}</h4>
         <style jsx>{`
-              h3 {
-                font-size: 1.5rem;
+              h4 {
+                font-size: 1rem;
+                font-weight: bold;
                 text-align: center;
                 max-width: 90vw;
                 margin: 10px auto 0 auto;
