@@ -53,8 +53,8 @@ export default function fun_diving() {
         />
       </Head>
       <Banner
-        heading={'Fun Diving with us'}
-        title={'Dive into adventure, immerse in beauty'}
+        heading={'Fun Diving around Mactan'}
+        title={'Dive into adventure, immerse into the beauty of Cebu'}
         src={'/fun_diving_hero.jpg'}
         alt={'Fun Diving around Mactan Island, Lapu-Lapu City and Cordova'}
       />

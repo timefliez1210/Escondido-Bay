@@ -21,15 +21,15 @@ export default function diving_courses() {
         />
       </Head>
       <Banner
-        heading={'Our Diving Courses'}
-        title={'Discover the Hidden Treasures of the Ocean with Every Dive'}
+        heading={'Diving Courses in Lapu-Lapu City'}
+        title={'Discover the Hidden Treasures of the Ocean with Every Dive in the Philippines'}
         text={"No matter if you are a complete beginner or already an experienced diver, we have a wide variety of Diving Certification courses to either start your adventure or improve it. \n\nReach out to us if you have any questions or don't find what you are looking for, we are sure we can help you."}
         src={'/Diving-Courses.JPG'}
         alt={'Learn Scuba Diving on Mactan Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
       />
-      <H2 heading='Diving Courses in Lapu-Lapu City with Escondido Bay' />
+      <H2 heading='Diving Courses on Mactan with Escondido Bay' />
       <Divider />
       <Paragraph text={'Our diving courses in Lapu-Lapu City cater to all levels of divers, from beginners to experienced divers looking to expand their skills. We offer a range of courses, including the Open Water Diver course for those who want to get certified and start exploring the underwater world, as well as more advanced courses like the Advanced Open Water Diver and Rescue Diver courses.\n\nFor those interested in technical diving, we also offer courses like TDI Nitrox and Intro into Tec. These courses provide divers with the knowledge and skills to safely use advanced diving equipment and techniques, allowing them to explore deeper and stay underwater for longer periods of time.\n\nOur experienced and certified instructors provide personalized training and guidance to ensure that our students receive the best possible instruction and are well-prepared for their future dives. We also provide all necessary equipment and use state-of-the-art facilities to ensure that our students have a safe and enjoyable learning experience.\n\nWhether you\'re just starting out or looking to expand your skills, our diving courses in Lapu-Lapu City offer something for everyone. Join us for an unforgettable underwater adventure!'} />
       <H2 heading='Our Diving Courses in Overview' />
@@ -177,9 +177,9 @@ export default function diving_courses() {
       <Cta text='Get in Touch' buttontTitle='Book your Diving Course in Mactan' />  
       <Paragraph text='Please note that above times are indicative and assume you finished the theory with e-learning before we start hands-on training' />
       <br /> <br /><br /> <br />
-      <ReviewLinks title='Read what our Customers say about our Diving Courses' />  
+      <ReviewLinks title='Read what our Customers say about our Diving Courses in Cebu' />  
       <br /> <br /><br /> <br />
-      <H2 heading='Our Training on Mactan in detail' />
+      <H2 heading='Our Diver Training on Mactan in detail' />
       <Divider />
       <div id='one'></div>
       <Card 
@@ -207,7 +207,7 @@ export default function diving_courses() {
       />
       <div id='three'></div>
       <Card
-        heading={'Advanced Open Water Diver'}
+        heading={'Advanced Open Water Diver on Mactan'}
         title={'Advance Your Diving Skills with Escondido Bay Dive Center - Your Advanced Open Water Diver Destination'}
         text={"Take your scuba diving to the next level with Escondido Bay Dive Center's Advanced Open Water Diver course. Whether you're looking to gain more experience, explore new dive sites, or simply improve your skills, this course is perfect for you. Our experienced instructors will guide you through a range of specialties, including deep diving, navigation, and more, giving you the knowledge and skills you need to dive safely and confidently.\n\nThe Advanced Open Water Diver course is designed to challenge and inspire you, helping you develop your skills and expand your knowledge. With a focus on safety, education, and adventure, you can be sure that you're getting the best training and education available.\n\nChoose Escondido Bay Dive Center as your Advanced Open Water Diver destination and take your scuba diving to the next level. With our commitment to safety, education, and conservation, you're sure to have a unique and memorable experience.\n\n\nThe Price for the Advanced Open Water Certification is PHP16,000."}
         src={'/Advanced-Open-Water-Cebu.JPG'}
@@ -231,7 +231,7 @@ export default function diving_courses() {
       />
       <div id='five'></div>
       <Card
-        heading={'Divemaster Internship'}
+        heading={'Divemaster Internship in the Philippines'}
         title={'Dive into a New Career with Escondido Bay\'s Divemaster Internship'}
         text={"Are you looking to take your diving to the next level and turn it into a career? Then look no further than Escondido Bay's Divemaster Internship! Our professional and experienced instructors will guide you through the process of becoming a divemaster, the first professional level in the diving industry.\nThe Divemaster Internship is a comprehensive training program that will teach you all the necessary skills to lead and guide scuba dives, assist instructors with student divers, and manage dive activities. You will also gain a deeper understanding of dive theory, dive skills and the diving environment, as well as learn how to conduct dive briefings, manage dive equipment, and solve common diving problems.\nOne of the unique aspects of our Divemaster Internship is the opportunity to gain hands-on experience by working with our instructors and participating in real-life dive scenarios. This will give you the chance to put into practice what you have learned and develop your leadership and communication skills.\nAt Escondido Bay, we offer a flexible schedule for our Divemaster Internship, allowing you to complete the program at your own pace and on your own time. Our goal is to ensure that you receive the best possible training and support to help you reach your full potential as a dive professional.\nIn addition, our Divemaster Internship program is recognized by several international dive organizations, including Scuba Diving International (SDI) and Technical Diving International (TDI), which means that once you complete the program, you will be qualified to work as a dive professional anywhere in the world.\nSo, whether you're a seasoned diver looking to take the next step in your diving career, or simply want to learn more about the underwater world, our Divemaster Internship is the perfect program for you. So why wait? Sign up today and start your journey towards a career in diving!\n\n\nDivemaster Internships starting at PHP50,000"}
         src={'/Divemaster.JPG'}

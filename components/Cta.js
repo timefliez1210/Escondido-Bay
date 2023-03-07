@@ -19,8 +19,8 @@ export default function Cta(props) {
             button
             {
               color: #ffffff;
-              background-color: #FF7F50;
-              border: none;
+              background-color: transparent;
+              border: 2px solid #FF7F50;
               border-radius: 6px;
               padding: 12px 20px;
               font-size: 20px;
@@ -66,8 +66,8 @@ export default function Cta(props) {
             button
             {
               color: #ffffff;
-              background-color: #FF7F50;
-              border: none;
+              background-color: transparent;
+              border: 2px solid #FF7F50;
               border-radius: 6px;
               padding: 12px 20px;
               font-size: 20px;
@@ -77,9 +77,9 @@ export default function Cta(props) {
               align-items: center;
               margin: auto auto;
               text-decoration: none;
-              box-shadow: 1px 4px 40 px -2px rgba(154,171,237,1);
-              -webkit-box-shadow: 1px 4px 40px -2px rgba(154,171,237,1);
-              -moz-box-shadow: 1px 4px 40px -2px rgba(154,171,237,1);
+              box-shadow: 1px 2px 20px -2px rgba(154,171,237,1);
+              -webkit-box-shadow: 1px 2px 20px -2px rgba(154,171,237,1);
+              -moz-box-shadow: 1px 2px 20px -2px rgba(154,171,237,1);
             }
             
             button:hover

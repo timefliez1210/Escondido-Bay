@@ -8,7 +8,7 @@ export default function Paragraph(props) {
               p {
                 text-align: left;
                 white-space: pre-line;
-                max-width: 80vw;
+                max-width: 90vw;
                 margin: 20px auto;
                 font-size: 1rem
               }

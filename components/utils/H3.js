@@ -7,6 +7,8 @@ export default function H3(props) {
         <style jsx>{`
               h3 {
                 text-align: center;
+                max-width: 90vw;
+                margin: auto auto;
               }
        `}</style>
     </div>

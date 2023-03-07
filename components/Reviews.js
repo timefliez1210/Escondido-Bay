@@ -64,15 +64,14 @@ function Reviews(props) {
       </div>
       <ReviewLinks title={props.title} />
       <style jsx>{`
-       h1, h2 {
+       h1, h2, h3 {
         text-align: center;
-        margin: 50px 0px 20px 0px;
+        margin: 50px auto 20px auto
+        max-width 90vw;
        }
-       h3 {
-        text-align: left;
-       }
+       
        p {
-        max-width: 80vw;
+        max-width: 90vw;
         margin: 20px auto;
        }
        .icons {

@@ -35,7 +35,7 @@ function Banner(props) {
         z-index: 100;
       }
       .banner h1 {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
       }
       .banner div {
         width: 10rem;

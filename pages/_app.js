@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
 import '../styles/globals.css'
 import Script from "next/script"
+import { useRouter } from "next/router";
+import { motion, AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps }) {
   const navLinks = [
@@ -33,6 +35,7 @@ function MyApp({ Component, pageProps }) {
     },
 
   ];
+  const router = useRouter();
   return (
     <div>
       <Head>
@@ -67,9 +70,37 @@ function MyApp({ Component, pageProps }) {
           `}
           </Script>
         </div>
+
         <Navbar navLinks={navLinks} />
+        <AnimatePresence mode='wait'>
+      <motion.div
+        key={router.route}
+        initial="initialState"
+        animate="animateState"
+        exit="exitState"
+        transition={{
+          duration: 0.5,
+        }}
+        variants={{
+          initialState: {
+            opacity: 0,
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          },
+          animateState: {
+            opacity: 1,
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          },
+          exitState: {
+            clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)",
+          },
+        }}
+        className="base-page-size"
+      >
         <Component {...pageProps} />
-        <Footer />
+        
+        </motion.div>
+    </AnimatePresence>
+    <Footer />
     </div>
   );
 }
