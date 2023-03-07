@@ -88,8 +88,8 @@ export default function ServiceDisplay({display, title}) {
                   }
                   button {
                     color: #ffffff;
-                    background-color: #FF7F50;
-                    border: none;
+                    background-color: transparent;
+                    border: 2px solid #FF7F50;
                     border-radius: 6px;
                     padding: 12px 20px;
                     font-size: 20px;

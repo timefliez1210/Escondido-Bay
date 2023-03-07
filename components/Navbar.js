@@ -57,12 +57,13 @@ const Navbar = ({ navLinks }) => {
               
             </li>
           ))}
-          <Cta 
-          text='Contact'
-          onClick={() => {
-            setNavOpen(!navOpen);
-          }}
-          />
+          <li onClick={() => {
+              setNavOpen(!navOpen);
+            }}>
+            <Cta 
+              text='Contact'
+            />
+          </li>
         </ul>
       </nav>
       <style jsx>{`

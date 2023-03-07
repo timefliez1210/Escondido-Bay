@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 .styled-table thead tr {
   background-color: #009879;
-  color: #ffffff;
+  color: black;
   text-align: left;
 }
 .styled-table th,
