@@ -24,13 +24,14 @@ function Banner(props) {
          display: flex;
          align-items: center;
          justify-content: center;
-         margin: 100px 0 100px 0;
+         margin: 100px 0 50px 0;
+         position: relative;
        }
       .banner {
         display: inline-block;
         background: RGBA(49,59,74,0.4);
         color: white;
-        padding: 2rem 1rem;
+        padding: 0.5rem 1rem;
         text-align: center;
         z-index: 100;
       }
@@ -49,7 +50,7 @@ function Banner(props) {
       }
       @media screen and (max-width: 991px) {
         .hero {
-          margin-bottom: 200px;
+          margin-bottom: 50px;
           min-height: calc(70vh - 150px);
           margin-top: 150px;
         }

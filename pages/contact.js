@@ -19,13 +19,13 @@ export default function contact() {
       <Banner
         heading={'Contact'}
         title={'Contact us with inquiries and questions'}
-        src={'/sunset-in-Lapu-Lapu-City.jpg'}
+        src={'/sunset-in-Lapu-Lapu-City.jpeg'}
         alt={'Contact your Dive Center and Island Hopping tour with questions and bookings in Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
       />
       <ContactForm
-        src={'/ContactOurDiveCenter.JPG'}
+        src={'/ContactOurDiveCenter.jpeg'}
         alt={'Contact us with questions and bookings about island hopping and diving'}
         layout={'fill'}
         objectFit={'contain'}

@@ -10,7 +10,7 @@ export default function Cta(props) {
         title={props.buttontTitle}
         style={{ textDecoration: 'none' }}
         >
-        <button><i class='bx bxl-whatsapp'></i>{props.text}</button>
+        <button><i className='bx bxl-whatsapp'></i>{props.text}</button>
         </Link>
         <style jsx>{`
             .link {
@@ -57,7 +57,7 @@ export default function Cta(props) {
         title={props.buttontTitle}
         style={{ textDecoration: 'none' }}
         >
-        <button><i class='bx bxl-whatsapp'></i>{props.text}</button>
+        <button><i className='bx bxl-whatsapp'></i>{props.text}</button>
         </Link>
         <style jsx>{`
             .link {

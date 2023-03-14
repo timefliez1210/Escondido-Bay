@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Navigation from '../components/Navigation'
 import Footer from '../components/Footer';
 import '../styles/globals.css'
 import Script from "next/script"
@@ -53,7 +54,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="geo.position" content="10.273677;123.966241" />
         <meta name="ICBM" content="10.273677, 123.966241" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true'></link>
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Montserrat:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
         <div className="scriptHolder">

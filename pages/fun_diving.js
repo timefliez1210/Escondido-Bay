@@ -12,7 +12,7 @@ export default function fun_diving() {
   const display = [
     {
       title: "Our Sunday Boat Diving Promo",
-      image: "/Sunday-Dive-Promo-Mactan.JPG",
+      image: "/Sunday-Dive-Promo-Mactan.jpeg",
       alt: "Our Sunday Dive Promo on Mactan Island",
       text: "At our dive center in Cebu, we are dedicated to providing a consistently breathtaking diving experience for our local diving community and beyond. That's why we invite you to join us for our Sunday Dive Promo. For just PHP 4,500, you'll get to immerse yourself in three breathtaking dives from the comfort of our boat, complete with air fills and all the necessary gear.\n\nNot only that, but you'll also be treated to a delicious BBQ lunch made from scratch, accompanied by fresh coffee and a snack bar, as well as unlimited water to quench your thirst. And after a day of diving, you can continue the conversation over a cold drink from our well-stocked bar (additional charges apply). So what are you waiting for? Join us on a journey of discovery and be inspired by the diversity of our dive sites and the beauty of our abundant aquatic life.",
       href: "contact",
@@ -22,7 +22,7 @@ export default function fun_diving() {
     },
     {
       title: "Boat Dives",
-      image: "/Boat-Diving-Cebu.JPG",
+      image: "/Boat-Diving-Cebu.jpeg",
       alt: "Dive the beautiful Islands around Lapu-Lapu City",
       text: "Embark on a scuba diving adventure with us at Mactan Island any day of the week. Discover the beauty of Nalusuan Island, Gilutongan Island, and Olango Marine Sanctuaries and immerse yourself in their rich marine biodiversity. Please note that equipment rental is not included in the package.\n\nFor 2 dives, the cost is PHP 3,500, while 3 dives will cost PHP 5,000. This package includes lunch and snacks, coffee, and water. If you choose 2 dives, there will not be a BBQ provided, but after-dive snacks instead.\n\nAfter your dive, unwind with a drink from our bar, which is available for an additional charge based on consumption. Join us for a memorable diving experience in the stunning waters of Mactan Island.\n\n\n",
       href: "contact",
@@ -32,7 +32,7 @@ export default function fun_diving() {
     },
     {
       title: "Shore Diving",
-      image: "/Shore-Diving-Lapu-Lapu-City.JPG",
+      image: "/Shore-Diving-Lapu-Lapu-City.jpeg",
       alt: "Shore Diving off the coast from Lapu-Lapu City",
       text: "Embark on an underwater adventure as you discover the hidden gems of Lapu-Lapu City's shores. From the vibrant coral gardens at Kontiki Marine Sanctuary and Coral Nursery, to the mysterious Marigondon Cave, and the teeming sea life at Marigondon port's pier area, there's always something new to explore. With the occasional visit of magnificent Whale Sharks, there's no better time than now to uncover the underwater treasures that lie within reach. \n\nExperience all the beauty and diversity of our shore dive spots with our Shore Dive Packages, starting at just PHP2,500 for two dives. \n\nGet ready for a once-in-a-lifetime diving journey!\n\n\n\n\n",
       href: "contact",
@@ -55,14 +55,14 @@ export default function fun_diving() {
       <Banner
         heading={'Fun Diving around Mactan'}
         title={'Dive into adventure, immerse into the beauty of Cebu'}
-        src={'/fun_diving_hero.jpg'}
+        src={'/fun-diving-mactan-hero.jpeg'}
         alt={'Fun Diving around Mactan Island, Lapu-Lapu City and Cordova'}
       />
       <Card
         heading={'Fun Diving from Lapu-Lapu City with Escondido Bay'}
         title={'Reefs, Caves, Wrecks and an Abundance of Aquatic Life'}
         text={"At Escondido Bay, we offer a truly unique and diverse diving experience. Our dive sites are rich in a variety of environments, including beautiful coral reefs teeming with vibrant marine life, towering walls dropping into the deep blue, fascinating wrecks that have become artificial habitats for a multitude of species, and mysterious caves waiting to be explored.\n\nOur dive locations are handpicked for their stunning beauty and the abundance of aquatic life that call them home. From colorful schools of tropical fish, to playful dolphins and sea turtles, to the gentle giants of the ocean - whale sharks - our dive sites offer a truly unforgettable experience.\n\nWith our experienced and knowledgeable instructors, divemasters and guides, we ensure that your dive is safe, fun and memorable. Our commitment to safety and high standards, combined with the stunning beauty of our dive sites, makes Escondido Bay the perfect choice for anyone looking to experience the incredible underwater world of the Philippines. Whether you're a beginner or an experienced diver, we guarantee that you'll be amazed by the diversity and beauty of our dive sites."}
-        src={'/reefscape-magnificent-anemone.JPG'}
+        src={'/reefscape-magnificent-anemone-diving-cebu.jpeg'}
         alt={'Fun Diving around Mactan Airport'}
         layout={'fill'}
         objectFit={'contain'}
@@ -135,7 +135,7 @@ export default function fun_diving() {
       />
       <br /> <br /><br /> <br />
       <ReviewLinks 
-        title='Read what our Customers say about Fun Diving with us' 
+        title='Read what our Customers say about Fun Diving Mactan with us' 
       />  
       <br /> <br /><br /> <br />
       <H2 
@@ -146,7 +146,7 @@ export default function fun_diving() {
         heading={'Nalusuan Island'}
         title={'Shallow Reefs, a sandy slope and a steep wall'}
         text={"The Nalusuan Marine Sanctuary with its long sandbar has shallow reefs, a sandy slope reaching from 5m down to approximately 14-20m, followed by a steep falling wall with an estimated bottom between 40-50m. \n\nThe shallow reefs of Nalusuan Island are the home of an abundance of smaller fishes and colorful corals, a beautiful destination for snorkelers or divers who want to enjoy their safety stop./n/nThe sandy slope of this marine sanctuary is the habitat of all different sorts of stingrays, squids, octopuses and many more interesting sea creatures like frog fishes, from time to time we even may encounter larger ray species like the devil ray.\n\nLast but not least, one can explore the wall which hosts a lot of interesting sea creatures for those who may be fond of Macro photography. Various different species of nudibranchs, flatworms and juvenile fish hiding discreetly within the tentacles of an anemone reside here; the really patient divers might even be able to spot a pygmy seahorse within the fans along the wall.\n\nThe boat ride usually takes about 30 to 40 minutes from the Mactan Island coast or Cordova.\n\nThe island with its long sand bar is a sanctuary to all the sea creatures and to the nature lovers. You can literally reach at arm’s length the abundance of marine life"}
-        src={'/Octopus-Nalusuan-Marine-Sanctuary.JPG'}
+        src={'/Octopus-Nalusuan-Marine-Sanctuary-near-Lapu-Lapu-City.jpeg'}
         alt={'Octopus in Nalusuan Marine Sanctuary Cebu'}
         layout={'fill'}
         objectFit={'contain'}
@@ -157,7 +157,7 @@ export default function fun_diving() {
         heading={'Gilutongan Island'}
         title={'Abundance of aquatic life and great reefs'}
         text={"Gilutongan Island has a similar shape to a shark. It is about 630 meters long and 820 meters wide. The island is home to numerous coral reefs and sea grass meadows, partially protected by the 15 hectare Gilutongan Marine Sanctuary. It is one of the most scenic diving and snorkelling destinations we have at arm's length from Mactan Island, Lapu-Lapu City or Cordova.\n\nWhether one is a freshly certified or very experienced diver, with its shallow and colorful reefs as well as steep falling wall, the vast array of sea creatures and aquatic life, makes this destination worthy of exploration. \n\nThe visibility reaches from 10m on bad days to literally crystal clear waters on good days.\n\nBig schools of jack fishes, barracudas, bat fishes can be seen frequently on this dive site and furthermore, Gilutongan is not shy of pelagic travellers every now and then, as well as the diversity the Philippines in general are famous for.\n\nThe boat ride usually takes about 40 minutes from the Mactan Island coast or Cordova."}
-        src={'/Barracuda-Gilutongan-Marine-Sanctuary.JPG'}
+        src={'/Barracuda-Gilutongan-Marine-Sanctuary-Mactan.jpeg'}
         alt={'Gilutongan Island Baracudas near Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
@@ -168,7 +168,7 @@ export default function fun_diving() {
         heading={'Marigondon Cave'}
         title={'A steep decent into a wide daylight cave'}
         text={"Directly off the coast of Marigondon in Lapu-Lapu City, located at roughly 37m depth within an extensive reef wall, this cave is one of the most famous local dive sites.\n\nExperienced divers can access this cave or cavern either as a shore dive, which involves roughly a 200m swim or by boat.\n\nMost parts, including the entrance to the cavern, are very wide and you can see the exit during most of the duration within the cave. Even divers without a specific cave certification can join this exciting dive. \n\nWithin the cave we commonly see a multitude of stone and scorpion sishes, lionfishes and abundant species for the Macro photographer. Additionally, the rock and coral formations along with the composition of the inner structure with beautiful large sea fans make this destination particularly thrilling and fun to explore."}
-        src={'/Marigondon-Cave-Critters.JPG'}
+        src={'/Marigondon-Cave-Critters-Cebu.jpeg'}
         alt={'Our Cave dive in Marigondon, Lapu-Lapu City, Cebu'}
         layout={'fill'}
         objectFit={'contain'}
@@ -179,7 +179,7 @@ export default function fun_diving() {
         heading={'Talima Marine Sanctuary'}
         title={'Explore Talima\'s vibrant reefs, walls & swim-throughs, teeming with octopuses & pelagics.'}
         text={"The Talima Marine Sanctuary is a diver's paradise, offering a diverse range of underwater habitats for visitors to explore. With shallow reefs sloping down to 18 meters and steep walls falling down to 50 meters in some areas, the sanctuary provides a unique and challenging diving experience for both beginners and experienced divers alike.\n\nAt the shallow reefs, you'll be able to encounter a variety of colorful and vibrant marine life, including schools of tropical fish, diverse coral formations, and the occasional octopus. These curious creatures are known to entertain divers with their playful antics, making for an unforgettable experience.\n\nAs you move deeper into the sanctuary, the walls provide a stunning and dramatic backdrop to your dive. Here, you'll be able to witness the incredible diversity of marine life that inhabits these areas. Schools of larger pelagic fish, such as barracuda and trevally, are frequently spotted here, swimming alongside more elusive and reclusive species like the shy cuttlefish.\n\nFor those looking for a more immersive and exhilarating diving experience, Talima also boasts a swim-through rock structure, offering divers a unique perspective on the surrounding underwater landscape. Here, you'll be able to navigate through narrow passages and crevices, surrounded by a kaleidoscope of coral and marine life.\n\nAll in all, the Talima Marine Sanctuary provides a truly breathtaking and unforgettable diving experience, showcasing the incredible beauty and diversity of the underwater world. Whether you're a seasoned diver or just starting out, Talima is a must-visit for anyone seeking an adventure in the ocean depths."}
-        src={'/Talima.jpg'}
+        src={'/Talima-Marine-Sanctuary-Cebu.jpeg'}
         alt={'Candy Crab in Talima Marine Sanctuary'}
         layout={'fill'}
         objectFit={'contain'}
@@ -190,7 +190,7 @@ export default function fun_diving() {
         heading={'Baring Marine Sanctuary'}
         title={'Baring Marine Sanctuary offers diverse marine life, rich coral reefs and abundant fish species for a unique diving experience.'}
         text={"The Baring Marine Sanctuary at Olango Island is a premier dive site in the Philippines that offers a unique and unforgettable diving experience for both beginner and experienced divers. Located near the bustling city of Cebu, the sanctuary provides a sanctuary for marine life, where visitors can witness an abundance of diverse and vibrant coral reef ecosystems.\nBaring Marine Sanctuary offers a range of dive sites that cater to different skill levels and interests. The shallow reef areas are ideal for snorkeling and beginner divers, while the deeper areas offer challenging and exhilarating experiences for advanced and technical divers. In the heart of the sanctuary is a beautiful and diverse coral reef, teeming with colorful marine life including angelfish, parrotfish, and sea turtles.\nThe reef is well protected and carefully managed, which has allowed it to flourish and become a haven for a variety of marine life. The abundant and thriving ecosystem is a testament to the positive impact that marine protected areas can have on the health of our oceans.\nOne of the highlights of diving in Baring Marine Sanctuary is the chance to witness the incredible and abundant macro life. The area is known for its healthy populations of frogfish, seahorses, and other tiny creatures that can be found hiding in the coral. Divers will also be amazed by the array of vibrant and intricate soft corals that make their homes in the reef.\nIn addition to its beautiful coral reef, Baring Marine Sanctuary is also home to a variety of wrecks and artificial reefs, making it a popular destination for wreck divers. These man-made structures have become a haven for marine life, providing a unique and fascinating dive experience.\nOverall, diving in Baring Marine Sanctuary at Olango Island provides a unique and unforgettable experience for both beginner and experienced divers. The rich and diverse ecosystem, combined with the carefully managed conservation efforts, make it a must-visit destination for any diver in the Philippines. So, gear up and explore the underwater wonder that awaits you at Baring Marine Sanctuary!"}
-        src={'/AnemoneCrabinBaring.jpg'}
+        src={'/Anemone-Crab-Diving-Baring-Cebu.jpeg'}
         alt={'Anemone Crab in the Baring Marine Sanctuary, Lapu-Lapu City'}
         layout={'fill'}
         objectFit={'contain'}
@@ -201,7 +201,7 @@ export default function fun_diving() {
         heading={'Kontiki Marina in Maribago'}
         title={'An Underwater Haven for day and night dives'}
         text={"Kontiki Marina, located just a short boat ride from Mactan Island, is a fantastic dive site with a wide range of marine life to explore. However, in December 2021, a devastating typhoon hit the region, causing significant damage to the coral reefs. Fortunately, Protect Maribago Bay, a local environmental group, stepped in and built a coral nursery to help restore the aquatic life in the area. At Escondido Bay, we were honored to have the opportunity to contribute to the restoration efforts by assisting with the coral nursery when needed.\n\nDespite the damage caused by the typhoon, the marine life in Kontiki Marina remains abundant. In particular, a large school of sardines has made the area their home, providing a stunning sight for divers. Additionally, the dive site is home to a wide variety of crustaceans and octopuses, making it an excellent location for a night dive.\n\nAt Escondido Bay, we offer diving trips to Kontiki Marina, allowing you to explore this incredible underwater world for yourself. Our experienced dive instructors will guide you through the site, pointing out the various marine species and ensuring your safety throughout the dive.\n\nWhether you're an experienced diver or just starting out, Kontiki Marina is a dive site not to be missed. And with the coral restoration efforts underway, it's a great opportunity to witness the regrowth of coral reefs and the return of marine life to the area. Book your dive trip with Escondido Bay today and experience the beauty of Kontiki Marina."}
-        src={'/kontiki-marina-maribago-cebu.jpg'}
+        src={'/kontiki-marina-maribago-cebu.jpeg'}
         alt={'Octopus on the Reef at Kontiki'}
         layout={'fill'}
         objectFit={'contain'}
@@ -216,7 +216,7 @@ export default function fun_diving() {
         heading={'Cabilao Island, Bohol'}
         title={'Explore Talima\'s vibrant reefs, walls & swim-throughs, teeming with octopuses & pelagics.'}
         text={"Cabilao Island is a small, yet mighty gem in the Visayan Sea, lying just west of Bohol and facing mainland Cebu. With its picturesque 8 square kilometer area and 5000 inhabitants, it’s a hidden treasure that’s definitely worth the 3-hour boat ride from Mactan. Dubbed as “The Coral Gem of the Philippines,” Cabilao Island’s stunning beauty below the surface is sure to captivate even the most seasoned of divers.\n\nFeaturing 3 main dive sites, Cabilao is renowned for its impressive tectonic walls that are home to a thriving abundance of macro critters, perfect for capturing breathtaking photos. The shallow reefs are dotted with a vibrant display of hard and soft corals, and a diverse range of fish species.\n\nBut, that’s not all. Cabilao Island is also a turtle paradise, with Hawksbill and Green Turtles making an appearance on almost every dive. These gentle giants can grow up to an impressive 170 cm in length, leaving you in awe of their sheer size.\n\nSo, what can you expect at Cabilao’s famous dive sites?\n\n\nLighthouse - With its sharp drop-off wall that plunges to a depth of 50 meters and sandy slope dotted with rocky coral patches, Lighthouse is a feast for the eyes. Home to crustaceans, octopuses, and squids, it’s an advanced dive site that’s not to be missed.\n\n\nTalisay - This straightforward dive site boasts a coral slope that leads to a wall teeming with fishes, turtles, and macro critters. If you’re lucky, you may even spot white tip reef sharks on the sandy slopes, and black tip reef sharks on the top of the wall.\n\n\nPolaris - Named after a resort facing the Cabilao reefs, Polaris features a stunning sharp wall that falls to a depth of 45-50 meters and a sandy slope that extends to 60-70 meters, making it ideal for trained technical divers. The wall is dotted with small cavern-like structures, and the shallow waters are overflowing with soft corals that provide a habitat for fish, snakes, and critters not commonly seen in the Philippines.\n\n\nDiscover a new world of adventure and beauty at Cabilao Island."}
-        src={'/CabilaoIsland.jpg'}
+        src={'/long-distance-trip-diving-cabilao-from-mactan.jpeg'}
         alt={'Green Sea Turtle on Drop off in Cabilao Island'}
         layout={'fill'}
         objectFit={'contain'}
@@ -227,7 +227,7 @@ export default function fun_diving() {
         heading={'Capitancillio, Cebu'}
         title={'Looking for an exciting dive site near Cebu Island? Look no further than Capitancillo'}
         text={"A small island located off the eastern coast of Cebu. This dive site is known for its clear waters, healthy corals, and abundant marine life.\n\nCapitancillo is a popular destination for both recreational and technical divers, as it offers a variety of dive sites with varying depths and currents. The shallow reefs around the island are home to a wide range of fish species, including colorful clownfish, vibrant angelfish, and schools of snappers and fusiliers.\n\nOne of the highlights of diving at Capitancillo is the chance to encounter larger marine life, such as turtles, barracudas, and even reef sharks. If you're lucky, you may also spot a majestic manta ray or a whale shark, which are known to visit the area occasionally.\n\nBut it's not just the marine life that makes Capitancillo a must-visit dive site. The island itself is steeped in history and culture, with a lighthouse dating back to the Spanish colonial era standing tall on its highest point.\n\nCapitancillo is also a great spot for night diving, as the waters around the island come alive with crustaceans, octopuses, and other nocturnal creatures. Exploring the reef at night is a unique and unforgettable experience that every diver should try at least once.\n\nAs with any dive site, it's important to dive responsibly and follow safe diving practices. Be sure to dive with a reputable dive operator who prioritizes safety and environmental conservation, and always respect the marine life and their natural habitat.\n\nSo why not add Capitancillo to your diving itinerary when visiting Cebu Island? With its diverse marine life, clear waters, and rich cultural history, it's sure to be a memorable dive experience."}
-        src={'/Capitancillio-Cebu-Escondido-Bay.jpg'}
+        src={'/Capitancillio-Cebu-Escondido-Bay.jpeg'}
         alt={'School of Jacks and Capitancillio in Cebu, Philippines'}
         layout={'fill'}
         objectFit={'contain'}
@@ -238,7 +238,7 @@ export default function fun_diving() {
         heading={'Camotes Islands, Cebu'}
         title={'Diving Paradise: Exploring the Wonders of Camotes Islands'}
         text={"The Camotes Islands, located off the east coast of Cebu Island in the Philippines, are a hidden gem for divers. With its crystal-clear waters, beautiful coral reefs, and diverse marine life, the Camotes Islands offer some of the best diving opportunities in the country.\n\nOne of the most popular dive sites in the Camotes Islands is Poro Wall, a stunning vertical wall that drops to over 30 meters deep. This wall is covered with colorful soft corals and sponges, providing a beautiful backdrop for divers. The wall is also home to a variety of marine life, including frogfish, pygmy seahorses, and schooling fish such as jacks and snappers.\n\nAnother popular dive site in the Camotes Islands is Tulang Diot, which features a beautiful coral garden and a sandy slope that drops to over 20 meters deep. This dive site is a great place to spot macro life such as nudibranchs, ghost pipefish, and seahorses. Schools of barracudas and jacks can also be seen here, as well as larger marine animals such as eagle rays and turtles.\n\nFor those looking for a unique diving experience, the sunken cemetery in the town of San Francisco is a must-visit site. This underwater cemetery was formed after an earthquake in the 1870s caused the cemetery to sink below sea level. Today, the site is home to a variety of marine life, including reef sharks, groupers, and schools of fish.\n\nThe Camotes Islands are also a great place for night diving, with sites such as Green Lagoon offering the opportunity to see a variety of crustaceans, octopuses, and other nocturnal creatures.\n\nWhether you are a beginner or an experienced diver, the Camotes Islands offer a truly unforgettable diving experience. With its stunning underwater landscapes and diverse marine life, this hidden gem is not to be missed."}
-        src={'/Diving-Camotes-Island.jpg'}
+        src={'/Diving-Camotes-Island-from-mactan.jpeg'}
         alt={'Huge Green Sea Turtle of the Coast of Camotes Islands'}
         layout={'fill'}
         objectFit={'contain'}
