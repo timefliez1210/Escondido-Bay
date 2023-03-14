@@ -3,6 +3,7 @@ import { useState } from "react";
 import { RiMenu4Line } from "react-icons/ri";
 import Image from 'next/legacy/image'
 import Cta from './Cta'
+import { GoChevronDown } from "react-icons/go"
 
 export default function Navigation() {
   return (
@@ -18,6 +19,21 @@ export default function Navigation() {
                     <Link href='/'>Home</Link>
                 </div>
             </ul>
+            {Links.dropDown
+                ?<div>
+                  <p>{Links.text} <GoChevronDown /></p>
+                 </div>
+                :<Link 
+                  style={{textDecoration: 'none'}}
+                  href={Links.path} 
+                  key={Links.key} 
+                  onClick={() => {
+                    setNavOpen(!navOpen);
+                }}
+                >
+                <p>{Links.text}</p> 
+              </Link>
+            }
         </nav>
         <style jsx>{`
         input[type=checkbox]{

@@ -13,7 +13,7 @@ export default function diving_courses() {
     <div>
       <Head>
         <title>
-        Find Your Passion for the Ocean at Escondido Bay Diving: Inspiring Diving Education with Expert Instructors in Lapu-Lapu City
+        Discover Your Passion for the Ocean at Escondido Bay Diving: Diving Instructors in Lapu-Lapu City
         </title>
         <meta
           name="description"

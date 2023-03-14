@@ -9,7 +9,7 @@ export default function contact() {
     <div>
       <Head>
         <title>
-        Contact us to avail our services or to ask any question - We are happy to help you with everything around Diving and Boating.
+        Contact Us for Diving and Boating Assistance and Services - We're Here to Help!
         </title>
         <meta
           name="description"

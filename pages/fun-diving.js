@@ -45,7 +45,7 @@ export default function fun_diving() {
     <div>
       <Head>
         <title>
-        Safely Discover the Beauty of Mactan Island&apos;s Dive Sites with Escondido Bay - Fun Diving at its Best
+        Explore Mactan Island&apos;s Dive Sites Safely with Escondido Bay - Best Fun Diving
         </title>
         <meta
           name="description"

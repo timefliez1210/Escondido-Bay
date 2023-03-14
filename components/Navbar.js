@@ -7,7 +7,6 @@ import Cta from './Cta'
 
 const Navbar = ({ navLinks }) => {
   const [navOpen, setNavOpen] = useState(false);
-
   return (
     <div>
       <nav>
@@ -45,15 +44,16 @@ const Navbar = ({ navLinks }) => {
           {navLinks.map((Links) => (
             <li key={Links.key}>
               <Link 
-              style={{textDecoration: 'none'}}
-              href={Links.path} 
-              key={Links.key} 
-              onClick={() => {
-                setNavOpen(!navOpen);
-              }}
-              >
+                  style={{textDecoration: 'none'}}
+                  href={Links.path} 
+                  key={Links.key} 
+                  onClick={() => {
+                    setNavOpen(!navOpen);
+                }}
+                >
                 <p>{Links.text}</p> 
               </Link>
+              
               
             </li>
           ))}

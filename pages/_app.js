@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Navigation from '../components/Navigation'
 import Footer from '../components/Footer';
 import '../styles/globals.css'
 import Script from "next/script"
@@ -17,17 +16,17 @@ function MyApp({ Component, pageProps }) {
     },
     {
       text: "Fun Diving",
-      path: "/fun_diving",
+      path: "/fun-diving",
       key: "2",
     },
     {
       text: "Diving Courses",
-      path: "/diving_courses",
+      path: "/diving-courses",
       key: "3",
     },
     {
       text: "Island Hopping",
-      path: "/island_hopping",
+      path: "/island-hopping",
       key: "4",
     },
     {
