@@ -11,7 +11,7 @@ export default function about() {
     <div>
       <Head>
         <title>
-        Our Dive Team's Story: Passion for the Ocean in Mactan, Cebu | Escondido Bay Diving
+        Our Dive Team&apos;s Story: Passion for the Ocean in Mactan, Cebu | Escondido Bay Diving
         </title>
         <meta
           name="description"
