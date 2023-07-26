@@ -75,9 +75,9 @@ export default function Card(props) {
                />
             </div> 
             <div className="content">
-              <H2 heading={props.heading} />
+              <H3 heading={props.heading} />
               <Divider />
-              <H3 title={props.title} />
+              <H4 title={props.title} />
               <Paragraph text={props.text} />
             </div>
         </div>

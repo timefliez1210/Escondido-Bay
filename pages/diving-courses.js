@@ -62,7 +62,7 @@ export default function diving_courses() {
             <tr>
               <td>Open Water Training</td>
               <td>The Open Water Course is a comprehensive diving course that teaches fundamental skills and prepares divers for open water diving without a professional.<br/>Duration: 2-3 Days</td>
-              <td>PHP 18,000</td>
+              <td>PHP 19,500</td>
               <td>
                 <Link 
                 href="#one" 
@@ -90,7 +90,7 @@ export default function diving_courses() {
             <tr>
               <td>Rescue Diver and First Response Training</td>
               <td>The Rescue Diver and First Responder course teaches skills to handle emergency situations and prevent accidents while diving.<br/>Duration: 3-4 Days</td>
-              <td>PHP 26,000</td>
+              <td>PHP 29,500</td>
               <td>
                 <Link 
                 href="#four" 
@@ -118,7 +118,7 @@ export default function diving_courses() {
             <tr>
               <td>Enriched Air or Nitrox Training</td>
               <td>Nitrox training enables divers to extend bottom time and reduce nitrogen levels, offering a safer and more comfortable dive experience.<br/>Duration: 1 Day</td>
-              <td>PHP 11,000</td>
+              <td>PHP 14,000</td>
               <td>
                 <Link 
                 href="#six" 
@@ -132,7 +132,7 @@ export default function diving_courses() {
             <tr>
               <td>Deep Diving Training</td>
               <td>The Deep Diving course is designed to train divers to safely plan and execute dives to depths of up to 40 meters.<br/>Duration: 1-2 Days</td>
-              <td>PHP 12,000</td>
+              <td>PHP 14,000</td>
               <td>
                 <Link 
                 href="#seven" 
@@ -146,7 +146,7 @@ export default function diving_courses() {
             <tr>
               <td>Wreck Diver Training</td>
               <td>Wreck diving training equips divers with skills to safely explore sunken ships, airplanes and other underwater wrecks in diverse conditions.<br/>Duration: 1-2 Days</td>
-              <td>PHP 14,000</td> 
+              <td>PHP 17,000</td> 
               <td>
                 <Link 
                 href="#eight" 
@@ -160,7 +160,7 @@ export default function diving_courses() {
             <tr>
               <td>Sidemount Training</td>
               <td>Sidemount training is a diving technique where cylinders are attached to the diver&apos;s sides, allowing for greater flexibility and ease of movement underwater.<br/>Duration: 1-2 Days</td>
-              <td>PHP 16,000</td>
+              <td>PHP 20,000</td>
               <td>
                 <Link 
                 href="#nine" 

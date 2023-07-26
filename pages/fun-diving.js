@@ -113,7 +113,7 @@ export default function fun_diving() {
             <tr>
               <td>1 Dive from shore</td>
               <td>Marine Entrance Fees<br/><br/>1 Tank or Air<br/><br/>Weights</td>
-              <td>PHP 2,000</td>
+              <td>PHP 1,500</td>
             </tr>
             <tr>
               <td>Every following dive from shore on the same day and location</td>
@@ -167,17 +167,6 @@ export default function fun_diving() {
         objectFit={'contain'}
         button={'Dive Gilutongan with us'}
         buttontTitle={'Explore Diving in Gilutongan near Mactan'}
-      />
-      <Card
-        heading={'Marigondon Cave'}
-        title={'A steep decent into a wide daylight cave'}
-        text={"Directly off the coast of Marigondon in Lapu-Lapu City, located at roughly 37m depth within an extensive reef wall, this cave is one of the most famous local dive sites.\n\nExperienced divers can access this cave or cavern either as a shore dive, which involves roughly a 200m swim or by boat.\n\nMost parts, including the entrance to the cavern, are very wide and you can see the exit during most of the duration within the cave. Even divers without a specific cave certification can join this exciting dive. \n\nWithin the cave we commonly see a multitude of stone and scorpion sishes, lionfishes and abundant species for the Macro photographer. Additionally, the rock and coral formations along with the composition of the inner structure with beautiful large sea fans make this destination particularly thrilling and fun to explore."}
-        src={'/Marigondon-Cave-Critters-Cebu.jpeg'}
-        alt={'Our Cave dive in Marigondon, Lapu-Lapu City, Cebu'}
-        layout={'fill'}
-        objectFit={'contain'}
-        button={'Cave Dive with us'}
-        buttontTitle={'Dive the Marigondon Cave with us from Cebu'}
       />
       <Card
         heading={'Talima Marine Sanctuary'}
@@ -248,6 +237,32 @@ export default function fun_diving() {
         objectFit={'contain'}
         button={'Dive Camotes with us'}
         buttontTitle={'Dive Camotes regularly with us from Lapu-Lapu City'}
+      />
+      <H2 
+        heading='Cave Diving in the Philippines' 
+      />
+      <Divider />
+      <Card
+        heading={'The Twin Caverns, Danajon Double Barrier Reef'}
+        title={'Discover the Mesmerizing Twin Caverns at Danajon Double Barrier Reef'}
+        text={"Welcome to the enchanting world of Twin Caverns, a remarkable diving spot nestled within the breathtaking Danajon Double Barrier Reef, located off the pristine coast of Mactan, Lapu-Lapu City!\n\nDive into the depths of roughly 30 meters, and you'll encounter the awe-inspiring Twin Caverns, connected through a mesmerizing 80-meter long tunnel. This intricate labyrinth invites you to explore its wide and lively cavern structures, featuring captivating impasses, open areas, and intersections leading to intriguing dead ends.\n\nFor those seeking the thrill of cave diving, Twin Caverns offers a captivating challenge, where you can navigate through these natural wonders and witness the vibrant marine life of snappers, soldierfish, and a myriad of custacians and invertebrates.\n\nIf cave exploration isn't your preference, fear not! The cavern area, flooded with permanent daylight, presents an equally breathtaking experience, showcasing the beauty of nature's artistry.\n\nSurrounded by magnificent wall dive sites, the Twin Caverns at Danajon Double Barrier Reef offer a complete underwater adventure, where you'll be immersed in a stunning marine landscape teeming with diversity.\n\nAt Escondido Bay, we invite you to join us on an unforgettable journey as we explore the wonders of Twin Caverns and the majestic Danajon Double Barrier Reef. Whether you're a cave diving enthusiast, seeking to explore caverns, or simply looking for a fun diving experience, these underwater realms have something extraordinary to offer.\n\nEmbark on an extraordinary diving adventure with us and discover the mesmerizing beauty of Twin Caverns at Danajon Double Barrier Reef!"}
+        src={'/Cave-diving-philippines-twin-caverns-danajon.jpeg'}
+        alt={'The Twin Caverns of Danajon Double Barrier Reef'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Dive the Caverns with us'}
+        buttontTitle={'The Twin Caverns exclusively with escondido bay'}
+      />
+      <Card
+        heading={'Marigondon Cave'}
+        title={'A steep decent into a wide daylight cave'}
+        text={"Directly off the coast of Marigondon in Lapu-Lapu City, located at roughly 37m depth within an extensive reef wall, this cave is one of the most famous local dive sites.\n\nExperienced divers can access this cave or cavern either as a shore dive, which involves roughly a 200m swim or by boat.\n\nMost parts, including the entrance to the cavern, are very wide and you can see the exit during most of the duration within the cave. Even divers without a specific cave certification can join this exciting dive. \n\nWithin the cave we commonly see a multitude of stone and scorpion sishes, lionfishes and abundant species for the Macro photographer. Additionally, the rock and coral formations along with the composition of the inner structure with beautiful large sea fans make this destination particularly thrilling and fun to explore."}
+        src={'/Marigondon-Cave-Critters-Cebu.jpeg'}
+        alt={'Our Cave dive in Marigondon, Lapu-Lapu City, Cebu'}
+        layout={'fill'}
+        objectFit={'contain'}
+        button={'Cave Dive with us'}
+        buttontTitle={'Dive the Marigondon Cave with us from Cebu'}
       />
   </div>
   )
